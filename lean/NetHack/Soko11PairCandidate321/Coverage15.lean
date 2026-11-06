@@ -1,0 +1,122 @@
+import NetHack.Soko11PairCandidate321.M15Cover000
+import NetHack.Soko11PairCandidate321.M15Cover001
+import NetHack.Soko11PairCandidate321.M15Cover002
+import NetHack.Soko11PairCandidate321.M15Cover003
+import NetHack.Soko11PairCandidate321.M15Cover004
+import NetHack.Soko11PairCandidate321.M15Cover005
+import NetHack.Soko11PairCandidate321.M15Cover006
+import NetHack.Soko11PairCandidate321.M15Cover007
+import NetHack.Soko11PairCandidate321.M15Cover008
+import NetHack.Soko11PairCandidate321.M15Cover009
+import NetHack.Soko11PairCandidate321.M15Cover010
+import NetHack.Soko11PairCandidate321.M15Cover011
+import NetHack.Soko11PairCandidate321.M15Cover012
+import NetHack.Soko11PairCandidate321.M15Cover013
+import NetHack.Soko11PairCandidate321.M15Cover014
+import NetHack.Soko11PairCandidate321.M15Cover015
+import NetHack.Soko11PairCandidate321.M15Cover016
+import NetHack.Soko11PairCandidate321.M15Cover017
+import NetHack.Soko11PairCandidate321.M15Cover018
+import NetHack.Soko11PairCandidate321.M15Cover019
+import NetHack.Soko11PairCandidate321.M15Cover020
+import NetHack.Soko11PairCandidate321.M15Cover021
+import NetHack.Soko11PairCandidate321.M15Cover022
+import NetHack.Soko11PairCandidate321.M15Cover023
+import NetHack.Soko11PairCandidate321.M15Cover024
+import NetHack.Soko11PairCandidate321.M15Cover025
+import NetHack.Soko11PairCandidate321.M15Cover026
+import NetHack.Soko11PairCandidate321.M15Cover027
+import NetHack.Soko11PairCandidate321.M15Cover028
+import NetHack.Soko11PairCandidate321.M15Cover029
+import NetHack.Soko11PairCandidate321.M15Cover030
+import NetHack.Soko11PairCandidate321.M15Cover031
+import NetHack.Soko11PairCandidate321.M15Cover032
+import NetHack.Soko11PairCandidate321.M15Cover033
+import NetHack.Soko11PairCandidate321.M15Cover034
+import NetHack.Soko11PairCandidate321.M15Cover035
+import NetHack.Soko11PairCandidate321.M15Cover036
+import NetHack.Soko11PairCandidate321.M15Cover037
+import NetHack.Soko11PairCandidate321.M15Cover038
+import NetHack.Soko11PairCandidate321.M15Cover039
+import NetHack.Soko11PairCandidate321.M15Cover040
+import NetHack.Soko11PairCandidate321.M15Cover041
+import NetHack.Soko11PairCandidate321.M15Cover042
+import NetHack.Soko11PairCandidate321.M15Cover043
+import NetHack.Soko11PairCandidate321.M15Cover044
+import NetHack.Soko11PairCandidate321.M15Cover045
+import NetHack.Soko11PairCandidate321.M15Cover046
+import NetHack.Soko11PairCandidate321.M15Cover047
+import NetHack.Soko11PairCandidate321.M15Cover048
+import NetHack.Soko11PairCandidate321.M15Cover049
+import NetHack.Soko11PairCandidate321.M15Cover050
+import NetHack.Soko11PairCandidate321.M15Cover051
+import NetHack.Soko11PairCandidate321.M15Cover052
+import NetHack.Soko11PairCandidate321.M15Cover053
+import NetHack.Soko11PairCandidate321.M15Cover054
+import NetHack.Soko11PairCandidate321.M15Cover055
+import NetHack.Soko11PairCandidate321.M15Cover056
+import NetHack.Soko11PairCandidate321.M15Cover057
+import NetHack.Soko11PairCandidate321.M15Cover058
+import NetHack.Soko11PairCandidate321.M15Cover059
+import NetHack.Soko11PairCandidate321.M15Cover060
+import NetHack.Soko11PairCandidate321.M15Cover061
+import NetHack.Soko11PairCandidate321.M15Cover062
+import NetHack.Soko11PairCandidate321.M15Cover063
+import NetHack.Soko11PairCandidate321.M15Cover064
+import NetHack.Soko11PairCandidate321.M15Cover065
+import NetHack.Soko11PairCandidate321.M15Cover066
+import NetHack.Soko11PairCandidate321.M15Cover067
+import NetHack.Soko11PairCandidate321.M15Cover068
+import NetHack.Soko11PairCandidate321.M15Cover069
+import NetHack.Soko11PairCandidate321.M15Cover070
+import NetHack.Soko11PairCandidate321.M15Cover071
+import NetHack.Soko11PairCandidate321.M15Cover072
+import NetHack.Soko11PairCandidate321.M15Cover073
+import NetHack.Soko11PairCandidate321.M15Cover074
+import NetHack.Soko11PairCandidate321.M15Cover075
+import NetHack.Soko11PairCandidate321.M15Cover076
+import NetHack.Soko11PairCandidate321.M15Cover077
+import NetHack.Soko11PairCandidate321.M15Cover078
+import NetHack.Soko11PairCandidate321.M15Cover079
+import NetHack.Soko11PairCandidate321.M15Cover080
+import NetHack.Soko11PairCandidate321.M15Cover081
+import NetHack.Soko11PairCandidate321.M15Cover082
+import NetHack.Soko11PairCandidate321.M15Cover083
+import NetHack.Soko11PairCandidate321.M15Cover084
+import NetHack.Soko11PairCandidate321.M15Cover085
+import NetHack.Soko11PairCandidate321.M15Cover086
+import NetHack.Soko11PairCandidate321.M15Cover087
+import NetHack.Soko11PairCandidate321.M15Cover088
+import NetHack.Soko11PairCandidate321.M15Cover089
+import NetHack.Soko11PairCandidate321.M15Cover090
+import NetHack.Soko11PairCandidate321.M15Cover091
+import NetHack.Soko11PairCandidate321.M15Cover092
+import NetHack.Soko11PairCandidate321.M15Cover093
+import NetHack.Soko11PairCandidate321.M15Cover094
+import NetHack.Soko11PairCandidate321.M15Cover095
+import NetHack.Soko11PairCandidate321.M15Cover096
+import NetHack.Soko11PairCandidate321.M15Cover097
+import NetHack.Soko11PairCandidate321.M15Cover098
+import NetHack.Soko11PairCandidate321.M15Cover099
+import NetHack.Soko11PairCandidate321.M15Cover100
+import NetHack.Soko11PairCandidate321.M15Cover101
+import NetHack.Soko11PairCandidate321.M15Cover102
+import NetHack.Soko11PairCandidate321.M15Cover103
+import NetHack.Soko11PairCandidate321.M15Cover104
+import NetHack.Soko11PairCandidate321.M15Cover105
+import NetHack.Soko11PairCandidate321.Mass15Reduction
+namespace NetHack.Soko11PairCandidate321
+open NetHack.Sokoban
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+theorem checked_full_mass_coverage15 : fullMassCoverage15 = true := by
+  have support : NetHack.Soko11Hero315.phases.crates 15 = [27, 28, 29, 30, 31, 32, 33, 59, 85, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 164, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 239, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 314, 315, 316, 317, 318, 319, 320, 321, 322, 345, 365, 366, 367, 368, 369, 370, 371, 372, 391, 392, 393, 394, 395, 396, 397, 398, 417, 418, 419] := by decide +kernel
+  unfold fullMassCoverage15
+  rw [support]
+  simp only [List.all_cons,List.all_nil,checked15cover000,checked15cover001,checked15cover002,checked15cover003,checked15cover004,checked15cover005,checked15cover006,checked15cover007,checked15cover008,checked15cover009,checked15cover010,checked15cover011,checked15cover012,checked15cover013,checked15cover014,checked15cover015,checked15cover016,checked15cover017,checked15cover018,checked15cover019,checked15cover020,checked15cover021,checked15cover022,checked15cover023,checked15cover024,checked15cover025,checked15cover026,checked15cover027,checked15cover028,checked15cover029,checked15cover030,checked15cover031,checked15cover032,checked15cover033,checked15cover034,checked15cover035,checked15cover036,checked15cover037,checked15cover038,checked15cover039,checked15cover040,checked15cover041,checked15cover042,checked15cover043,checked15cover044,checked15cover045,checked15cover046,checked15cover047,checked15cover048,checked15cover049,checked15cover050,checked15cover051,checked15cover052,checked15cover053,checked15cover054,checked15cover055,checked15cover056,checked15cover057,checked15cover058,checked15cover059,checked15cover060,checked15cover061,checked15cover062,checked15cover063,checked15cover064,checked15cover065,checked15cover066,checked15cover067,checked15cover068,checked15cover069,checked15cover070,checked15cover071,checked15cover072,checked15cover073,checked15cover074,checked15cover075,checked15cover076,checked15cover077,checked15cover078,checked15cover079,checked15cover080,checked15cover081,checked15cover082,checked15cover083,checked15cover084,checked15cover085,checked15cover086,checked15cover087,checked15cover088,checked15cover089,checked15cover090,checked15cover091,checked15cover092,checked15cover093,checked15cover094,checked15cover095,checked15cover096,checked15cover097,checked15cover098,checked15cover099,checked15cover100,checked15cover101,checked15cover102,checked15cover103,checked15cover104,checked15cover105,Bool.and_self]
+theorem covered_excess15 (hero : Cell) (heroInside : hero ∈ NetHack.Soko11Hero315.phases.heroes 15)
+    (group : List Cell) (unique : group.Nodup) (inside : group ⊆ NetHack.Soko11Hero315.phases.crates 15)
+    (greater : massBasis.valueAt 15 hero group < valueAt 15 hero group) :
+    ∃ pair ∈ excessPairs15, group.Perm pair :=
+  covered_excess15_of_coverage checked_full_mass_coverage15 hero heroInside group unique inside greater
+end NetHack.Soko11PairCandidate321

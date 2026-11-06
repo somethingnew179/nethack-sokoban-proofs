@@ -1,0 +1,282 @@
+import NetHack.Soko11PairCandidate321.P00Row000
+import NetHack.Soko11PairCandidate321.P00Row001
+import NetHack.Soko11PairCandidate321.P00Row002
+import NetHack.Soko11PairCandidate321.P00Row003
+import NetHack.Soko11PairCandidate321.P00Row004
+import NetHack.Soko11PairCandidate321.P00Row005
+import NetHack.Soko11PairCandidate321.P00Row006
+import NetHack.Soko11PairCandidate321.P00Row007
+import NetHack.Soko11PairCandidate321.P00Row008
+import NetHack.Soko11PairCandidate321.P00Row009
+import NetHack.Soko11PairCandidate321.P00Row010
+import NetHack.Soko11PairCandidate321.P00Row011
+import NetHack.Soko11PairCandidate321.P00Row012
+import NetHack.Soko11PairCandidate321.P00Row013
+import NetHack.Soko11PairCandidate321.P00Row014
+import NetHack.Soko11PairCandidate321.P00Row015
+import NetHack.Soko11PairCandidate321.P00Row016
+import NetHack.Soko11PairCandidate321.P00Row017
+import NetHack.Soko11PairCandidate321.P00Row018
+import NetHack.Soko11PairCandidate321.P00Row019
+import NetHack.Soko11PairCandidate321.P00Row020
+import NetHack.Soko11PairCandidate321.P00Row021
+import NetHack.Soko11PairCandidate321.P00Row022
+import NetHack.Soko11PairCandidate321.P00Row023
+import NetHack.Soko11PairCandidate321.P00Row024
+import NetHack.Soko11PairCandidate321.P00Row025
+import NetHack.Soko11PairCandidate321.P00Row026
+import NetHack.Soko11PairCandidate321.P00Row027
+import NetHack.Soko11PairCandidate321.P00Row028
+import NetHack.Soko11PairCandidate321.P00Row029
+import NetHack.Soko11PairCandidate321.P00Row030
+import NetHack.Soko11PairCandidate321.P00Row031
+import NetHack.Soko11PairCandidate321.P00Row032
+import NetHack.Soko11PairCandidate321.P00Row033
+import NetHack.Soko11PairCandidate321.P00Row034
+import NetHack.Soko11PairCandidate321.P00Row035
+import NetHack.Soko11PairCandidate321.P00Row036
+import NetHack.Soko11PairCandidate321.P00Row037
+import NetHack.Soko11PairCandidate321.P00Row038
+import NetHack.Soko11PairCandidate321.P00Row039
+import NetHack.Soko11PairCandidate321.P00Row040
+import NetHack.Soko11PairCandidate321.P00Row041
+import NetHack.Soko11PairCandidate321.P00Row042
+import NetHack.Soko11PairCandidate321.P00Row043
+import NetHack.Soko11PairCandidate321.P00Row044
+import NetHack.Soko11PairCandidate321.P00Row045
+import NetHack.Soko11PairCandidate321.P00Row046
+import NetHack.Soko11PairCandidate321.P00Row047
+import NetHack.Soko11PairCandidate321.P00Row048
+import NetHack.Soko11PairCandidate321.P00Row049
+import NetHack.Soko11PairCandidate321.P00Row050
+import NetHack.Soko11PairCandidate321.P00Row051
+import NetHack.Soko11PairCandidate321.P00Row052
+import NetHack.Soko11PairCandidate321.P00Row053
+import NetHack.Soko11PairCandidate321.P00Row054
+import NetHack.Soko11PairCandidate321.P00Row055
+import NetHack.Soko11PairCandidate321.P00Row056
+import NetHack.Soko11PairCandidate321.P00Row057
+import NetHack.Soko11PairCandidate321.P00Row058
+import NetHack.Soko11PairCandidate321.P00Row059
+import NetHack.Soko11PairCandidate321.P00Row060
+import NetHack.Soko11PairCandidate321.P00Row061
+import NetHack.Soko11PairCandidate321.P00Row062
+import NetHack.Soko11PairCandidate321.P00Row063
+import NetHack.Soko11PairCandidate321.P00Row064
+import NetHack.Soko11PairCandidate321.P00Row065
+import NetHack.Soko11PairCandidate321.P00Row066
+import NetHack.Soko11PairCandidate321.P00Row067
+import NetHack.Soko11PairCandidate321.P00Row068
+import NetHack.Soko11PairCandidate321.P00Row069
+import NetHack.Soko11PairCandidate321.P00Row070
+import NetHack.Soko11PairCandidate321.P00Row071
+import NetHack.Soko11PairCandidate321.P00Row072
+import NetHack.Soko11PairCandidate321.P00Row073
+import NetHack.Soko11PairCandidate321.P00Row074
+import NetHack.Soko11PairCandidate321.P00Row075
+import NetHack.Soko11PairCandidate321.P00Row076
+import NetHack.Soko11PairCandidate321.P00Row077
+import NetHack.Soko11PairCandidate321.P00Row078
+import NetHack.Soko11PairCandidate321.P00Row079
+import NetHack.Soko11PairCandidate321.P00Row080
+import NetHack.Soko11PairCandidate321.P00Row081
+import NetHack.Soko11PairCandidate321.P00Row082
+import NetHack.Soko11PairCandidate321.P00Row083
+import NetHack.Soko11PairCandidate321.P00Row084
+import NetHack.Soko11PairCandidate321.P00Row085
+import NetHack.Soko11PairCandidate321.P00Row086
+import NetHack.Soko11PairCandidate321.P00Row087
+import NetHack.Soko11PairCandidate321.P00Row088
+import NetHack.Soko11PairCandidate321.P00Row089
+import NetHack.Soko11PairCandidate321.P00Row090
+import NetHack.Soko11PairCandidate321.P00Row091
+import NetHack.Soko11PairCandidate321.P00Row092
+import NetHack.Soko11PairCandidate321.P00Row093
+import NetHack.Soko11PairCandidate321.P00Row094
+import NetHack.Soko11PairCandidate321.P00Row095
+import NetHack.Soko11PairCandidate321.P00Row096
+import NetHack.Soko11PairCandidate321.P00Row097
+import NetHack.Soko11PairCandidate321.P00Row098
+import NetHack.Soko11PairCandidate321.P00Row099
+import NetHack.Soko11PairCandidate321.P00Row100
+import NetHack.Soko11PairCandidate321.P00Row101
+import NetHack.Soko11PairCandidate321.P00Row102
+import NetHack.Soko11PairCandidate321.P00Row103
+import NetHack.Soko11PairCandidate321.P00Row104
+import NetHack.Soko11PairCandidate321.P00Row105
+import NetHack.Soko11PairCandidate321.P00Row106
+import NetHack.Soko11PairCandidate321.P00Row107
+import NetHack.Soko11PairCandidate321.P00Row108
+import NetHack.Soko11PairCandidate321.P00Row109
+import NetHack.Soko11PairCandidate321.P00Row110
+import NetHack.Soko11PairCandidate321.P00Row111
+import NetHack.Soko11PairCandidate321.P00Row112
+import NetHack.Soko11PairCandidate321.P00Row113
+import NetHack.Soko11PairCandidate321.P00Row114
+import NetHack.Soko11PairCandidate321.P00Row115
+import NetHack.Soko11PairCandidate321.P00Row116
+import NetHack.Soko11PairCandidate321.P00Row117
+import NetHack.Soko11PairCandidate321.P00Row118
+import NetHack.Soko11PairCandidate321.P00Row119
+import NetHack.Soko11PairCandidate321.P00Row120
+import NetHack.Soko11PairCandidate321.P00Row121
+import NetHack.Soko11PairCandidate321.P00Row122
+import NetHack.Soko11PairCandidate321.P00Row123
+import NetHack.Soko11PairCandidate321.P00Row124
+import NetHack.Soko11PairCandidate321.P00Row125
+import NetHack.Soko11PairCandidate321.P00Row126
+import NetHack.Soko11PairCandidate321.P00Row127
+import NetHack.Soko11PairCandidate321.P00Row128
+import NetHack.Soko11PairCandidate321.P00Row129
+import NetHack.Soko11PairCandidate321.P00Row130
+import NetHack.Soko11PairCandidate321.P00Row131
+import NetHack.Soko11PairCandidate321.P00Row132
+import NetHack.Soko11PairCandidate321.P00Row133
+import NetHack.Soko11PairCandidate321.P00Row134
+import NetHack.Soko11PairCandidate321.P00Row135
+import NetHack.Soko11PairCandidate321.P00Row136
+import NetHack.Soko11PairCandidate321.P00Row137
+import NetHack.Soko11PairCandidate321.P00Row138
+import NetHack.Soko11PairCandidate321.P00Row139
+import NetHack.Soko11PairCandidate321.P00Row140
+import NetHack.Soko11PairCandidate321.P00Row141
+import NetHack.Soko11PairCandidate321.P00Row142
+import NetHack.Soko11PairCandidate321.P00Row143
+import NetHack.Soko11PairCandidate321.P00Row144
+import NetHack.Soko11PairCandidate321.P00Row145
+import NetHack.Soko11PairCandidate321.P00Row146
+import NetHack.Soko11PairCandidate321.P00Row147
+import NetHack.Soko11PairCandidate321.P00Row148
+import NetHack.Soko11PairCandidate321.P00Row149
+import NetHack.Soko11PairCandidate321.P00Row150
+import NetHack.Soko11PairCandidate321.P00Row151
+import NetHack.Soko11PairCandidate321.P00Row152
+import NetHack.Soko11PairCandidate321.P00Row153
+import NetHack.Soko11PairCandidate321.P00Row154
+import NetHack.Soko11PairCandidate321.P00Row155
+import NetHack.Soko11PairCandidate321.P00Row156
+import NetHack.Soko11PairCandidate321.P00Row157
+import NetHack.Soko11PairCandidate321.P00Row158
+import NetHack.Soko11PairCandidate321.P00Row159
+import NetHack.Soko11PairCandidate321.P00Row160
+import NetHack.Soko11PairCandidate321.P00Row161
+import NetHack.Soko11PairCandidate321.P00Row162
+import NetHack.Soko11PairCandidate321.P00Row163
+import NetHack.Soko11PairCandidate321.P00Row164
+import NetHack.Soko11PairCandidate321.P00Row165
+import NetHack.Soko11PairCandidate321.P00Row166
+import NetHack.Soko11PairCandidate321.P00Row167
+import NetHack.Soko11PairCandidate321.P00Row168
+import NetHack.Soko11PairCandidate321.P00Row169
+import NetHack.Soko11PairCandidate321.P00Row170
+import NetHack.Soko11PairCandidate321.P00Row171
+import NetHack.Soko11PairCandidate321.P00Row172
+import NetHack.Soko11PairCandidate321.P00Row173
+import NetHack.Soko11PairCandidate321.P00Row174
+import NetHack.Soko11PairCandidate321.P00Row175
+import NetHack.Soko11PairCandidate321.P00Row176
+import NetHack.Soko11PairCandidate321.P00Row177
+import NetHack.Soko11PairCandidate321.P00Row178
+import NetHack.Soko11PairCandidate321.P00Row179
+import NetHack.Soko11PairCandidate321.P00Row180
+import NetHack.Soko11PairCandidate321.P00Row181
+import NetHack.Soko11PairCandidate321.P00Row182
+import NetHack.Soko11PairCandidate321.P00Row183
+import NetHack.Soko11PairCandidate321.P00Row184
+import NetHack.Soko11PairCandidate321.P00Row185
+import NetHack.Soko11PairCandidate321.P00Row186
+import NetHack.Soko11PairCandidate321.P00Row187
+import NetHack.Soko11PairCandidate321.P00Row188
+import NetHack.Soko11PairCandidate321.P00Row189
+import NetHack.Soko11PairCandidate321.P00Row190
+import NetHack.Soko11PairCandidate321.P00Row191
+import NetHack.Soko11PairCandidate321.P00Row192
+import NetHack.Soko11PairCandidate321.P00Row193
+import NetHack.Soko11PairCandidate321.P00Row194
+import NetHack.Soko11PairCandidate321.P00Row195
+import NetHack.Soko11PairCandidate321.P00Row196
+import NetHack.Soko11PairCandidate321.P00Row197
+import NetHack.Soko11PairCandidate321.P00Row198
+import NetHack.Soko11PairCandidate321.P00Row199
+import NetHack.Soko11PairCandidate321.P00Row200
+import NetHack.Soko11PairCandidate321.P00Row201
+import NetHack.Soko11PairCandidate321.P00Row202
+import NetHack.Soko11PairCandidate321.P00Row203
+import NetHack.Soko11PairCandidate321.P00Row204
+import NetHack.Soko11PairCandidate321.P00Row205
+import NetHack.Soko11PairCandidate321.P00Row206
+import NetHack.Soko11PairCandidate321.P00Row207
+import NetHack.Soko11PairCandidate321.P00Row208
+import NetHack.Soko11PairCandidate321.P00Row209
+import NetHack.Soko11PairCandidate321.P00Row210
+import NetHack.Soko11PairCandidate321.P00Row211
+import NetHack.Soko11PairCandidate321.P00Row212
+import NetHack.Soko11PairCandidate321.P00Row213
+import NetHack.Soko11PairCandidate321.P00Row214
+import NetHack.Soko11PairCandidate321.P00Row215
+import NetHack.Soko11PairCandidate321.P00Row216
+import NetHack.Soko11PairCandidate321.P00Row217
+import NetHack.Soko11PairCandidate321.P00Row218
+import NetHack.Soko11PairCandidate321.P00Row219
+import NetHack.Soko11PairCandidate321.P00Row220
+import NetHack.Soko11PairCandidate321.P00Row221
+import NetHack.Soko11PairCandidate321.P00Row222
+import NetHack.Soko11PairCandidate321.P00Row223
+import NetHack.Soko11PairCandidate321.P00Row224
+import NetHack.Soko11PairCandidate321.P00Row225
+import NetHack.Soko11PairCandidate321.P00Row226
+import NetHack.Soko11PairCandidate321.P00Row227
+import NetHack.Soko11PairCandidate321.P00Row228
+import NetHack.Soko11PairCandidate321.P00Row229
+import NetHack.Soko11PairCandidate321.P00Row230
+import NetHack.Soko11PairCandidate321.P00Row231
+import NetHack.Soko11PairCandidate321.P00Row232
+import NetHack.Soko11PairCandidate321.P00Row233
+import NetHack.Soko11PairCandidate321.P00Row234
+import NetHack.Soko11PairCandidate321.P00Row235
+import NetHack.Soko11PairCandidate321.P00Row236
+import NetHack.Soko11PairCandidate321.P00Row237
+import NetHack.Soko11PairCandidate321.P00Row238
+import NetHack.Soko11PairCandidate321.P00Row239
+import NetHack.Soko11PairCandidate321.P00Row240
+import NetHack.Soko11PairCandidate321.P00Row241
+import NetHack.Soko11PairCandidate321.P00Row242
+import NetHack.Soko11PairCandidate321.P00Row243
+import NetHack.Soko11PairCandidate321.P00Row244
+import NetHack.Soko11PairCandidate321.Coverage00
+namespace NetHack.Soko11PairCandidate321
+open NetHack.Sokoban NetHack.Sokoban.HazardPattern
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+theorem all_rows00 : positivePairs00.all (rowCheck 0) = true := by
+  simp only [positivePairs00,List.all_cons,List.all_nil,checked00row000,checked00row001,checked00row002,checked00row003,checked00row004,checked00row005,checked00row006,checked00row007,checked00row008,checked00row009,checked00row010,checked00row011,checked00row012,checked00row013,checked00row014,checked00row015,checked00row016,checked00row017,checked00row018,checked00row019,checked00row020,checked00row021,checked00row022,checked00row023,checked00row024,checked00row025,checked00row026,checked00row027,checked00row028,checked00row029,checked00row030,checked00row031,checked00row032,checked00row033,checked00row034,checked00row035,checked00row036,checked00row037,checked00row038,checked00row039,checked00row040,checked00row041,checked00row042,checked00row043,checked00row044,checked00row045,checked00row046,checked00row047,checked00row048,checked00row049,checked00row050,checked00row051,checked00row052,checked00row053,checked00row054,checked00row055,checked00row056,checked00row057,checked00row058,checked00row059,checked00row060,checked00row061,checked00row062,checked00row063,checked00row064,checked00row065,checked00row066,checked00row067,checked00row068,checked00row069,checked00row070,checked00row071,checked00row072,checked00row073,checked00row074,checked00row075,checked00row076,checked00row077,checked00row078,checked00row079,checked00row080,checked00row081,checked00row082,checked00row083,checked00row084,checked00row085,checked00row086,checked00row087,checked00row088,checked00row089,checked00row090,checked00row091,checked00row092,checked00row093,checked00row094,checked00row095,checked00row096,checked00row097,checked00row098,checked00row099,checked00row100,checked00row101,checked00row102,checked00row103,checked00row104,checked00row105,checked00row106,checked00row107,checked00row108,checked00row109,checked00row110,checked00row111,checked00row112,checked00row113,checked00row114,checked00row115,checked00row116,checked00row117,checked00row118,checked00row119,checked00row120,checked00row121,checked00row122,checked00row123,checked00row124,checked00row125,checked00row126,checked00row127,checked00row128,checked00row129,checked00row130,checked00row131,checked00row132,checked00row133,checked00row134,checked00row135,checked00row136,checked00row137,checked00row138,checked00row139,checked00row140,checked00row141,checked00row142,checked00row143,checked00row144,checked00row145,checked00row146,checked00row147,checked00row148,checked00row149,checked00row150,checked00row151,checked00row152,checked00row153,checked00row154,checked00row155,checked00row156,checked00row157,checked00row158,checked00row159,checked00row160,checked00row161,checked00row162,checked00row163,checked00row164,checked00row165,checked00row166,checked00row167,checked00row168,checked00row169,checked00row170,checked00row171,checked00row172,checked00row173,checked00row174,checked00row175,checked00row176,checked00row177,checked00row178,checked00row179,checked00row180,checked00row181,checked00row182,checked00row183,checked00row184,checked00row185,checked00row186,checked00row187,checked00row188,checked00row189,checked00row190,checked00row191,checked00row192,checked00row193,checked00row194,checked00row195,checked00row196,checked00row197,checked00row198,checked00row199,checked00row200,checked00row201,checked00row202,checked00row203,checked00row204,checked00row205,checked00row206,checked00row207,checked00row208,checked00row209,checked00row210,checked00row211,checked00row212,checked00row213,checked00row214,checked00row215,checked00row216,checked00row217,checked00row218,checked00row219,checked00row220,checked00row221,checked00row222,checked00row223,checked00row224,checked00row225,checked00row226,checked00row227,checked00row228,checked00row229,checked00row230,checked00row231,checked00row232,checked00row233,checked00row234,checked00row235,checked00row236,checked00row237,checked00row238,checked00row239,checked00row240,checked00row241,checked00row242,checked00row243,checked00row244,Bool.and_self]
+
+/-- All positive pair action rows in ORIGINAL phase0, for any current group
+positions. This is still only one of16 original phases. -/
+theorem all_positive_actions00 (hero : Cell) (heroInside : hero ∈ NetHack.Soko11Hero315.phases.heroes 0)
+    (group : List Cell) (unique : group.Nodup) (inside : group ⊆ NetHack.Soko11Hero315.phases.crates 0)
+    (positive : 0 < bonus 0 hero group) (direction : Dir) (outcome : Outcome)
+    (oracle : stepOracle soko1_1.board (PatternCorrection.project group)
+      (PatternCorrection.project soko1_1.initial.holes) hero direction = some outcome) :
+    localBound 0 hero group outcome := by
+  rcases covered_positive00 hero group unique inside positive with ⟨pair,member,related⟩
+  have checked := List.all_eq_true.mp all_rows00 pair member
+  have projection : PatternCorrection.project group = PatternCorrection.project pair :=
+    funext fun _ => related.contains_eq
+  have other : stepOracle soko1_1.board (PatternCorrection.project pair)
+      (PatternCorrection.project (soko1_1.initial.holes.drop 0)) hero direction = some outcome := by
+    rw [←projection]
+    exact oracle
+  exact (localBound_respects 0 hero group pair related outcome).mpr
+    (rowCheck_actions 0 pair checked hero heroInside direction outcome other)
+
+theorem all_positive_environments00 (hero : Cell) (heroInside : hero ∈ NetHack.Soko11Hero315.phases.heroes 0)
+    (group : List Cell) (unique : group.Nodup) (inside : group ⊆ NetHack.Soko11Hero315.phases.crates 0)
+    (clear : hero ∉ group) (positive : 0 < bonus 0 hero group) :
+    valueAt 0 hero group ≤ valueAt 1 hero group := by
+  rcases covered_positive00 hero group unique inside positive with ⟨pair,member,related⟩
+  have checked := List.all_eq_true.mp all_rows00 pair member
+  have otherClear : hero ∉ pair := fun h => clear (related.mem_iff.mpr h)
+  rw [valueAt_respects 0 hero group pair related,valueAt_respects 1 hero group pair related]
+  exact rowCheck_environment 0 pair checked hero heroInside otherClear (by decide)
+end NetHack.Soko11PairCandidate321

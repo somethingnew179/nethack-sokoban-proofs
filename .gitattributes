@@ -1,0 +1,2 @@
+# Blobs must stay byte-identical to MANIFEST.sha256 on every platform.
+* -text

@@ -1,0 +1,23 @@
+import NetHack.Soko12Forward220.Unified.Reader
+import NetHack.Soko12Forward220.Unified.Segment
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+namespace NetHack.Soko12Forward220.Unified.Ground
+open NetHack.Sokoban
+theorem Restriction1869_0_checked : (List.range' 956928 128).all (fun index => PackedRestrictionChecks.check read cells packedRestrictions index) = true := by decide +kernel
+theorem Restriction1869_1_checked : (List.range' 957056 128).all (fun index => PackedRestrictionChecks.check read cells packedRestrictions index) = true := by decide +kernel
+theorem Restriction1869_2_checked : (List.range' 957184 128).all (fun index => PackedRestrictionChecks.check read cells packedRestrictions index) = true := by decide +kernel
+theorem Restriction1869_3_checked : (List.range' 957312 128).all (fun index => PackedRestrictionChecks.check read cells packedRestrictions index) = true := by decide +kernel
+theorem Restriction1869_range (index : Nat) (lower : 956928 ≤ index) (upper : index < 957440) : DecisionDAGTransform.restrictionCheck read restrictions index = true := by
+  apply restriction_original_check
+  if cut : index < 957184 then
+    if cut : index < 957056 then
+      exact segment_sound _ 956928 128 Restriction1869_0_checked index (by omega) (by omega)
+    else
+      exact segment_sound _ 957056 128 Restriction1869_1_checked index (by omega) (by omega)
+  else
+    if cut : index < 957312 then
+      exact segment_sound _ 957184 128 Restriction1869_2_checked index (by omega) (by omega)
+    else
+      exact segment_sound _ 957312 128 Restriction1869_3_checked index (by omega) (by omega)
+end NetHack.Soko12Forward220.Unified.Ground

@@ -1,0 +1,22 @@
+import NetHack.Soko12Forward220.Unified.Reader
+import NetHack.Soko12Forward220.Unified.Segment
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+namespace NetHack.Soko12Forward220.Unified.Ground
+open NetHack.Sokoban
+theorem Update0557_0_checked : (List.range' 285184 128).all (fun index => DecisionDAGTransform.updateCheck read cells updates index) = true := by decide +kernel
+theorem Update0557_1_checked : (List.range' 285312 128).all (fun index => DecisionDAGTransform.updateCheck read cells updates index) = true := by decide +kernel
+theorem Update0557_2_checked : (List.range' 285440 128).all (fun index => DecisionDAGTransform.updateCheck read cells updates index) = true := by decide +kernel
+theorem Update0557_3_checked : (List.range' 285568 128).all (fun index => DecisionDAGTransform.updateCheck read cells updates index) = true := by decide +kernel
+theorem Update0557_range (index : Nat) (lower : 285184 ≤ index) (upper : index < 285696) : DecisionDAGTransform.updateCheck read cells updates index = true := by
+  if cut : index < 285440 then
+    if cut : index < 285312 then
+      exact segment_sound _ 285184 128 Update0557_0_checked index (by omega) (by omega)
+    else
+      exact segment_sound _ 285312 128 Update0557_1_checked index (by omega) (by omega)
+  else
+    if cut : index < 285568 then
+      exact segment_sound _ 285440 128 Update0557_2_checked index (by omega) (by omega)
+    else
+      exact segment_sound _ 285568 128 Update0557_3_checked index (by omega) (by omega)
+end NetHack.Soko12Forward220.Unified.Ground

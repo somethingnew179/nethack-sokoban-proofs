@@ -1,0 +1,22 @@
+import NetHack.Soko12Forward220.Unified.Reader
+import NetHack.Soko12Forward220.Unified.Segment
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+namespace NetHack.Soko12Forward220.Unified.Ground
+open NetHack.Sokoban
+theorem Numeric0057_0_checked : (List.range' 29184 128).all (fun index => DecisionDAGCountedBounded.checkRow read bounds numeric index) = true := by decide +kernel
+theorem Numeric0057_1_checked : (List.range' 29312 128).all (fun index => DecisionDAGCountedBounded.checkRow read bounds numeric index) = true := by decide +kernel
+theorem Numeric0057_2_checked : (List.range' 29440 128).all (fun index => DecisionDAGCountedBounded.checkRow read bounds numeric index) = true := by decide +kernel
+theorem Numeric0057_3_checked : (List.range' 29568 128).all (fun index => DecisionDAGCountedBounded.checkRow read bounds numeric index) = true := by decide +kernel
+theorem Numeric0057_range (index : Nat) (lower : 29184 ≤ index) (upper : index < 29696) : DecisionDAGCountedBounded.checkRow read bounds numeric index = true := by
+  if cut : index < 29440 then
+    if cut : index < 29312 then
+      exact segment_sound _ 29184 128 Numeric0057_0_checked index (by omega) (by omega)
+    else
+      exact segment_sound _ 29312 128 Numeric0057_1_checked index (by omega) (by omega)
+  else
+    if cut : index < 29568 then
+      exact segment_sound _ 29440 128 Numeric0057_2_checked index (by omega) (by omega)
+    else
+      exact segment_sound _ 29568 128 Numeric0057_3_checked index (by omega) (by omega)
+end NetHack.Soko12Forward220.Unified.Ground

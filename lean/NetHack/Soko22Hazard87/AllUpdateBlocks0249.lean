@@ -1,0 +1,127 @@
+import NetHack.Soko22Hazard87.AllUpdateBlocks0248
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+set_option linter.unusedSimpArgs false
+namespace NetHack.Soko22Hazard87
+open NetHack.Sokoban NetHack.Sokoban.PatternCorrection
+theorem allUpdate14940 (p : Pattern) : d16326 (u179 p) = d185164 p := by
+  simp only [allUpdate14894, allUpdate14905, d774, d775, d16234, d16235, d16236, d16264, d16265, d16326, d185056, d185057, d185060, d185061, d185062, d185097, d185098, d185164, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14941 (p : Pattern) : d16330 (u179 p) = d185169 p := by
+  simp only [allUpdate14905, allUpdate14926, d16234, d16235, d16285, d16286, d16287, d16288, d16289, d16330, d185056, d185057, d185113, d185114, d185115, d185116, d185117, d185169, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14942 (p : Pattern) : d16332 (u179 p) = d185171 p := by
+  simp only [allUpdate14915, allUpdate14932, d897, d898, d16303, d16304, d16305, d16306, d16307, d16332, d185132, d185133, d185136, d185137, d185138, d185139, d185140, d185171, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14943 (p : Pattern) : d16335 (u179 p) = d185175 p := by
+  simp only [allUpdate14905, d16234, d16235, d16311, d16312, d16313, d16335, d185056, d185057, d185148, d185149, d185150, d185175, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14944 (p : Pattern) : d16341 (u179 p) = d185181 p := by
+  simp only [allUpdate14910, allUpdate14911, allUpdate14916, allUpdate14936, allUpdate14937, allUpdate14938, allUpdate14906, allUpdate14908, allUpdate14917, allUpdate14918, allUpdate14927, allUpdate14933, allUpdate14934, allUpdate14939, allUpdate14940, allUpdate14941, allUpdate14942, allUpdate14943, d16260, d16261, d16262, d16263, d16267, d16268, d16269, d16291, d16309, d16310, d16315, d16316, d16317, d16318, d16319, d16322, d16323, d16324, d16325, d16327, d16328, d16329, d16331, d16333, d16334, d16336, d16337, d16338, d16339, d16340, d16341, d185093, d185094, d185095, d185096, d185103, d185104, d185105, d185119, d185146, d185147, d185152, d185153, d185154, d185155, d185156, d185160, d185161, d185162, d185163, d185166, d185167, d185168, d185170, d185173, d185174, d185176, d185177, d185178, d185179, d185180, d185181, u179_at71, u179_at73, u179_at74, u179_at89, u179_at90, u179_at91, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14945 (p : Pattern) : d16343 (u179 p) = d185188 p := by
+  simp only [allUpdate14895, allUpdate14906, d939, d940, d941, d942, d943, d16240, d16241, d16242, d16243, d16244, d16343, d185070, d185071, d185072, d185073, d185074, d185183, d185184, d185185, d185186, d185187, d185188, u179_at71, u179_at73, u179_at74, u179_at89, u179_at90, u179_at91, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14946 (p : Pattern) : d16350 (u179 p) = d185201 p := by
+  simp only [allUpdate14938, allUpdate14908, allUpdate14941, allUpdate14942, allUpdate14943, d16331, d16333, d16334, d16336, d16337, d16338, d16348, d16349, d16350, d185170, d185173, d185174, d185176, d185177, d185178, d185199, d185200, d185201, u179_at71, u179_at73, u179_at74, u179_at89, u179_at90, u179_at91, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14947 (p : Pattern) : d1025 (u179 p) = d185246 p := by
+  simp only [allUpdate14912, d874, d875, d1018, d1019, d1020, d1021, d1022, d1024, d1025, d185246, u179_at158, u179_at159, u179_at160, u179_at161, u179_at162, u179_at163, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14948 (p : Pattern) : d1029 (u179 p) = d0 p := by
+  simp only [d1024, d1029, u179_at158, u179_at159, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14949 (p : Pattern) : d1040 (u179 p) = d185260 p := by
+  simp only [allUpdate14947, allUpdate14948, d1030, d1031, d1032, d1034, d1039, d1040, d185250, d185251, d185252, d185254, d185259, d185260, u179_at119, u179_at135, u179_at136, u179_at138, u179_at141, u179_at157, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14950 (p : Pattern) : d1050 (u179 p) = d185270 p := by
+  simp only [allUpdate14949, d1041, d1042, d1047, d1048, d1049, d1050, d185261, d185262, d185267, d185268, d185269, d185270, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14951 (p : Pattern) : d16362 (u179 p) = d185209 p := by
+  simp only [allUpdate14919, allUpdate14923, d9468, d9470, d9587, d9589, d12858, d12859, d12860, d12861, d16356, d16357, d16358, d16359, d16360, d16361, d16362, d185209, u179_at158, u179_at159, u179_at160, u179_at161, u179_at162, u179_at163, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14952 (p : Pattern) : d16363 (u179 p) = d185210 p := by
+  simp only [allUpdate14891, allUpdate14853, d751, d752, d971, d972, d973, d974, d9458, d9460, d12862, d16156, d16157, d16158, d16159, d16160, d16363, d185210, u179_at158, u179_at159, u179_at160, u179_at161, u179_at162, u179_at163, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14953 (p : Pattern) : d16367 (u179 p) = d185214 p := by
+  simp only [allUpdate14891, d751, d752, d971, d972, d973, d974, d980, d12862, d16367, d185214, u179_at158, u179_at159, u179_at160, u179_at161, u179_at162, u179_at163, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14954 (p : Pattern) : d16377 (u179 p) = d185224 p := by
+  simp only [allUpdate14899, allUpdate14900, allUpdate14951, allUpdate14952, allUpdate14953, d987, d988, d989, d16364, d16365, d16366, d16368, d16369, d16370, d16371, d16372, d16373, d16374, d16375, d16376, d16377, d185211, d185212, d185213, d185215, d185216, d185217, d185218, d185219, d185220, d185221, d185222, d185223, d185224, u179_at119, u179_at135, u179_at136, u179_at138, u179_at141, u179_at157, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14955 (p : Pattern) : d16381 (u179 p) = d185229 p := by
+  simp only [allUpdate14899, allUpdate14900, allUpdate14952, d987, d988, d989, d995, d16372, d16373, d16374, d16375, d16380, d16381, d185215, d185216, d185217, d185219, d185220, d185221, d185222, d185227, d185228, d185229, u179_at119, u179_at135, u179_at136, u179_at138, u179_at141, u179_at157, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14956 (p : Pattern) : d16387 (u179 p) = d185235 p := by
+  simp only [allUpdate14954, allUpdate14955, d16378, d16379, d16382, d16383, d16384, d16385, d16386, d16387, d185225, d185226, d185230, d185231, d185232, d185233, d185234, d185235, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14957 (p : Pattern) : d16391 (u179 p) = d185243 p := by
+  simp only [allUpdate14901, allUpdate14955, d1006, d1007, d16382, d16383, d16388, d16389, d16390, d16391, d185230, d185231, d185238, d185239, d185240, d185241, d185242, d185243, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14958 (p : Pattern) : d16399 (u179 p) = d185245 p := by
+  simp only [allUpdate14912, allUpdate14930, d874, d875, d1018, d1019, d1020, d1021, d9661, d9663, d16393, d16394, d16395, d16396, d16397, d16398, d16399, d185245, u179_at158, u179_at159, u179_at160, u179_at161, u179_at162, u179_at163, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14959 (p : Pattern) : d16405 (u179 p) = d185256 p := by
+  simp only [allUpdate14947, allUpdate14948, allUpdate14958, d1030, d1031, d1032, d1034, d16400, d16401, d16402, d16403, d16404, d16405, d185247, d185248, d185249, d185250, d185251, d185252, d185253, d185254, d185255, d185256, u179_at119, u179_at135, u179_at136, u179_at138, u179_at141, u179_at157, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14960 (p : Pattern) : d16411 (u179 p) = d185266 p := by
+  simp only [allUpdate14949, allUpdate14959, d1041, d1042, d16406, d16407, d16408, d16409, d16410, d16411, d185257, d185258, d185261, d185262, d185263, d185264, d185265, d185266, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14961 (p : Pattern) : d16417 (u179 p) = d185276 p := by
+  simp only [allUpdate14955, d16382, d16383, d16414, d16415, d16416, d16417, d185230, d185231, d185273, d185274, d185275, d185276, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14962 (p : Pattern) : d16423 (u179 p) = d185282 p := by
+  simp only [allUpdate14950, allUpdate14956, allUpdate14957, allUpdate14960, allUpdate14961, d16392, d16412, d16413, d16418, d16419, d16420, d16421, d16422, d16423, d185244, d185271, d185272, d185277, d185278, d185279, d185280, d185281, d185282, u179_at71, u179_at73, u179_at74, u179_at89, u179_at90, u179_at91, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14963 (p : Pattern) : d16429 (u179 p) = d185299 p := by
+  simp only [allUpdate14897, allUpdate14898, allUpdate14903, allUpdate14907, allUpdate14909, allUpdate14935, allUpdate14944, allUpdate14945, allUpdate14946, allUpdate14962, d960, d1070, d16246, d16247, d16255, d16256, d16257, d16342, d16344, d16345, d16346, d16347, d16351, d16352, d16353, d16354, d16355, d16424, d16425, d16426, d16427, d16428, d16429, d185076, d185077, d185086, d185087, d185088, d185182, d185195, d185196, d185197, d185198, d185202, d185204, d185205, d185206, d185207, d185208, d185283, d185294, d185295, d185296, d185297, d185298, d185299, u179_at48, u179_at49, u179_at50, u179_at51, u179_at69, u179_at70, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14964 (p : Pattern) : d16435 (u179 p) = d185305 p := by
+  simp only [allUpdate14963, d16430, d16431, d16432, d16433, d16434, d16435, d185300, d185301, d185302, d185303, d185304, d185305, u179_at10255, u179_at10256, u179_at10257, u179_at10258, u179_at10259, u179_at10260, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14965 (p : Pattern) : d14773 (u179 p) = d0 p := by
+  simp only [d5022, d14772, d14773, u179_at158, u179_at159, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14966 (p : Pattern) : d14778 (u179 p) = d0 p := by
+  simp only [d1127, d14772, d14778, u179_at158, u179_at159, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14967 (p : Pattern) : d1087 (u179 p) = d1087 p := by
+  simp only [d13, d14, d1084, d1085, d1086, d1087, u179_at224, u179_at225, u179_at226, u179_at246, u179_at247, u179_at248, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14968 (p : Pattern) : d1093 (u179 p) = d1093 p := by
+  simp only [d13, d14, d15, d16, d17, d1084, d1085, d1086, d1093, u179_at224, u179_at225, u179_at226, u179_at246, u179_at247, u179_at248, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14969 (p : Pattern) : d9771 (u179 p) = d9771 p := by
+  simp only [d13, d14, d1084, d1085, d1086, d9771, u179_at224, u179_at225, u179_at226, u179_at246, u179_at247, u179_at248, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14970 (p : Pattern) : d9788 (u179 p) = d9788 p := by
+  simp only [allUpdate14808, allUpdate14851, allUpdate14920, allUpdate14921, allUpdate14967, allUpdate14968, allUpdate14852, allUpdate14922, allUpdate14969, d133, d134, d537, d538, d539, d1088, d1089, d1094, d1095, d1096, d1097, d1098, d9452, d9453, d9772, d9773, d9774, d9775, d9776, d9788, u179_at180, u179_at182, u179_at201, u179_at202, u179_at204, u179_at223, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14971 (p : Pattern) : d9799 (u179 p) = d9799 p := by
+  simp only [allUpdate14771, allUpdate14808, allUpdate14851, allUpdate14968, allUpdate14852, d19, d20, d21, d133, d134, d1094, d1095, d1115, d1116, d1117, d1118, d1119, d9452, d9453, d9795, d9796, d9797, d9798, d9799, u179_at180, u179_at182, u179_at201, u179_at202, u179_at204, u179_at223, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14972 (p : Pattern) : d16442 (u179 p) = d185308 p := by
+  simp only [allUpdate14970, allUpdate14971, d9789, d9791, d9800, d9802, d14763, d14764, d16438, d16439, d16440, d16441, d16442, d185308, u179_at158, u179_at159, u179_at160, u179_at161, u179_at162, u179_at163, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14973 (p : Pattern) : d1120 (u179 p) = d1120 p := by
+  simp only [allUpdate14771, allUpdate14808, allUpdate14851, allUpdate14968, d19, d20, d21, d133, d134, d135, d1094, d1095, d1104, d1105, d1106, d1107, d1108, d1115, d1116, d1117, d1118, d1119, d1120, u179_at180, u179_at182, u179_at201, u179_at202, u179_at204, u179_at223, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14974 (p : Pattern) : d16443 (u179 p) = d185309 p := by
+  simp only [allUpdate14973, d1121, d1122, d1123, d1124, d1125, d14765, d16443, d185309, u179_at158, u179_at159, u179_at160, u179_at161, u179_at162, u179_at163, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14975 (p : Pattern) : d16456 (u179 p) = d185319 p := by
+  simp only [allUpdate14965, allUpdate14966, allUpdate14972, allUpdate14974, d16444, d16445, d16446, d16447, d16448, d16449, d16450, d16451, d16452, d16453, d16454, d16455, d16456, d185310, d185311, d185312, d185313, d185314, d185315, d185316, d185317, d185318, d185319, u179_at119, u179_at135, u179_at136, u179_at138, u179_at141, u179_at157, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14976 (p : Pattern) : d16460 (u179 p) = d185323 p := by
+  simp only [allUpdate14966, allUpdate14974, d16451, d16452, d16453, d16454, d16459, d16460, d185313, d185314, d185315, d185317, d185322, d185323, u179_at119, u179_at135, u179_at136, u179_at138, u179_at141, u179_at157, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14977 (p : Pattern) : d16466 (u179 p) = d185329 p := by
+  simp only [allUpdate14975, allUpdate14976, d16457, d16458, d16461, d16462, d16463, d16464, d16465, d16466, d185320, d185321, d185324, d185325, d185326, d185327, d185328, d185329, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14978 (p : Pattern) : d16470 (u179 p) = d185333 p := by
+  simp only [allUpdate14976, d16461, d16462, d16467, d16468, d16469, d16470, d185324, d185325, d185330, d185331, d185332, d185333, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14979 (p : Pattern) : d16476 (u179 p) = d185339 p := by
+  simp only [allUpdate14977, allUpdate14978, d16471, d16472, d16473, d16474, d16475, d16476, d185334, d185335, d185336, d185337, d185338, d185339, u179_at71, u179_at73, u179_at74, u179_at89, u179_at90, u179_at91, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14980 (p : Pattern) : d16479 (u179 p) = d185342 p := by
+  simp only [allUpdate14975, allUpdate14976, d16457, d16458, d16461, d16462, d16463, d16464, d16465, d16479, d185320, d185321, d185324, d185325, d185326, d185327, d185328, d185342, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14981 (p : Pattern) : d16480 (u179 p) = d185343 p := by
+  simp only [allUpdate14976, d16461, d16462, d16467, d16468, d16469, d16480, d185324, d185325, d185330, d185331, d185332, d185343, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14982 (p : Pattern) : d16486 (u179 p) = d185349 p := by
+  simp only [allUpdate14977, allUpdate14978, allUpdate14980, allUpdate14981, d16471, d16472, d16473, d16474, d16475, d16481, d16482, d16483, d16484, d16485, d16486, d185334, d185335, d185336, d185337, d185338, d185344, d185345, d185346, d185347, d185348, d185349, u179_at71, u179_at73, u179_at74, u179_at89, u179_at90, u179_at91, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14983 (p : Pattern) : d16491 (u179 p) = d185354 p := by
+  simp only [allUpdate14975, allUpdate14976, d16457, d16458, d16461, d16462, d16463, d16464, d16490, d16491, d185320, d185321, d185324, d185325, d185326, d185327, d185353, d185354, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14984 (p : Pattern) : d16493 (u179 p) = d185356 p := by
+  simp only [allUpdate14976, d16461, d16462, d16467, d16468, d16492, d16493, d185324, d185325, d185330, d185331, d185355, d185356, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14985 (p : Pattern) : d16500 (u179 p) = d185363 p := by
+  simp only [allUpdate14975, allUpdate14976, d16457, d16458, d16461, d16462, d16463, d16498, d16499, d16500, d185320, d185321, d185324, d185325, d185326, d185361, d185362, d185363, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14986 (p : Pattern) : d16503 (u179 p) = d185366 p := by
+  simp only [allUpdate14976, d16461, d16462, d16467, d16501, d16502, d16503, d185324, d185325, d185330, d185364, d185365, d185366, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14987 (p : Pattern) : d821 (u179 p) = d821 p := by
+  simp only [d13, d14, d127, d128, d129, d307, d308, d309, d310, d528, d529, d820, d821, u179_at224, u179_at225, u179_at226, u179_at246, u179_at247, u179_at248, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14988 (p : Pattern) : d827 (u179 p) = d827 p := by
+  simp only [d13, d14, d127, d128, d129, d307, d308, d309, d310, d528, d534, d535, d825, d826, d827, u179_at224, u179_at225, u179_at226, u179_at246, u179_at247, u179_at248, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14989 (p : Pattern) : d9752 (u179 p) = d9752 p := by
+  simp only [allUpdate14920, allUpdate14921, allUpdate14987, allUpdate14988, allUpdate14967, allUpdate14922, d537, d538, d822, d823, d828, d829, d830, d1088, d1089, d1090, d1091, d1092, d9581, d9582, d9749, d9750, d9751, d9752, u179_at180, u179_at182, u179_at201, u179_at202, u179_at204, u179_at223, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14990 (p : Pattern) : d9777 (u179 p) = d9777 p := by
+  simp only [allUpdate14920, allUpdate14967, allUpdate14852, allUpdate14922, allUpdate14969, d1088, d1089, d9452, d9453, d9581, d9582, d9768, d9769, d9770, d9772, d9773, d9774, d9775, d9776, d9777, u179_at180, u179_at182, u179_at201, u179_at202, u179_at204, u179_at223, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14991 (p : Pattern) : d16511 (u179 p) = d185370 p := by
+  simp only [allUpdate14989, allUpdate14990, d9753, d9755, d9778, d9780, d14758, d14759, d16507, d16508, d16509, d16510, d16511, d185370, u179_at158, u179_at159, u179_at160, u179_at161, u179_at162, u179_at163, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14992 (p : Pattern) : d16516 (u179 p) = d185374 p := by
+  simp only [allUpdate14971, d9800, d9802, d14763, d14764, d14765, d16515, d16516, d185374, u179_at158, u179_at159, u179_at160, u179_at161, u179_at162, u179_at163, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14993 (p : Pattern) : d16522 (u179 p) = d185380 p := by
+  simp only [allUpdate14965, allUpdate14972, allUpdate14974, allUpdate14991, allUpdate14992, d16444, d16445, d16446, d16447, d16448, d16449, d16450, d16512, d16513, d16514, d16517, d16518, d16519, d16520, d16521, d16522, d185310, d185311, d185312, d185313, d185314, d185315, d185316, d185371, d185372, d185373, d185375, d185376, d185377, d185378, d185379, d185380, u179_at119, u179_at135, u179_at136, u179_at138, u179_at141, u179_at157, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14994 (p : Pattern) : d16527 (u179 p) = d185319 p := by
+  simp only [allUpdate14965, allUpdate14972, allUpdate14974, d16444, d16445, d16446, d16447, d16448, d16449, d16450, d16525, d16526, d16527, d185310, d185311, d185312, d185313, d185314, d185315, d185316, d185317, d185318, d185319, u179_at119, u179_at135, u179_at136, u179_at138, u179_at141, u179_at157, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14995 (p : Pattern) : d16533 (u179 p) = d185386 p := by
+  simp only [allUpdate14993, allUpdate14994, d16523, d16524, d16528, d16529, d16530, d16531, d16532, d16533, d185320, d185321, d185381, d185382, d185383, d185384, d185385, d185386, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14996 (p : Pattern) : d16537 (u179 p) = d185329 p := by
+  simp only [allUpdate14976, allUpdate14994, d16461, d16462, d16528, d16529, d16534, d16535, d16536, d16537, d185320, d185321, d185324, d185325, d185326, d185327, d185328, d185329, u179_at93, u179_at95, u179_at96, u179_at113, u179_at115, u179_at116, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14997 (p : Pattern) : d14883 (u179 p) = d0 p := by
+  simp only [d13059, d14882, d14883, u179_at158, u179_at159, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14998 (p : Pattern) : d14888 (u179 p) = d0 p := by
+  simp only [d1282, d14882, d14888, u179_at158, u179_at159, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+theorem allUpdate14999 (p : Pattern) : d855 (u179 p) = d855 p := by
+  simp only [d158, d159, d160, d338, d339, d340, d341, d562, d563, d564, d565, d566, d853, d854, d855, u179_at224, u179_at225, u179_at226, u179_at246, u179_at247, u179_at248, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, Bool.false_eq_true, ↓reduceIte, ite_self] <;> rfl
+end NetHack.Soko22Hazard87

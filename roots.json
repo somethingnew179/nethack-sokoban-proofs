@@ -1,0 +1,275 @@
+{
+  "schema": "nethack-sokoban-proof-roots-v1",
+  "upstream": {
+    "repository": "https://github.com/NetHack/NetHack.git",
+    "commit": "b0c09c878e1f9f62bc7ab20e6edafd6108c325a0"
+  },
+  "toolchain": {
+    "file": "lean/lean-toolchain",
+    "version": "4.33.1",
+    "commit": "819816b2e0a3bf405af45ae5c7af2491d8f5bee6",
+    "lake_packages": []
+  },
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "build_order": [
+    "4-2",
+    "4-1",
+    "2-2",
+    "2-1",
+    "3-2",
+    "3-1",
+    "1-1",
+    "1-2"
+  ],
+  "roots": [
+    {
+      "id": "1-1",
+      "level": "soko1-1",
+      "kind": "interval",
+      "lower": 321,
+      "upper": 375,
+      "upper_witness_moves": 778,
+      "module": "NetHack.Sokoban.Original11Interval321",
+      "audit_module": "Audit.Soko11",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map11",
+      "lower_bound_theorem": "NetHack.Soko11PairCandidate321.pushes_lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko1_1_macro375_m778_solution"
+      ],
+      "minimum_theorem": null,
+      "supplementary_theorems": [],
+      "axiom_audit_keys": [
+        "Audit.Soko11.lower_bound",
+        "Audit.Soko11.upper_bound",
+        "Audit.Soko11.witness",
+        "Audit.Soko11.source_pin",
+        "NetHack.Sokoban.InitialIntervals.map11",
+        "NetHack.Soko11PairCandidate321.pushes_lower_bound",
+        "NetHack.Sokoban.Generated.soko1_1_macro375_m778_solution"
+      ],
+      "map_source": "dat/soko1-1.lua",
+      "map_source_sha256": "b6197437573a59c1301e423cde20c49884ae9fcce478a02f4ea8e806f517a4ff"
+    },
+    {
+      "id": "1-2",
+      "level": "soko1-2",
+      "kind": "interval",
+      "lower": 220,
+      "upper": 235,
+      "upper_witness_moves": 578,
+      "module": "NetHack.Sokoban.Original12Interval220",
+      "audit_module": "Audit.Soko12",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map12",
+      "lower_bound_theorem": "NetHack.Soko12Forward220.Unified.Verified220.pushes_lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko1_2_macro235_m578_solution"
+      ],
+      "minimum_theorem": null,
+      "supplementary_theorems": [],
+      "axiom_audit_keys": [
+        "Audit.Soko12.lower_bound",
+        "Audit.Soko12.upper_bound",
+        "Audit.Soko12.witness",
+        "Audit.Soko12.source_pin",
+        "NetHack.Sokoban.InitialIntervals.map12",
+        "NetHack.Soko12Forward220.Unified.Verified220.pushes_lower_bound",
+        "NetHack.Sokoban.Generated.soko1_2_macro235_m578_solution"
+      ],
+      "map_source": "dat/soko1-2.lua",
+      "map_source_sha256": "0fcdc3d01c24c8277e06d83b8cfd0aa3409ac8a4531e11d6bfeba7166938f561"
+    },
+    {
+      "id": "2-1",
+      "level": "soko2-1",
+      "kind": "exact",
+      "lower": 109,
+      "upper": 109,
+      "upper_witness_moves": 475,
+      "module": "NetHack.Sokoban.Original21Interval109",
+      "audit_module": "Audit.Soko21",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map21",
+      "lower_bound_theorem": "NetHack.Sokoban21.soko2_1_pushes_lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko2_1_candidate_trace",
+        "NetHack.Sokoban.Generated.soko2_1_candidate_goal"
+      ],
+      "minimum_theorem": "NetHack.Sokoban21.soko2_1_pushes_optimal",
+      "supplementary_theorems": [],
+      "axiom_audit_keys": [
+        "Audit.Soko21.lower_bound",
+        "Audit.Soko21.upper_bound",
+        "Audit.Soko21.witness",
+        "Audit.Soko21.source_pin",
+        "Audit.Soko21.exact_minimum",
+        "NetHack.Sokoban.InitialIntervals.map21",
+        "NetHack.Sokoban21.soko2_1_pushes_lower_bound",
+        "NetHack.Sokoban.Generated.soko2_1_candidate_trace",
+        "NetHack.Sokoban.Generated.soko2_1_candidate_goal",
+        "NetHack.Sokoban21.soko2_1_pushes_optimal"
+      ],
+      "map_source": "dat/soko2-1.lua",
+      "map_source_sha256": "7513e1882b1a70c6cf4317a559584ca5826b2815875d21d0865bb4e5501c297b"
+    },
+    {
+      "id": "2-2",
+      "level": "soko2-2",
+      "kind": "exact",
+      "lower": 87,
+      "upper": 87,
+      "upper_witness_moves": 238,
+      "module": "NetHack.Sokoban.Original22Interval87",
+      "audit_module": "Audit.Soko22",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map22",
+      "lower_bound_theorem": "NetHack.Soko22Hazard87.pushes_lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko2_2_macro87_m238_solution"
+      ],
+      "minimum_theorem": "NetHack.Soko22Hazard87.minimum87",
+      "supplementary_theorems": [],
+      "axiom_audit_keys": [
+        "Audit.Soko22.lower_bound",
+        "Audit.Soko22.upper_bound",
+        "Audit.Soko22.witness",
+        "Audit.Soko22.source_pin",
+        "Audit.Soko22.exact_minimum",
+        "NetHack.Sokoban.InitialIntervals.map22",
+        "NetHack.Soko22Hazard87.pushes_lower_bound",
+        "NetHack.Sokoban.Generated.soko2_2_macro87_m238_solution",
+        "NetHack.Soko22Hazard87.minimum87"
+      ],
+      "map_source": "dat/soko2-2.lua",
+      "map_source_sha256": "2d20b75e8186d24a954cc398897622b10b59789e9b96f0ce52f462b6364e327b"
+    },
+    {
+      "id": "3-1",
+      "level": "soko3-1",
+      "kind": "exact",
+      "lower": 136,
+      "upper": 136,
+      "upper_witness_moves": 270,
+      "module": "NetHack.Sokoban.Original31Interval136",
+      "audit_module": "Audit.Soko31",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map31",
+      "lower_bound_theorem": "NetHack.Soko31Optimal136.pushes_lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko3_1_macro136_m270_solution"
+      ],
+      "minimum_theorem": "NetHack.Soko31Optimal136.minimum136",
+      "supplementary_theorems": [],
+      "axiom_audit_keys": [
+        "Audit.Soko31.lower_bound",
+        "Audit.Soko31.upper_bound",
+        "Audit.Soko31.witness",
+        "Audit.Soko31.source_pin",
+        "Audit.Soko31.exact_minimum",
+        "NetHack.Sokoban.InitialIntervals.map31",
+        "NetHack.Soko31Optimal136.pushes_lower_bound",
+        "NetHack.Sokoban.Generated.soko3_1_macro136_m270_solution",
+        "NetHack.Soko31Optimal136.minimum136"
+      ],
+      "map_source": "dat/soko3-1.lua",
+      "map_source_sha256": "1be490e328d552115f6e3907fb7d656835e18daf7183942ae26ef6a4d58c271a"
+    },
+    {
+      "id": "3-2",
+      "level": "soko3-2",
+      "kind": "interval",
+      "lower": 140,
+      "upper": 147,
+      "upper_witness_moves": 764,
+      "module": "NetHack.Sokoban.Original32Interval140",
+      "audit_module": "Audit.Soko32",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map32_140",
+      "lower_bound_theorem": "NetHack.Soko32Disjoint.pushes_lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko3_2_macro147_m764_solution"
+      ],
+      "minimum_theorem": null,
+      "supplementary_theorems": [],
+      "axiom_audit_keys": [
+        "Audit.Soko32.lower_bound",
+        "Audit.Soko32.upper_bound",
+        "Audit.Soko32.witness",
+        "Audit.Soko32.source_pin",
+        "NetHack.Sokoban.InitialIntervals.map32_140",
+        "NetHack.Soko32Disjoint.pushes_lower_bound",
+        "NetHack.Sokoban.Generated.soko3_2_macro147_m764_solution"
+      ],
+      "map_source": "dat/soko3-2.lua",
+      "map_source_sha256": "d6d810b284cb7ba41c2ce5c3d16521010c88d89bca0ac0e64365824c7e114cd7"
+    },
+    {
+      "id": "4-1",
+      "level": "soko4-1",
+      "kind": "exact",
+      "lower": 80,
+      "upper": 80,
+      "upper_witness_moves": 299,
+      "module": "NetHack.Sokoban.Original41Interval80",
+      "audit_module": "Audit.Soko41",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map41",
+      "lower_bound_theorem": "NetHack.Sokoban41.soko4_1_pushes_lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko4_1_candidate_trace",
+        "NetHack.Sokoban.Generated.soko4_1_candidate_goal"
+      ],
+      "minimum_theorem": "NetHack.Sokoban41.soko4_1_pushes_optimal",
+      "supplementary_theorems": [],
+      "axiom_audit_keys": [
+        "Audit.Soko41.lower_bound",
+        "Audit.Soko41.upper_bound",
+        "Audit.Soko41.witness",
+        "Audit.Soko41.source_pin",
+        "Audit.Soko41.exact_minimum",
+        "NetHack.Sokoban.InitialIntervals.map41",
+        "NetHack.Sokoban41.soko4_1_pushes_lower_bound",
+        "NetHack.Sokoban.Generated.soko4_1_candidate_trace",
+        "NetHack.Sokoban.Generated.soko4_1_candidate_goal",
+        "NetHack.Sokoban41.soko4_1_pushes_optimal"
+      ],
+      "map_source": "dat/soko4-1.lua",
+      "map_source_sha256": "d7047eb1a4c7d06e4f38d976105a9c026e334206ce3b9d5fedf9fcc75e1bb1df"
+    },
+    {
+      "id": "4-2",
+      "level": "soko4-2",
+      "kind": "exact",
+      "lower": 85,
+      "upper": 85,
+      "upper_witness_moves": 332,
+      "module": "NetHack.Sokoban.Original42Interval85",
+      "audit_module": "Audit.Soko42",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map42",
+      "lower_bound_theorem": "NetHack.Sokoban.Soko42Optimal.lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko4_2_candidate_trace",
+        "NetHack.Sokoban.Generated.soko4_2_candidate_goal"
+      ],
+      "minimum_theorem": "NetHack.Sokoban.Soko42Optimal.optimal",
+      "supplementary_theorems": [
+        "NetHack.Sokoban.Movement.Claims.pushes_optimal85x322",
+        "NetHack.Sokoban.Symmetry.Soko42AllOrientations.optimal"
+      ],
+      "axiom_audit_keys": [
+        "Audit.Soko42.lower_bound",
+        "Audit.Soko42.upper_bound",
+        "Audit.Soko42.witness",
+        "Audit.Soko42.source_pin",
+        "Audit.Soko42.exact_minimum",
+        "NetHack.Sokoban.InitialIntervals.map42",
+        "NetHack.Sokoban.Soko42Optimal.lower_bound",
+        "NetHack.Sokoban.Generated.soko4_2_candidate_trace",
+        "NetHack.Sokoban.Generated.soko4_2_candidate_goal",
+        "NetHack.Sokoban.Soko42Optimal.optimal",
+        "NetHack.Sokoban.Movement.Claims.pushes_optimal85x322",
+        "NetHack.Sokoban.Symmetry.Soko42AllOrientations.optimal"
+      ],
+      "map_source": "dat/soko4-2.lua",
+      "map_source_sha256": "70b0f36c98e8150a1e7c4771db6ab84357251a2a88b3e18c8c75ebd2e17f1e17"
+    }
+  ]
+}

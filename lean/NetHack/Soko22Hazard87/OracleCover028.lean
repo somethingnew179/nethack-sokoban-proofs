@@ -1,0 +1,8 @@
+import NetHack.Soko22Hazard87.OracleCover028Part6
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+set_option linter.unusedSimpArgs false
+set_option linter.unusedVariables false
+namespace NetHack.Soko22Hazard87
+open NetHack.Sokoban NetHack.Sokoban.PatternCorrection
+end NetHack.Soko22Hazard87

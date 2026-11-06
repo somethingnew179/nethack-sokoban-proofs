@@ -1,0 +1,10 @@
+# Optional alternative to scripts/verify.py. Lake also emits .c, .trace and .hash
+# files for every module, so a full `lake build` needs well over the olean size.
+name = "nethack"
+version = "0.1.0"
+defaultTargets = ["NetHack"]
+
+[[lean_lib]]
+name = "NetHack"
+roots = ["NetHack"]
+globs = ["NetHack.Sokoban.Original11Interval321", "NetHack.Sokoban.Original12Interval220", "NetHack.Sokoban.Original21Interval109", "NetHack.Sokoban.Original22Interval87", "NetHack.Sokoban.Original31Interval136", "NetHack.Sokoban.Original32Interval140", "NetHack.Sokoban.Original41Interval80", "NetHack.Sokoban.Original42Interval85", "NetHack.Sokoban.Movement.Claims", "NetHack.Sokoban.Symmetry.Soko42AllOrientations"]

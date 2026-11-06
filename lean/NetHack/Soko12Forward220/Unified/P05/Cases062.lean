@@ -1,0 +1,54 @@
+import NetHack.Soko12Forward220.Unified.P05.CaseData
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+namespace NetHack.Soko12Forward220.Unified.P05
+open NetHack.Sokoban
+noncomputable def frame744 : CountedLocalCase.Frame := {bindings := [(164, false), (190, true), (216, false)], budget := 15, changes := [(164, true), (190, false)], beforeBeta := 5439691, beforeBonus := 0, afterBeta := 5439691, afterBonus := 0, preBeta := 5439691, preBonus := 0, restrictionBeforeBeta := 8531, restrictionBeforeBonus := 3, restrictionAfterBeta := 8531, restrictionAfterBonus := 3, updateProofs := some (35000, 34525), numericProof := 78212, slack := 6}
+noncomputable def case744 : PhysicalCase := ⟨5,216,.north,.push 190 (.stay 164),frame744⟩
+theorem frame744_checked : CountedLocalCaseData.check data frame744 = true := by decide +kernel
+theorem case744_fitted : fits case744 = true := by decide +kernel
+noncomputable def frame745 : CountedLocalCase.Frame := {bindings := [(164, false), (190, true), (216, false)], budget := 15, changes := [(216, true), (190, false)], beforeBeta := 5439691, beforeBonus := 0, afterBeta := 5439691, afterBonus := 0, preBeta := 5439691, preBonus := 0, restrictionBeforeBeta := 8531, restrictionBeforeBonus := 3, restrictionAfterBeta := 8531, restrictionAfterBonus := 3, updateProofs := some (37936, 35001), numericProof := 78213, slack := 2}
+noncomputable def case745 : PhysicalCase := ⟨5,164,.south,.push 190 (.stay 216),frame745⟩
+theorem frame745_checked : CountedLocalCaseData.check data frame745 = true := by decide +kernel
+theorem case745_fitted : fits case745 = true := by decide +kernel
+noncomputable def frame746 : CountedLocalCase.Frame := {bindings := [(189, false), (190, true), (191, false)], budget := 15, changes := [(191, true), (190, false)], beforeBeta := 5439691, beforeBonus := 0, afterBeta := 5439691, afterBonus := 0, preBeta := 5439691, preBonus := 0, restrictionBeforeBeta := 8531, restrictionBeforeBonus := 3, restrictionAfterBeta := 8531, restrictionAfterBonus := 3, updateProofs := some (39482, 37937), numericProof := 78214, slack := 2}
+noncomputable def case746 : PhysicalCase := ⟨5,189,.east,.push 190 (.stay 191),frame746⟩
+theorem frame746_checked : CountedLocalCaseData.check data frame746 = true := by decide +kernel
+theorem case746_fitted : fits case746 = true := by decide +kernel
+noncomputable def frame747 : CountedLocalCase.Frame := {bindings := [(189, false), (190, true), (191, false)], budget := 15, changes := [(189, true), (190, false)], beforeBeta := 5439691, beforeBonus := 0, afterBeta := 5439691, afterBonus := 0, preBeta := 5439691, preBonus := 0, restrictionBeforeBeta := 8531, restrictionBeforeBonus := 3, restrictionAfterBeta := 8531, restrictionAfterBonus := 3, updateProofs := some (40870, 39483), numericProof := 78215, slack := 0}
+noncomputable def case747 : PhysicalCase := ⟨5,191,.west,.push 190 (.stay 189),frame747⟩
+theorem frame747_checked : CountedLocalCaseData.check data frame747 = true := by decide +kernel
+theorem case747_fitted : fits case747 = true := by decide +kernel
+noncomputable def frame748 : CountedLocalCase.Frame := {bindings := [(190, false), (191, true), (192, false)], budget := 15, changes := [(192, true), (191, false)], beforeBeta := 5439691, beforeBonus := 0, afterBeta := 5439691, afterBonus := 0, preBeta := 5440852, preBonus := 0, restrictionBeforeBeta := 44389, restrictionBeforeBonus := 3, restrictionAfterBeta := 935300, restrictionAfterBonus := 3, updateProofs := some (42814, 40871), numericProof := 78216, slack := 2}
+noncomputable def case748 : PhysicalCase := ⟨5,190,.east,.push 191 (.stay 192),frame748⟩
+theorem frame748_checked : CountedLocalCaseData.check data frame748 = true := by decide +kernel
+theorem case748_fitted : fits case748 = true := by decide +kernel
+noncomputable def frame749 : CountedLocalCase.Frame := {bindings := [(190, false), (191, true), (192, false)], budget := 15, changes := [(190, true), (191, false)], beforeBeta := 5439699, beforeBonus := 0, afterBeta := 5439691, afterBonus := 0, preBeta := 5439691, preBonus := 0, restrictionBeforeBeta := 46376, restrictionBeforeBonus := 3, restrictionAfterBeta := 44389, restrictionAfterBonus := 3, updateProofs := some (44466, 42815), numericProof := 78217, slack := 0}
+noncomputable def case749 : PhysicalCase := ⟨5,192,.west,.push 191 (.stay 190),frame749⟩
+theorem frame749_checked : CountedLocalCaseData.check data frame749 = true := by decide +kernel
+theorem case749_fitted : fits case749 = true := by decide +kernel
+noncomputable def frame750 : CountedLocalCase.Frame := {bindings := [(166, false), (192, true), (218, false)], budget := 15, changes := [(166, true), (192, false)], beforeBeta := 5439691, beforeBonus := 0, afterBeta := 5439699, afterBonus := 0, preBeta := 5439972, preBonus := 0, restrictionBeforeBeta := 967905, restrictionBeforeBonus := 3, restrictionAfterBeta := 969324, restrictionAfterBonus := 3, updateProofs := some (45652, 44467), numericProof := 78218, slack := 2}
+noncomputable def case750 : PhysicalCase := ⟨5,218,.north,.push 192 (.stay 166),frame750⟩
+theorem frame750_checked : CountedLocalCaseData.check data frame750 = true := by decide +kernel
+theorem case750_fitted : fits case750 = true := by decide +kernel
+noncomputable def frame751 : CountedLocalCase.Frame := {bindings := [(166, false), (192, true), (218, false)], budget := 15, changes := [(218, true), (192, false)], beforeBeta := 5439691, beforeBonus := 0, afterBeta := 5439699, afterBonus := 0, preBeta := 5439972, preBonus := 0, restrictionBeforeBeta := 967905, restrictionBeforeBonus := 3, restrictionAfterBeta := 969324, restrictionAfterBonus := 3, updateProofs := some (49659, 45653), numericProof := 78218, slack := 2}
+noncomputable def case751 : PhysicalCase := ⟨5,166,.south,.push 192 (.stay 218),frame751⟩
+theorem frame751_checked : CountedLocalCaseData.check data frame751 = true := by decide +kernel
+theorem case751_fitted : fits case751 = true := by decide +kernel
+noncomputable def frame752 : CountedLocalCase.Frame := {bindings := [(191, false), (192, true), (193, false)], budget := 15, changes := [(193, true), (192, false)], beforeBeta := 5439691, beforeBonus := 0, afterBeta := 5439699, afterBonus := 0, preBeta := 5439972, preBonus := 0, restrictionBeforeBeta := 972596, restrictionBeforeBonus := 3, restrictionAfterBeta := 969324, restrictionAfterBonus := 3, updateProofs := some (52122, 49660), numericProof := 78219, slack := 2}
+noncomputable def case752 : PhysicalCase := ⟨5,191,.east,.push 192 (.stay 193),frame752⟩
+theorem frame752_checked : CountedLocalCaseData.check data frame752 = true := by decide +kernel
+theorem case752_fitted : fits case752 = true := by decide +kernel
+noncomputable def frame753 : CountedLocalCase.Frame := {bindings := [(191, false), (192, true), (193, false)], budget := 15, changes := [(191, true), (192, false)], beforeBeta := 5439700, beforeBonus := 0, afterBeta := 5439699, afterBonus := 0, preBeta := 5439972, preBonus := 0, restrictionBeforeBeta := 975681, restrictionBeforeBonus := 3, restrictionAfterBeta := 969324, restrictionAfterBonus := 3, updateProofs := some (54133, 52123), numericProof := 78220, slack := 0}
+noncomputable def case753 : PhysicalCase := ⟨5,193,.west,.push 192 (.stay 191),frame753⟩
+theorem frame753_checked : CountedLocalCaseData.check data frame753 = true := by decide +kernel
+theorem case753_fitted : fits case753 = true := by decide +kernel
+noncomputable def frame754 : CountedLocalCase.Frame := {bindings := [(167, false), (193, true), (219, false)], budget := 15, changes := [(167, true), (193, false)], beforeBeta := 5439691, beforeBonus := 0, afterBeta := 5439700, afterBonus := 0, preBeta := 5439972, preBonus := 0, restrictionBeforeBeta := 978580, restrictionBeforeBonus := 3, restrictionAfterBeta := 969324, restrictionAfterBonus := 3, updateProofs := some (55622, 54134), numericProof := 78221, slack := 2}
+noncomputable def case754 : PhysicalCase := ⟨5,219,.north,.push 193 (.stay 167),frame754⟩
+theorem frame754_checked : CountedLocalCaseData.check data frame754 = true := by decide +kernel
+theorem case754_fitted : fits case754 = true := by decide +kernel
+noncomputable def frame755 : CountedLocalCase.Frame := {bindings := [(167, false), (193, true), (219, false)], budget := 15, changes := [(219, true), (193, false)], beforeBeta := 5439691, beforeBonus := 0, afterBeta := 5439700, afterBonus := 0, preBeta := 5439972, preBonus := 0, restrictionBeforeBeta := 978580, restrictionBeforeBonus := 3, restrictionAfterBeta := 969324, restrictionAfterBonus := 3, updateProofs := some (59581, 55623), numericProof := 78221, slack := 2}
+noncomputable def case755 : PhysicalCase := ⟨5,167,.south,.push 193 (.stay 219),frame755⟩
+theorem frame755_checked : CountedLocalCaseData.check data frame755 = true := by decide +kernel
+theorem case755_fitted : fits case755 = true := by decide +kernel
+end NetHack.Soko12Forward220.Unified.P05
