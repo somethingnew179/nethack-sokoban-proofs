@@ -26,8 +26,6 @@ import verify  # noqa: E402
 COPIED_FILES = [
     "dat/license",
     *[f"dat/soko{floor}-{variant}.lua" for floor in range(1, 5) for variant in (1, 2)],
-    "docs/SOKOBAN_SOURCE_AUDIT_20261030_RU.md",
-    "docs/SOKOBAN_PATH_SOURCE_SAFETY_20261030_RU.md",
     "lean/lean-toolchain",
     "lean/lake-manifest.json",
     "lean/validation/sokoban/model/README.md",

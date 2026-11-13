@@ -15,6 +15,6 @@ path. NetHack-derived code follows `LICENSE`. No other licence is granted by thi
 package for the remaining proof code; the owner decides that before any publication.
 
 **Added for this package.** `lean/Audit/`, `lean/lakefile.toml`, `roots.json`,
-`scripts/`, `MANIFEST.sha256`, the READMEs, `RESULT_RU.md`, this notice and the
+`scripts/`, `MANIFEST.sha256`, the README, this notice and the
 verification receipts. The Lean core library and toolchain (`leanprover/lean4`
 v4.33.1) are not copied here.

@@ -1,0 +1,80 @@
+def NetHack.Sokoban.Goal : NetHack.Sokoban.State → Prop :=
+fun state => state.holes = []
+inductive NetHack.Sokoban.Trace : NetHack.Sokoban.Board →
+  NetHack.Sokoban.State → List NetHack.Sokoban.Dir → NetHack.Sokoban.State → Nat → Nat → Prop
+number of parameters: 1
+constructors:
+NetHack.Sokoban.Trace.nil : ∀ {board : NetHack.Sokoban.Board} (state : NetHack.Sokoban.State),
+  NetHack.Sokoban.Trace board state [] state 0 0
+NetHack.Sokoban.Trace.cons : ∀ {board : NetHack.Sokoban.Board} {state : NetHack.Sokoban.State}
+  {direction : NetHack.Sokoban.Dir} {next : NetHack.Sokoban.Transition} {rest : List NetHack.Sokoban.Dir}
+  {final : NetHack.Sokoban.State} {pushes moves : Nat},
+  NetHack.Sokoban.step board state direction = some next →
+    NetHack.Sokoban.Trace board next.state rest final pushes moves →
+      NetHack.Sokoban.Trace board state (direction :: rest) final (next.pushCost + pushes) (1 + moves)
+structure NetHack.Sokoban.InitialIntervals.PushInterval (level : NetHack.Sokoban.SourceMap) (lower upper : Nat) : Prop
+number of parameters: 3
+fields:
+  NetHack.Sokoban.InitialIntervals.PushInterval.lower_bound : ∀ (directions : List NetHack.Sokoban.Dir)
+      (final : NetHack.Sokoban.State) (pushes moves : Nat),
+      NetHack.Sokoban.Trace level.board level.initial directions final pushes moves →
+        NetHack.Sokoban.Goal final → lower ≤ pushes
+  NetHack.Sokoban.InitialIntervals.PushInterval.upper_bound : ∃ directions final moves,
+      NetHack.Sokoban.Trace level.board level.initial directions final upper moves ∧ NetHack.Sokoban.Goal final
+constructor:
+  NetHack.Sokoban.InitialIntervals.PushInterval.mk {level : NetHack.Sokoban.SourceMap} {lower upper : Nat}
+    (lower_bound :
+      ∀ (directions : List NetHack.Sokoban.Dir) (final : NetHack.Sokoban.State) (pushes moves : Nat),
+        NetHack.Sokoban.Trace level.board level.initial directions final pushes moves →
+          NetHack.Sokoban.Goal final → lower ≤ pushes)
+    (upper_bound :
+      ∃ directions final moves,
+        NetHack.Sokoban.Trace level.board level.initial directions final upper moves ∧ NetHack.Sokoban.Goal final) :
+    NetHack.Sokoban.InitialIntervals.PushInterval level lower upper
+Audit.Soko41.lower_bound : ∀ (directions : List NetHack.Sokoban.Dir) (final : NetHack.Sokoban.State)
+  (pushes moves : Nat),
+  NetHack.Sokoban.Trace NetHack.Sokoban.soko4_1.board NetHack.Sokoban.soko4_1.initial directions final pushes moves →
+    NetHack.Sokoban.Goal final → 80 ≤ pushes
+Audit.Soko41.upper_bound : ∃ directions final moves,
+  NetHack.Sokoban.Trace NetHack.Sokoban.soko4_1.board NetHack.Sokoban.soko4_1.initial directions final 80 moves ∧
+    NetHack.Sokoban.Goal final
+Audit.Soko41.witness : NetHack.Sokoban.Trace NetHack.Sokoban.soko4_1.board NetHack.Sokoban.soko4_1.initial
+    NetHack.Sokoban.Generated.soko4_1CandidatePath NetHack.Sokoban.Generated.soko4_1CandidateFinalState 80 299 ∧
+  NetHack.Sokoban.Goal NetHack.Sokoban.Generated.soko4_1CandidateFinalState
+Audit.Soko41.source_pin : NetHack.Sokoban.soko4_1.id = "soko4-1" ∧
+  NetHack.Sokoban.soko4_1.sourceFile = "dat/soko4-1.lua" ∧
+    NetHack.Sokoban.soko4_1.sourceSHA256 = "d7047eb1a4c7d06e4f38d976105a9c026e334206ce3b9d5fedf9fcc75e1bb1df"
+Audit.Soko41.exact_minimum : (∃ directions final moves,
+    NetHack.Sokoban.Trace NetHack.Sokoban.soko4_1.board NetHack.Sokoban.soko4_1.initial directions final 80 moves ∧
+      NetHack.Sokoban.Goal final) ∧
+  ∀ (directions : List NetHack.Sokoban.Dir) (final : NetHack.Sokoban.State) (pushes moves : Nat),
+    NetHack.Sokoban.Trace NetHack.Sokoban.soko4_1.board NetHack.Sokoban.soko4_1.initial directions final pushes moves →
+      NetHack.Sokoban.Goal final → 80 ≤ pushes
+NetHack.Sokoban.InitialIntervals.map41 : NetHack.Sokoban.InitialIntervals.PushInterval NetHack.Sokoban.soko4_1 80 80
+@NetHack.Sokoban41.soko4_1_pushes_lower_bound : ∀ {directions : List NetHack.Sokoban.Dir}
+  {final : NetHack.Sokoban.State} {pushes moves : Nat},
+  NetHack.Sokoban.Trace NetHack.Sokoban.soko4_1.board NetHack.Sokoban.soko4_1.initial directions final pushes moves →
+    NetHack.Sokoban.Goal final → 80 ≤ pushes
+NetHack.Sokoban.Generated.soko4_1_candidate_trace : NetHack.Sokoban.Trace NetHack.Sokoban.soko4_1.board
+  NetHack.Sokoban.soko4_1.initial NetHack.Sokoban.Generated.soko4_1CandidatePath
+  NetHack.Sokoban.Generated.soko4_1CandidateFinalState 80 299
+NetHack.Sokoban.Generated.soko4_1_candidate_goal : NetHack.Sokoban.Goal
+  NetHack.Sokoban.Generated.soko4_1CandidateFinalState
+NetHack.Sokoban41.soko4_1_pushes_optimal : NetHack.Sokoban.Trace NetHack.Sokoban.soko4_1.board
+    NetHack.Sokoban.soko4_1.initial NetHack.Sokoban.Generated.soko4_1CandidatePath
+    NetHack.Sokoban.Generated.soko4_1CandidateFinalState 80 299 ∧
+  NetHack.Sokoban.Goal NetHack.Sokoban.Generated.soko4_1CandidateFinalState ∧
+    ∀ (directions : List NetHack.Sokoban.Dir) (final : NetHack.Sokoban.State) (pushes moves : Nat),
+      NetHack.Sokoban.Trace NetHack.Sokoban.soko4_1.board NetHack.Sokoban.soko4_1.initial directions final pushes
+          moves →
+        NetHack.Sokoban.Goal final → 80 ≤ pushes
+'Audit.Soko41.lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Audit.Soko41.upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Audit.Soko41.witness' depends on axioms: [propext]
+'Audit.Soko41.source_pin' does not depend on any axioms
+'Audit.Soko41.exact_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NetHack.Sokoban.InitialIntervals.map41' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NetHack.Sokoban41.soko4_1_pushes_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NetHack.Sokoban.Generated.soko4_1_candidate_trace' depends on axioms: [propext]
+'NetHack.Sokoban.Generated.soko4_1_candidate_goal' does not depend on any axioms
+'NetHack.Sokoban41.soko4_1_pushes_optimal' depends on axioms: [propext, Classical.choice, Quot.sound]

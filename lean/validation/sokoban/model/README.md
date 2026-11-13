@@ -1,5 +1,10 @@
 # Executable Sokoban model
 
+These development notes describe the broader executable-model test setup.
+The CLI and independent test helpers mentioned below are not shipped in this
+proof package. For verification commands supported by this checkout, see the
+[repository README](../../../../README.md#reproduce-verification).
+
 `NetHack/Sokoban/Model.lean` defines the pure puzzle profile used by the
 certificates. It uses the complete extracted maps in `Maps.lean`, flattened
 coordinates with explicit two-dimensional bounds, eight walking directions,

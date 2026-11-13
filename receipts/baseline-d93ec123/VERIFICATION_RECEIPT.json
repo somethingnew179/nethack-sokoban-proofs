@@ -1,0 +1,791 @@
+{
+  "schema": "nethack-sokoban-verification-receipt-v1",
+  "status": "PASS",
+  "problems": [],
+  "what_this_is": "Results of one clean sequential source build in an isolated directory on the machine described below.",
+  "source_commit": "d93ec12331ef5fd9fb4f6288d9007c5ed97d89fe",
+  "source_tree": "2724fa1c3bfa71b17f48275dc210012a8dcbbd4f",
+  "manifest_sha256": "ae2a76b91ab757d837f75161355a74a49492f6d1479977d6c0b61980e11e9247",
+  "modules_log_sha256": "f8828144fe6b2ebc29008956fbc38c39f1549957c809bdfb8d7b3575b2b6b45a",
+  "started_utc": "2026-11-06T17:37:01Z",
+  "finished_utc": "2026-11-11T22:52:12Z",
+  "resumes": [
+    "2026-11-07T12:48:29Z"
+  ],
+  "build_command": "python3 scripts/verify.py build --build-dir ../build-clean",
+  "per_module_command": "lean -R . -j1 -M<memory_limit_mib> -o <build-dir>/oleans/<module>.olean <module>.lean  (cwd lean/, LEAN_PATH=<build-dir>/oleans only)",
+  "toolchain": {
+    "lean_version_line": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+    "lean_binary_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+    "platform": "arm64-apple-darwin24.6.0",
+    "lake_version_line": "Lake version 5.0.0-src+819816b (Lean version 4.33.1)",
+    "toolchain_file": "leanprover/lean4:v4.33.1"
+  },
+  "lake_packages": [],
+  "environment": {
+    "os": "macOS-26.0.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "logical_cpus": 10,
+    "physical_memory_bytes": 25769803776,
+    "python": "3.12.10",
+    "concurrency": "one lean process at a time, -j1",
+    "memory_limit_mib": 8192,
+    "timeout_s": 7200,
+    "environment_keys": [
+      "HOME",
+      "LEAN_PATH",
+      "PATH",
+      "TMPDIR"
+    ],
+    "lean_path": "<build-dir>/oleans only"
+  },
+  "pre_build_check": {
+    "toolchain": {
+      "lean_version_line": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "lean_binary_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+      "platform": "arm64-apple-darwin24.6.0",
+      "lake_version_line": "Lake version 5.0.0-src+819816b (Lean version 4.33.1)",
+      "toolchain_file": "leanprover/lean4:v4.33.1"
+    },
+    "manifest": {
+      "files": 17886,
+      "manifest_sha256": "ae2a76b91ab757d837f75161355a74a49492f6d1479977d6c0b61980e11e9247"
+    },
+    "closure": {
+      "modules": 17853,
+      "source_bytes": 930117361,
+      "external_imports": [
+        "Init",
+        "Init.Data.List.Nat.Range",
+        "Init.Data.List.Perm"
+      ]
+    },
+    "source_scan": {
+      "modules_scanned": 17861,
+      "options_used": [
+        "linter.unusedSimpArgs",
+        "linter.unusedVariables",
+        "maxHeartbeats",
+        "maxRecDepth"
+      ]
+    },
+    "map_generation": {
+      "extract.py": "PASS all8 exact literal maps, declarations, coordinates and source hashes",
+      "generate_lean.py": "PASS generated Lean data for all8 source maps"
+    }
+  },
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "totals": {
+    "modules": 17853,
+    "wall_s": 282500.4,
+    "user_s": 193295.0,
+    "sys_s": 41832.0,
+    "olean_bytes": 7124969480,
+    "peak_rss_bytes": 3749134336,
+    "peak_rss_module": "NetHack.Soko31Sparse134.Check10",
+    "compile_attempts": 17853,
+    "peak_olean_bytes_on_disk_this_process": 5522560232,
+    "min_free_disk_bytes_this_process": 253917323264,
+    "modules_with_compiler_messages": 23
+  },
+  "failed_attempts": [],
+  "roots": {
+    "4-2": {
+      "level": "soko4-2",
+      "kind": "exact",
+      "lower": 85,
+      "upper": 85,
+      "module": "NetHack.Sokoban.Original42Interval85",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map42",
+      "lower_bound_theorem": "NetHack.Sokoban.Soko42Optimal.lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko4_2_candidate_trace",
+        "NetHack.Sokoban.Generated.soko4_2_candidate_goal"
+      ],
+      "upper_witness_moves": 332,
+      "minimum_theorem": "NetHack.Sokoban.Soko42Optimal.optimal",
+      "supplementary_theorems": [
+        "NetHack.Sokoban.Movement.Claims.pushes_optimal85x322",
+        "NetHack.Sokoban.Symmetry.Soko42AllOrientations.optimal"
+      ],
+      "closure": {
+        "modules": 39,
+        "wall_s": 614.7,
+        "user_s": 532.9,
+        "sys_s": 34.2,
+        "olean_bytes": 15688472,
+        "peak_rss_bytes": 2485649408,
+        "peak_rss_module": "NetHack.Sokoban.PatternChecks"
+      },
+      "closure_source_bytes": 292362,
+      "compiled_in_this_stage": 39,
+      "audit": {
+        "status": "PASS",
+        "audit_module": "Audit.Soko42",
+        "audit_source_sha256": "514d0bf7675b12b965e4131644a6f35b596a0ed4287f720a97a1d6c022b931d0",
+        "audit_output_sha256": "53b61a1ede0bdef3a94310ea6141d476e8d3f1a7e3edeae30b95e24dbd6744f4",
+        "exit": 0,
+        "wall_s": 1.071,
+        "user_s": 0.426,
+        "sys_s": 0.621,
+        "max_rss_bytes": 418234368,
+        "axioms": {
+          "Audit.Soko42.lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko42.upper_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko42.witness": [
+            "propext"
+          ],
+          "Audit.Soko42.exact_minimum": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.InitialIntervals.map42": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.Soko42Optimal.lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.Generated.soko4_2_candidate_trace": [
+            "propext"
+          ],
+          "NetHack.Sokoban.Soko42Optimal.optimal": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.Movement.Claims.pushes_optimal85x322": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.Symmetry.Soko42AllOrientations.optimal": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko42.source_pin": [],
+          "NetHack.Sokoban.Generated.soko4_2_candidate_goal": []
+        },
+        "supplementary_kernel_replay_of_root_module": {
+          "exit": 0,
+          "timed_out": false,
+          "wall_s": 2.926,
+          "user_s": 0.417,
+          "sys_s": 2.137,
+          "max_rss_bytes": 375373824
+        }
+      },
+      "stage_events": {
+        "root_start": "2026-11-06T17:37:08Z",
+        "root_done": "2026-11-06T17:47:27Z"
+      }
+    },
+    "4-1": {
+      "level": "soko4-1",
+      "kind": "exact",
+      "lower": 80,
+      "upper": 80,
+      "module": "NetHack.Sokoban.Original41Interval80",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map41",
+      "lower_bound_theorem": "NetHack.Sokoban41.soko4_1_pushes_lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko4_1_candidate_trace",
+        "NetHack.Sokoban.Generated.soko4_1_candidate_goal"
+      ],
+      "upper_witness_moves": 299,
+      "minimum_theorem": "NetHack.Sokoban41.soko4_1_pushes_optimal",
+      "supplementary_theorems": [],
+      "closure": {
+        "modules": 126,
+        "wall_s": 754.0,
+        "user_s": 627.9,
+        "sys_s": 85.8,
+        "olean_bytes": 62753472,
+        "peak_rss_bytes": 926564352,
+        "peak_rss_module": "NetHack.Sokoban.Maps"
+      },
+      "closure_source_bytes": 4518483,
+      "compiled_in_this_stage": 119,
+      "audit": {
+        "status": "PASS",
+        "audit_module": "Audit.Soko41",
+        "audit_source_sha256": "bf9f634b779a76d51af47a0a8cd34f9c90bb156ad0ef7954d97d3c00a80d8be7",
+        "audit_output_sha256": "46ca87cfce645535c58de1e58b19bea75c1cf09d9473432245b53c3772d1caa8",
+        "exit": 0,
+        "wall_s": 1.543,
+        "user_s": 0.556,
+        "sys_s": 0.816,
+        "max_rss_bytes": 457818112,
+        "axioms": {
+          "Audit.Soko41.lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko41.upper_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko41.witness": [
+            "propext"
+          ],
+          "Audit.Soko41.exact_minimum": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.InitialIntervals.map41": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban41.soko4_1_pushes_lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.Generated.soko4_1_candidate_trace": [
+            "propext"
+          ],
+          "NetHack.Sokoban41.soko4_1_pushes_optimal": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko41.source_pin": [],
+          "NetHack.Sokoban.Generated.soko4_1_candidate_goal": []
+        },
+        "supplementary_kernel_replay_of_root_module": {
+          "exit": 0,
+          "timed_out": false,
+          "wall_s": 3.667,
+          "user_s": 0.546,
+          "sys_s": 2.861,
+          "max_rss_bytes": 417923072
+        }
+      },
+      "stage_events": {
+        "root_start": "2026-11-06T17:47:27Z",
+        "root_done": "2026-11-06T17:58:33Z"
+      }
+    },
+    "2-2": {
+      "level": "soko2-2",
+      "kind": "exact",
+      "lower": 87,
+      "upper": 87,
+      "module": "NetHack.Sokoban.Original22Interval87",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map22",
+      "lower_bound_theorem": "NetHack.Soko22Hazard87.pushes_lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko2_2_macro87_m238_solution"
+      ],
+      "upper_witness_moves": 238,
+      "minimum_theorem": "NetHack.Soko22Hazard87.minimum87",
+      "supplementary_theorems": [],
+      "closure": {
+        "modules": 2660,
+        "wall_s": 61181.2,
+        "user_s": 31755.1,
+        "sys_s": 9197.3,
+        "olean_bytes": 5522322080,
+        "peak_rss_bytes": 3717939200,
+        "peak_rss_module": "NetHack.Soko22Hazard87.AndIntroBlocks0191"
+      },
+      "closure_source_bytes": 715229965,
+      "compiled_in_this_stage": 2653,
+      "audit": {
+        "status": "PASS",
+        "audit_module": "Audit.Soko22",
+        "audit_source_sha256": "22e2e5704040cb7cb746866c01b9ed3bfabf6e8defecfc6cb698a48746c03e44",
+        "audit_output_sha256": "c1e156d94b6d9696f1122b035bb8dfe7501a0078f0820ddf5080a5f503c3cb56",
+        "exit": 0,
+        "wall_s": 123.807,
+        "user_s": 3.73,
+        "sys_s": 30.61,
+        "max_rss_bytes": 1697873920,
+        "axioms": {
+          "Audit.Soko22.lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko22.upper_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko22.witness": [
+            "propext"
+          ],
+          "Audit.Soko22.exact_minimum": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.InitialIntervals.map22": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Soko22Hazard87.pushes_lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.Generated.soko2_2_macro87_m238_solution": [
+            "propext"
+          ],
+          "NetHack.Soko22Hazard87.minimum87": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko22.source_pin": []
+        },
+        "supplementary_kernel_replay_of_root_module": {
+          "exit": 0,
+          "timed_out": false,
+          "wall_s": 118.428,
+          "user_s": 3.861,
+          "sys_s": 32.037,
+          "max_rss_bytes": 1717354496
+        }
+      },
+      "stage_events": {
+        "root_start": "2026-11-07T12:48:39Z",
+        "root_done": "2026-11-09T06:06:40Z"
+      }
+    },
+    "2-1": {
+      "level": "soko2-1",
+      "kind": "exact",
+      "lower": 109,
+      "upper": 109,
+      "module": "NetHack.Sokoban.Original21Interval109",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map21",
+      "lower_bound_theorem": "NetHack.Sokoban21.soko2_1_pushes_lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko2_1_candidate_trace",
+        "NetHack.Sokoban.Generated.soko2_1_candidate_goal"
+      ],
+      "upper_witness_moves": 475,
+      "minimum_theorem": "NetHack.Sokoban21.soko2_1_pushes_optimal",
+      "supplementary_theorems": [],
+      "closure": {
+        "modules": 512,
+        "wall_s": 3045.6,
+        "user_s": 2494.2,
+        "sys_s": 473.9,
+        "olean_bytes": 249849736,
+        "peak_rss_bytes": 1595015168,
+        "peak_rss_module": "NetHack.Sokoban.Generated.Soko21Potential"
+      },
+      "closure_source_bytes": 20236833,
+      "compiled_in_this_stage": 504,
+      "audit": {
+        "status": "PASS",
+        "audit_module": "Audit.Soko21",
+        "audit_source_sha256": "6ffa4f9e01093f03f555f81b28da1e0105923cbcdf9913bf495e78e8ddb76b28",
+        "audit_output_sha256": "4be2dcfb97634cfb3ee4fa8cbe6ccb959bfa692f9efc4150ea024e125a153730",
+        "exit": 0,
+        "wall_s": 1.879,
+        "user_s": 0.633,
+        "sys_s": 1.001,
+        "max_rss_bytes": 608632832,
+        "axioms": {
+          "Audit.Soko21.lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko21.upper_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko21.witness": [
+            "propext"
+          ],
+          "Audit.Soko21.exact_minimum": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.InitialIntervals.map21": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban21.soko2_1_pushes_lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.Generated.soko2_1_candidate_trace": [
+            "propext"
+          ],
+          "NetHack.Sokoban21.soko2_1_pushes_optimal": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko21.source_pin": [],
+          "NetHack.Sokoban.Generated.soko2_1_candidate_goal": []
+        },
+        "supplementary_kernel_replay_of_root_module": {
+          "exit": 0,
+          "timed_out": false,
+          "wall_s": 4.111,
+          "user_s": 0.666,
+          "sys_s": 3.274,
+          "max_rss_bytes": 569032704
+        }
+      },
+      "stage_events": {
+        "root_start": "2026-11-09T06:06:46Z",
+        "root_done": "2026-11-09T06:56:01Z"
+      }
+    },
+    "3-2": {
+      "level": "soko3-2",
+      "kind": "interval",
+      "lower": 140,
+      "upper": 147,
+      "module": "NetHack.Sokoban.Original32Interval140",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map32_140",
+      "lower_bound_theorem": "NetHack.Soko32Disjoint.pushes_lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko3_2_macro147_m764_solution"
+      ],
+      "upper_witness_moves": 764,
+      "minimum_theorem": null,
+      "supplementary_theorems": [],
+      "closure": {
+        "modules": 443,
+        "wall_s": 6758.5,
+        "user_s": 6022.2,
+        "sys_s": 589.0,
+        "olean_bytes": 220871352,
+        "peak_rss_bytes": 2388983808,
+        "peak_rss_module": "NetHack.Soko32Penalty5.Rows"
+      },
+      "closure_source_bytes": 11272683,
+      "compiled_in_this_stage": 425,
+      "audit": {
+        "status": "PASS",
+        "audit_module": "Audit.Soko32",
+        "audit_source_sha256": "f0d33b36a9f2f288ddeff9219471501caccb25ece17f3c15a1d1924e3aca5524",
+        "audit_output_sha256": "695244246e996513e3b86858d5c0a27750616bdd5cd7bf45a541e678ffb71cfa",
+        "exit": 0,
+        "wall_s": 1.712,
+        "user_s": 0.619,
+        "sys_s": 1.0,
+        "max_rss_bytes": 543965184,
+        "axioms": {
+          "Audit.Soko32.lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko32.upper_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko32.witness": [
+            "propext"
+          ],
+          "NetHack.Sokoban.InitialIntervals.map32_140": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Soko32Disjoint.pushes_lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.Generated.soko3_2_macro147_m764_solution": [
+            "propext"
+          ],
+          "Audit.Soko32.source_pin": []
+        },
+        "supplementary_kernel_replay_of_root_module": {
+          "exit": 0,
+          "timed_out": false,
+          "wall_s": 4.132,
+          "user_s": 0.667,
+          "sys_s": 3.243,
+          "max_rss_bytes": 498466816
+        }
+      },
+      "stage_events": {
+        "root_start": "2026-11-09T06:56:02Z",
+        "root_done": "2026-11-09T08:46:40Z"
+      }
+    },
+    "3-1": {
+      "level": "soko3-1",
+      "kind": "exact",
+      "lower": 136,
+      "upper": 136,
+      "module": "NetHack.Sokoban.Original31Interval136",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map31",
+      "lower_bound_theorem": "NetHack.Soko31Optimal136.pushes_lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko3_1_macro136_m270_solution"
+      ],
+      "upper_witness_moves": 270,
+      "minimum_theorem": "NetHack.Soko31Optimal136.minimum136",
+      "supplementary_theorems": [],
+      "closure": {
+        "modules": 1363,
+        "wall_s": 7924.3,
+        "user_s": 5892.9,
+        "sys_s": 1685.8,
+        "olean_bytes": 62307448,
+        "peak_rss_bytes": 3749134336,
+        "peak_rss_module": "NetHack.Soko31Sparse134.Check10"
+      },
+      "closure_source_bytes": 3230705,
+      "compiled_in_this_stage": 1338,
+      "audit": {
+        "status": "PASS",
+        "audit_module": "Audit.Soko31",
+        "audit_source_sha256": "68abda29be29003e36aa5aec039024daa554e93b23224f0e6037ed74ca72a6f5",
+        "audit_output_sha256": "036acbb08f300f4f7069b88a72a2dd6e81f416a03da6ad936fda8fdfb01c3858",
+        "exit": 0,
+        "wall_s": 2.202,
+        "user_s": 0.653,
+        "sys_s": 1.335,
+        "max_rss_bytes": 472596480,
+        "axioms": {
+          "Audit.Soko31.lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko31.upper_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko31.witness": [
+            "propext"
+          ],
+          "Audit.Soko31.exact_minimum": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.InitialIntervals.map31": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Soko31Optimal136.pushes_lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.Generated.soko3_1_macro136_m270_solution": [
+            "propext"
+          ],
+          "NetHack.Soko31Optimal136.minimum136": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko31.source_pin": []
+        },
+        "supplementary_kernel_replay_of_root_module": {
+          "exit": 0,
+          "timed_out": false,
+          "wall_s": 4.767,
+          "user_s": 0.671,
+          "sys_s": 3.908,
+          "max_rss_bytes": 433389568
+        }
+      },
+      "stage_events": {
+        "root_start": "2026-11-09T08:46:40Z",
+        "root_done": "2026-11-09T10:49:44Z"
+      }
+    },
+    "1-1": {
+      "level": "soko1-1",
+      "kind": "interval",
+      "lower": 321,
+      "upper": 375,
+      "module": "NetHack.Sokoban.Original11Interval321",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map11",
+      "lower_bound_theorem": "NetHack.Soko11PairCandidate321.pushes_lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko1_1_macro375_m778_solution"
+      ],
+      "upper_witness_moves": 778,
+      "minimum_theorem": null,
+      "supplementary_theorems": [],
+      "closure": {
+        "modules": 2633,
+        "wall_s": 52719.0,
+        "user_s": 42057.6,
+        "sys_s": 7351.6,
+        "olean_bytes": 120335232,
+        "peak_rss_bytes": 3506143232,
+        "peak_rss_module": "NetHack.Soko11PairCandidate321.Coverage00"
+      },
+      "closure_source_bytes": 7721596,
+      "compiled_in_this_stage": 2599,
+      "audit": {
+        "status": "PASS",
+        "audit_module": "Audit.Soko11",
+        "audit_source_sha256": "1fdfb3e7d932a5876897f7f50c63e6c5bc08b6331dd9fdbd6ff016dd1c0d2c0a",
+        "audit_output_sha256": "27cbcc9d26ab64f5206c96bbaee8af3cce3855d7518018e595cc0acc1ba423e0",
+        "exit": 0,
+        "wall_s": 2.785,
+        "user_s": 0.782,
+        "sys_s": 1.826,
+        "max_rss_bytes": 521469952,
+        "axioms": {
+          "Audit.Soko11.lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko11.upper_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko11.witness": [
+            "propext"
+          ],
+          "NetHack.Sokoban.InitialIntervals.map11": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Soko11PairCandidate321.pushes_lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.Generated.soko1_1_macro375_m778_solution": [
+            "propext"
+          ],
+          "Audit.Soko11.source_pin": []
+        },
+        "supplementary_kernel_replay_of_root_module": {
+          "exit": 0,
+          "timed_out": false,
+          "wall_s": 6.18,
+          "user_s": 0.868,
+          "sys_s": 4.955,
+          "max_rss_bytes": 483131392
+        }
+      },
+      "stage_events": {
+        "root_start": "2026-11-09T10:49:45Z",
+        "root_done": "2026-11-10T01:26:07Z"
+      }
+    },
+    "1-2": {
+      "level": "soko1-2",
+      "kind": "interval",
+      "lower": 220,
+      "upper": 235,
+      "module": "NetHack.Sokoban.Original12Interval220",
+      "interval_theorem": "NetHack.Sokoban.InitialIntervals.map12",
+      "lower_bound_theorem": "NetHack.Soko12Forward220.Unified.Verified220.pushes_lower_bound",
+      "upper_witness_theorems": [
+        "NetHack.Sokoban.Generated.soko1_2_macro235_m578_solution"
+      ],
+      "upper_witness_moves": 578,
+      "minimum_theorem": null,
+      "supplementary_theorems": [],
+      "closure": {
+        "modules": 10203,
+        "wall_s": 150799.2,
+        "user_s": 105028.4,
+        "sys_s": 22523.3,
+        "olean_bytes": 955006864,
+        "peak_rss_bytes": 2243117056,
+        "peak_rss_module": "NetHack.Sokoban.Generated.Soko12Potential"
+      },
+      "closure_source_bytes": 168894609,
+      "compiled_in_this_stage": 10176,
+      "audit": {
+        "status": "PASS",
+        "audit_module": "Audit.Soko12",
+        "audit_source_sha256": "a9d08cce6e9ceed75549883194bd11acc4e6c94a2486084720b2d818f584e702",
+        "audit_output_sha256": "e7307839a7982c1847f64f5b3a9823f1cb2ebcc64ff862717a05838c2edaa328",
+        "exit": 0,
+        "wall_s": 24.023,
+        "user_s": 1.7,
+        "sys_s": 8.046,
+        "max_rss_bytes": 934297600,
+        "axioms": {
+          "Audit.Soko12.lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko12.upper_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "Audit.Soko12.witness": [
+            "propext"
+          ],
+          "NetHack.Sokoban.InitialIntervals.map12": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Soko12Forward220.Unified.Verified220.pushes_lower_bound": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "NetHack.Sokoban.Generated.soko1_2_macro235_m578_solution": [
+            "propext"
+          ],
+          "Audit.Soko12.source_pin": []
+        },
+        "supplementary_kernel_replay_of_root_module": {
+          "exit": 0,
+          "timed_out": false,
+          "wall_s": 29.669,
+          "user_s": 1.672,
+          "sys_s": 11.86,
+          "max_rss_bytes": 859766784
+        }
+      },
+      "stage_events": {
+        "root_start": "2026-11-10T01:26:08Z",
+        "root_done": "2026-11-11T22:52:06Z"
+      }
+    }
+  }
+}
