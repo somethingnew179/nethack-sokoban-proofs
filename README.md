@@ -42,6 +42,19 @@ These move counts do not represent full-game turns or prove minimum movement.
 NetHack names the floors in reverse traversal order: `soko4-*` is the first
 floor entered from the main dungeon; `soko1-*` is the upper, reward floor.
 
+### Animated winning paths
+
+![soko2-2 solution: 87 pushes and 238 moves](docs/animations/soko2-2.gif)
+
+**soko2-2:** 87 pushes (proved minimum), 238 moves; about 35 seconds.
+This is the shortest animation. All eight winning-path GIFs are in
+[docs/animations](docs/animations).
+
+Regenerate them with `python3 scripts/render_solutions.py` (Python standard
+library only). Source paths and counts are recorded in the
+[manifest](docs/animations/report/manifest.json). The animations replay the
+published witnesses; no new Lean verification or solution search was run.
+
 ## Work completed
 
 ### Original maps and executable semantics

@@ -1,0 +1,666 @@
+{
+ "schema": "nethack-sokoban-animations-v1",
+ "generator": {
+  "path": "scripts/render_solutions.py",
+  "sha256": "7c6dad5d6e456245c076e4c0854042bb533e16c9c13c63a7aa3652405a25d72f",
+  "command": "python3 scripts/render_solutions.py",
+  "dependencies": "Python standard library"
+ },
+ "scope": "Illustrations of the packaged winning paths. The Python replay is a consistency check against Model.lean semantics, not a proof check; no Lean was run.",
+ "maps_json": {
+  "path": "lean/validation/sokoban/source/maps.json",
+  "sha256": "609a2e3e5c18744c86b499da0f43bec6d30d08234ec3d38552c96b12ef697ac5"
+ },
+ "maps_lean": {
+  "path": "lean/NetHack/Sokoban/Maps.lean",
+  "sha256": "f54b492e479263af39a90d435b15b361b520911179b3ef730ba491acb82025d9"
+ },
+ "total_gif_bytes": 3924759,
+ "animations": [
+  {
+   "map": "soko1-1",
+   "result": "open interval; path is an upper bound only",
+   "proved_lower_bound": 328,
+   "witness_pushes": 342,
+   "witness_moves": 714,
+   "witness_theorem": "Owner1007.Witness11_342.solution",
+   "witness_path_definition": "path",
+   "witness_sources": [
+    {
+     "path": "research/owner1007/Owner1007/Witness11_342.lean",
+     "sha256": "e50bc5b592048f9e057c4754fac4cbf54fea23d5861d4bd951172ea6329bd287"
+    },
+    {
+     "path": "research/owner1007/Owner1007/Interval11_328.lean",
+     "sha256": "f7a3f1546ec0774528ff0d997eb12489846753715627253238751686ef992e67",
+     "role": "anchor"
+    }
+   ],
+   "map_source": {
+    "path": "dat/soko1-1.lua",
+    "sha256": "b6197437573a59c1301e423cde20c49884ae9fcce478a02f4ea8e806f517a4ff",
+    "maps_json": "lean/validation/sokoban/source/maps.json",
+    "maps_lean": "lean/NetHack/Sokoban/Maps.lean"
+   },
+   "map_width": 26,
+   "map_height": 18,
+   "boulders": 18,
+   "pits": 0,
+   "holes": 16,
+   "rolling_traps": 1,
+   "replay": {
+    "moves": 714,
+    "pushes": 342,
+    "fills": 16,
+    "rolling_pushes": 15,
+    "rolling_cells_travelled": 135,
+    "final_player": 33,
+    "final_boulders": [
+     322,
+     315
+    ],
+    "final_holes": [],
+    "final_state_matches_lean_source": true,
+    "final_goal_verified": true
+   },
+   "directions": "E E E E SE SE S SE S SW SW SW S W E SE E SE E W SW SW W W SW NW E E E SE NE N NW NW SW E E NE S S S SE W W W W NW SW SE N NW E SE E E NE N N NW NW N N N W W E SE S S SE NE E E W W SW NW E NW N NW SW E NE S S S SW E E N NW NE NE W W E E E SE NE W W N N NE SE W NW S S S SE W W W NW S S S SW E N N NE E NE N N NW SW E NE S S S SE W W W NW S S S N N NE E SE N N N NE W SW N N N S S S SE SW W W SW NW E E E E SE N N N NE W SW N N N NW E S S S S SE SW W W W W SW NW E E E E E E SE N N N NE W SW N N N NW E S S S S SE SE E SE NE W W W SW N N N NE W SW N N N NW E S S S S SE SW SW SW S SW SE N N N N NW E E E SE N N N NE W SW N N N NW E S S S S SE SW SW SW S S SE E E NE NW W W E E SE SW W W NW N N N NW E E E SE N N N NE W SW N N N NW E S S S S SE SW SW SW S S SE E N SE NE NW W W SE SW NW N N N NW E E E SE N N N NE W SW N N N NW E S S S S SE SW SW SW SE SE W SW N N N N NW E E E SE N N N NE W SW N N N NW E S S S S SE SW SW SW SW SW NW E E SE N N N NW E E E SE N N N NE W SW N N N NW E S S S S SE SW SW SW SE E E E SE NE W W W W W SW N N N NW E E E SE N N N NE W SW N N N NW E S S S S SE SW SW SW SE E E SE W W W SW N N N N NW E E E SE N N N NE W SW N N N NW E S S S S SE SW SW SW S S SE SE S SW NW E SE N N N N NE W W SW N N N NW E E E SE N N N NE W SW N N N NW E S S S S SE SW SW SW S S SE SE SW W SW NW E E E SE N N N N NE W W SW N N N NW E E E SE N N N NE W SW N N N NW E S S SW W SW E E E NE S S S SE W W W NW S S S SE SW N N N N NW E E E SE N N N NE W SW N N N NW E S S SW W W W SW E E E E E NE S S S SE W W W NW S S S SE SW N N N N NW E E E SE N N N NE W SW N N N NW E S S SE E E E SE W W W NW S S S SE W W W NW S S S SE SW N N N N NW E E E SE N N N NE W SW N N N NW E",
+   "gif": {
+    "path": "animations/soko1-1.gif",
+    "sha256": "10b1a25406ae4568057572a33991b8bfe0ec22f58b254846acc2eda18023476e",
+    "bytes": 812673,
+    "width": 648,
+    "height": 580,
+    "tile_px": 24,
+    "frames": 852,
+    "duration_seconds": 88.76,
+    "loop": "infinite",
+    "roundtrip_decoded_frames_match": true
+   },
+   "preview": "report/soko1-1_start_mid_end.png"
+  },
+  {
+   "map": "soko1-2",
+   "result": "open interval; path is an upper bound only",
+   "proved_lower_bound": 231,
+   "witness_pushes": 235,
+   "witness_moves": 578,
+   "witness_theorem": "NetHack.Sokoban.Generated.soko1_2_macro235_m578_solution",
+   "witness_path_definition": "soko1_2Macro235M578Path",
+   "witness_sources": [
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks00.lean",
+     "sha256": "733202693a3f910846d0fa5038966e14705c52b361d1cec0abd13b46794ed84b"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks01.lean",
+     "sha256": "7f69f30fe36c15b10f143b98fae24af27b0dbc22eb8c08b75782856bc2581393"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks02.lean",
+     "sha256": "a43a1af73fe60f17e1b253b759a7d1be2ba2f76b784b8d645127adde1dccd3f5"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks03.lean",
+     "sha256": "45aecdf8a11c269a9eee6f19f1decb765a0be56791441c409bc8eb2073f814a3"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks04.lean",
+     "sha256": "2e236e42635e805bcba61a4c46e2b8a5a9992db40482b47e332a9cc5a0307d96"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks05.lean",
+     "sha256": "2cf7dddde0aadfc8293a3fa1af056486efa2b8c85cdf8c3ebe6be4c5e2e8e3c8"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks06.lean",
+     "sha256": "6729014e814b1be8d5dea5c0c80a0a526df414b265233e93736214b6df57781a"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks07.lean",
+     "sha256": "d6724e282dbedaad4c9452bb2d8bda9618b5b72966b69d6705efeaa77f0d7b17"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks08.lean",
+     "sha256": "f0d1d929a72d6c725731fbd9fbca2957512f69b49f24a299ac969edfab2c7937"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks09.lean",
+     "sha256": "42ca1fae6f9467d7f0b610110922467df35b6a7353cdd57f426936646e7e4e36"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks10.lean",
+     "sha256": "981d3e2bd48d139a9b90df319aec87a81a969a3c9c9efd1665cb3050cc4a8d20"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks11.lean",
+     "sha256": "5facc7ed7bac725aa8746b10b215ca24922ba74d77b20a4e0f788e78493eded7"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks12.lean",
+     "sha256": "a1b9f1d49c01db911ed7a5aba85affe20ed42d3b0ea823bbb8dbdc3cdca3ecf4"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks13.lean",
+     "sha256": "7a3c9b5db16a0d5c4fd2cb8f82e88c416b02910c122585ec21492b5373134279"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks14.lean",
+     "sha256": "de11a95a74e853788746d79a67ef23fde1e8e92b54ba97dd53dd1feff7afafe8"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks15.lean",
+     "sha256": "ec6bf23e001c4f9afabe189f2347c8384359bf68348184b3d258e1f4a7027f5b"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks16.lean",
+     "sha256": "de219a851d9443638e7cf68376194c9b50772939a690dda2b1af8a3c5c28e259"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks17.lean",
+     "sha256": "fce6a871c40f0126d905f4ffee776947e8c5b628d15a81b5950739d13322da62"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Blocks18.lean",
+     "sha256": "ece1f1e9c8dcc0d8fd759538ecfd09f1b0fc1f3f3882ed14c7b5856fa42634e2"
+    },
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko12Macro235M578Solution.lean",
+     "sha256": "d05b14b41e11883f74881917dfbea4c6bb2f42eefa9eb731ed947d93abec41bb"
+    },
+    {
+     "path": "lean/Audit/Soko12.lean",
+     "sha256": "a9d08cce6e9ceed75549883194bd11acc4e6c94a2486084720b2d818f584e702",
+     "role": "anchor"
+    },
+    {
+     "path": "research/owner1007/Owner1007/Interval12_231.lean",
+     "sha256": "987603f9d7e5d65ba17121a8e3c71a065495dba339732e758545e8544807831d",
+     "role": "anchor"
+    }
+   ],
+   "map_source": {
+    "path": "dat/soko1-2.lua",
+    "sha256": "0fcdc3d01c24c8277e06d83b8cfd0aa3409ac8a4531e11d6bfeba7166938f561",
+    "maps_json": "lean/validation/sokoban/source/maps.json",
+    "maps_lean": "lean/NetHack/Sokoban/Maps.lean"
+   },
+   "map_width": 26,
+   "map_height": 17,
+   "boulders": 20,
+   "pits": 0,
+   "holes": 18,
+   "rolling_traps": 1,
+   "replay": {
+    "moves": 578,
+    "pushes": 235,
+    "fills": 18,
+    "rolling_pushes": 18,
+    "rolling_cells_travelled": 189,
+    "final_player": 30,
+    "final_boulders": [
+     168,
+     142
+    ],
+    "final_holes": [],
+    "final_state_matches_lean_source": true,
+    "final_goal_verified": true
+   },
+   "directions": "N E E E SE N N N N E N E N N W N W W W SW W W W N S S N NW W N NW NE S E E N N N NW E S S S S SE S W N N N N N NW E S S S S S S S SE N E E NE NW S SE W W W SW N N N N N N N NW E S S S S S S SE E E E NE E SE SE S SW SW S SW W NW N NW W N N S SE SE S SE E NE N N NE NE NW NW W W W SW W SW N N N N N N N NW E S S S S SE S SW S SE SE SE S SE E NE N N NE NE NW NW W W W SW W SW N N N N N N N NW E S S S S S S S S SE S S E N NW N NE E E NE E SE SE S SW SW S SW W NW N NE W W SW N N N S S SE SE SE E NE N N NE NE NW NW W W W SW W SW N N N N N N N NW E S S S S S S S S SE SW N N N N N N N N N NW E S S S S S S S S S SW NW E SE N N N N N N N N N NW E S S S S S S S S SW NW E SE N N N N N N N N NW E S S S S S SW W N NW E E SW SE NE N N N N NW E S S S S S S S SW W N N N NW E E SW SE NE N N N N NW E S S S S S S S SW N NW E SE N N N N N N NW E S S S S S SW N NW E SE N N N N NW E S S S S S SE SE E E NE E SE SE SW N W N SE NE W N W W W NW S SE W W W SW N N N N N N N NW E S S S S S SE SE E E NE E SE SW N NE W W W NW S SE W W W SW N N N N N N N NW E S S S S S SE SE E E NE SE S SE SW N N N NE W W W NW S SE W W W SW N N N N N N N NW E S S S S S SE SE E E NE NE N E S N NE SE S W NE NW SW SW S SE E N W W W W NW S SE W W W SW N N N N N N N NW E S S S S S SE SE E E NE NE NE S SW SE NE W W W W NW S SE W W W SW N N N N N N N NW E",
+   "gif": {
+    "path": "animations/soko1-2.gif",
+    "sha256": "43c814e1d1faf3e8d227b3dd97ed551550095a3de4fc2d1e69406df3370d11df",
+    "bytes": 677354,
+    "width": 648,
+    "height": 556,
+    "tile_px": 24,
+    "frames": 769,
+    "duration_seconds": 76.1,
+    "loop": "infinite",
+    "roundtrip_decoded_frames_match": true
+   },
+   "preview": "report/soko1-2_start_mid_end.png"
+  },
+  {
+   "map": "soko2-1",
+   "result": "exact minimum",
+   "proved_lower_bound": 109,
+   "witness_pushes": 109,
+   "witness_moves": 475,
+   "witness_theorem": "NetHack.Sokoban.Generated.soko2_1_candidate_trace",
+   "witness_path_definition": "soko2_1CandidatePath",
+   "witness_sources": [
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko21Solution.lean",
+     "sha256": "af828a265da03da01b8f324602c21dc079fe376c6c0a09b8568fc117962c7e3f"
+    },
+    {
+     "path": "lean/Audit/Soko21.lean",
+     "sha256": "6ffa4f9e01093f03f555f81b28da1e0105923cbcdf9913bf495e78e8ddb76b28",
+     "role": "anchor"
+    }
+   ],
+   "map_source": {
+    "path": "dat/soko2-1.lua",
+    "sha256": "7513e1882b1a70c6cf4317a559584ca5826b2815875d21d0865bb4e5501c297b",
+    "maps_json": "lean/validation/sokoban/source/maps.json",
+    "maps_lean": "lean/NetHack/Sokoban/Maps.lean"
+   },
+   "map_width": 20,
+   "map_height": 12,
+   "boulders": 13,
+   "pits": 0,
+   "holes": 10,
+   "rolling_traps": 1,
+   "replay": {
+    "moves": 475,
+    "pushes": 109,
+    "fills": 10,
+    "rolling_pushes": 10,
+    "rolling_cells_travelled": 65,
+    "final_player": 186,
+    "final_boulders": [
+     88,
+     70,
+     71
+    ],
+    "final_holes": [],
+    "final_state_matches_lean_source": true,
+    "final_goal_verified": true
+   },
+   "directions": "W NW W N N N N NW N NW NE S S N NE SE W NW SW SE S S SE S S S SW NW E E N N N NW SW S E S SE E E E W W W SW NW E N N NW NE SE S W NW E N N N NW NE S S S S SW S SE S E E E E W W W NW NE S NW NW NE E S S W NW E S S S E E E E W W W NW NE S N NW NE S S SW S E E E E W W W NW NE S SW E E E E W W NW N N N NW N NE E E NE E E S S W S SW S W S NE S W S N N NE NE N NE NW W W W SW SW S S S S SE SE E E NW NE S SW E W W NW N N N NW N NE SE SE N NW NE E E SE SW W W SW N E E E NE NW W W S W W NW S S NE E E NE E SE SW W W N NE E S NW SW S SW N NE W W E E NE SE SE W W W SW N NE W NW W SW SE S S N N NW NE S S N NE SE W NW SW SE S N NW NE E E SE SE SE S S SW SW SW NW NW NW E S SE SE NE N N NE NE NW W W NW NW SW S SE S N N NW NE S S NE E E SE SE S S SW SW SW NW NW NW NE S NE S W S S E SE NE N N NE NE NW W W NW SW S S S S NE S N N NW N NE E E SE SE S S SW SW SW W SW NW E E E E N N N NE NE NW W W NW SW S S S S S N N N N N NE E E SE SE S S SW SW SW W SW NW E E NW N N N N N NE E E SE SE S S SW S SW E N N N N NE NW W W NW SW S S S S S SE E E W W NW NE S SW E N N N N NW N NE E E SE SE S S SW S SW E N N N N NE NW W W NW SW S S S S S SE E E E",
+   "gif": {
+    "path": "animations/soko2-1.gif",
+    "sha256": "61139d57f7a26c1d045da7bde88101f9eaab900fd0945742d21d14099bef980c",
+    "bytes": 469063,
+    "width": 600,
+    "height": 436,
+    "tile_px": 24,
+    "frames": 542,
+    "duration_seconds": 56.37,
+    "loop": "infinite",
+    "roundtrip_decoded_frames_match": true
+   },
+   "preview": "report/soko2-1_start_mid_end.png"
+  },
+  {
+   "map": "soko2-2",
+   "result": "exact minimum",
+   "proved_lower_bound": 87,
+   "witness_pushes": 87,
+   "witness_moves": 238,
+   "witness_theorem": "NetHack.Sokoban.Generated.soko2_2Macro87M238 (Audit.Soko22.witness)",
+   "witness_path_definition": "soko2_2Macro87M238Path",
+   "witness_sources": [
+    {
+     "path": "lean/NetHack/Soko22Witness87/Soko22Macro87M238Blocks00.lean",
+     "sha256": "76c75ce4faad48c3e97f6f659521e77b7e4dde3a34d8038ba8df210cc80ebf8e"
+    },
+    {
+     "path": "lean/NetHack/Soko22Witness87/Soko22Macro87M238Blocks01.lean",
+     "sha256": "8dfb387ac9265b4437b31499958652d25b4ae6bbf3ddb98845e2c19f64d3a073"
+    },
+    {
+     "path": "lean/NetHack/Soko22Witness87/Soko22Macro87M238Blocks02.lean",
+     "sha256": "26c166ffee92e2d9ceb3b452a4adedba8f1ebe4fed15adbf569d2de271b653b4"
+    },
+    {
+     "path": "lean/NetHack/Soko22Witness87/Soko22Macro87M238Blocks03.lean",
+     "sha256": "8e5a87d52c9125ffa25c821953b50b8f70ade5abea7d64d46205790ae085d3a9"
+    },
+    {
+     "path": "lean/NetHack/Soko22Witness87/Soko22Macro87M238Blocks04.lean",
+     "sha256": "5855e8f70a6e96e8749362691d68c569411e7117c09900759bbe64a39d6103e2"
+    },
+    {
+     "path": "lean/NetHack/Soko22Witness87/Soko22Macro87M238Blocks05.lean",
+     "sha256": "79592e58ef068d21b67626c698a34357f0029ddbb37477fd5ccdb614671fe197"
+    },
+    {
+     "path": "lean/NetHack/Soko22Witness87/Soko22Macro87M238Blocks06.lean",
+     "sha256": "17913c1ebab97cc5aea506f0d08b2931f313720db2e3fdbbe0195fa2eb965c9e"
+    },
+    {
+     "path": "lean/NetHack/Soko22Witness87/Soko22Macro87M238Blocks07.lean",
+     "sha256": "98005ad6b2b4ad866de438bc833d95919d5f54f4b79aa69cce67a99341aacb21"
+    },
+    {
+     "path": "lean/NetHack/Soko22Witness87/Soko22Macro87M238Solution.lean",
+     "sha256": "e72e0017f09cf433ae544048ad2c3a4688803486e190f8fdaf5e3288eba14276"
+    },
+    {
+     "path": "lean/Audit/Soko22.lean",
+     "sha256": "22e2e5704040cb7cb746866c01b9ed3bfabf6e8defecfc6cb698a48746c03e44",
+     "role": "anchor"
+    }
+   ],
+   "map_source": {
+    "path": "dat/soko2-2.lua",
+    "sha256": "2d20b75e8186d24a954cc398897622b10b59789e9b96f0ce52f462b6364e327b",
+    "maps_json": "lean/validation/sokoban/source/maps.json",
+    "maps_lean": "lean/NetHack/Sokoban/Maps.lean"
+   },
+   "map_width": 22,
+   "map_height": 13,
+   "boulders": 16,
+   "pits": 0,
+   "holes": 11,
+   "rolling_traps": 1,
+   "replay": {
+    "moves": 238,
+    "pushes": 87,
+    "fills": 11,
+    "rolling_pushes": 11,
+    "rolling_cells_travelled": 77,
+    "final_player": 248,
+    "final_boulders": [
+     185,
+     118,
+     50,
+     73,
+     90
+    ],
+    "final_holes": [],
+    "final_state_matches_lean_source": true,
+    "final_goal_verified": true
+   },
+   "directions": "N W W S E E NW NW NE E S S SW E W NW NW W NW N N N N N NE E E E NE E SE S S W SW S S S S S SW E W NW NW W NW NE NE NE E NE S S S S S S SW E N N N N N N NE NE NW NW SW S S N NW W W SW S S SE E NE E NE S S S S S S SW E N N N N N N N NW NW SW E NE S S NW W NW SW S S SE E NE E NE S S S S S S SW E W W W N NE N NE NE NW W SW SW SW SE E SE E NE NW W S S SW E E E N N N N N NW SW S S S S SW E E E N N N N N N NW NW W S S N N NW SW S S SE E NE S S S S S SW E E E N N NW NW NW SW E NE S S S S SW E E E N N N N N N NE E SE S S W W E NE N NW W SW S S S S S SW E",
+   "gif": {
+    "path": "animations/soko2-2.gif",
+    "sha256": "a75faa7375e07661d11db227fa3249250549b022fe00bcd25930c9fcddd0bf6d",
+    "bytes": 287617,
+    "width": 600,
+    "height": 460,
+    "tile_px": 24,
+    "frames": 317,
+    "duration_seconds": 35.04,
+    "loop": "infinite",
+    "roundtrip_decoded_frames_match": true
+   },
+   "preview": "report/soko2-2_start_mid_end.png"
+  },
+  {
+   "map": "soko3-1",
+   "result": "exact minimum",
+   "proved_lower_bound": 136,
+   "witness_pushes": 136,
+   "witness_moves": 270,
+   "witness_theorem": "NetHack.Sokoban.Generated.soko3_1Macro136M270 (Audit.Soko31.witness)",
+   "witness_path_definition": "soko3_1Macro136M270Path",
+   "witness_sources": [
+    {
+     "path": "lean/NetHack/Soko31Witness136/Soko31Macro136M270Blocks00.lean",
+     "sha256": "a9edd55805b699f91f838d4919bcc3c9b0ba5919086c7b9fcf18dba0e7983894"
+    },
+    {
+     "path": "lean/NetHack/Soko31Witness136/Soko31Macro136M270Blocks01.lean",
+     "sha256": "aba7e035f99fbc39e94d4f4fda3bc613a311b8a32e64442af854762f7e759066"
+    },
+    {
+     "path": "lean/NetHack/Soko31Witness136/Soko31Macro136M270Blocks02.lean",
+     "sha256": "21ce78a8c89ac4388ae7eb0458a9a587fc2f1989aa609eddc09f26a85e06b589"
+    },
+    {
+     "path": "lean/NetHack/Soko31Witness136/Soko31Macro136M270Blocks03.lean",
+     "sha256": "96aa21cfd36e3003c632791b33e092f3e93974aab405a7ebee43360f026e0f31"
+    },
+    {
+     "path": "lean/NetHack/Soko31Witness136/Soko31Macro136M270Blocks04.lean",
+     "sha256": "6d5874e7e2c286b913aefa5c9a6c02681f76cad38175e375d2471226437d4caf"
+    },
+    {
+     "path": "lean/NetHack/Soko31Witness136/Soko31Macro136M270Blocks05.lean",
+     "sha256": "264a996a53f821418638bbe936a83dfe52a0d147ddfd3b34647a2c100feeb066"
+    },
+    {
+     "path": "lean/NetHack/Soko31Witness136/Soko31Macro136M270Blocks06.lean",
+     "sha256": "c2d46e620ab8cf73184ec8855210ee4eedbed193460afcfa1dd3d9e47fcfd761"
+    },
+    {
+     "path": "lean/NetHack/Soko31Witness136/Soko31Macro136M270Blocks07.lean",
+     "sha256": "09b6dc4c372743443343fb64105807a2499ef213be5d34e7c4cbfac9813d53af"
+    },
+    {
+     "path": "lean/NetHack/Soko31Witness136/Soko31Macro136M270Blocks08.lean",
+     "sha256": "3a06eb0943ee04ee19d608f21d823594ab500ee40f17aa8cdb810c87f9c7e5cd"
+    },
+    {
+     "path": "lean/NetHack/Soko31Witness136/Soko31Macro136M270Solution.lean",
+     "sha256": "d239e06698a1bd7971162c5038b61394494ecc5f3eb48a69d4fa1c3c8051e903"
+    },
+    {
+     "path": "lean/Audit/Soko31.lean",
+     "sha256": "68abda29be29003e36aa5aec039024daa554e93b23224f0e6037ed74ca72a6f5",
+     "role": "anchor"
+    }
+   ],
+   "map_source": {
+    "path": "dat/soko3-1.lua",
+    "sha256": "1be490e328d552115f6e3907fb7d656835e18daf7183942ae26ef6a4d58c271a",
+    "maps_json": "lean/validation/sokoban/source/maps.json",
+    "maps_lean": "lean/NetHack/Sokoban/Maps.lean"
+   },
+   "map_width": 29,
+   "map_height": 12,
+   "boulders": 20,
+   "pits": 0,
+   "holes": 15,
+   "rolling_traps": 1,
+   "replay": {
+    "moves": 270,
+    "pushes": 136,
+    "fills": 15,
+    "rolling_pushes": 15,
+    "rolling_cells_travelled": 135,
+    "final_player": 300,
+    "final_boulders": [
+     176,
+     61,
+     62,
+     64,
+     65
+    ],
+    "final_holes": [],
+    "final_state_matches_lean_source": true,
+    "final_goal_verified": true
+   },
+   "directions": "W W W SW W W W SW SW S SW SE E E E E E SE E S E W NW SW E E E W NW NW N NE SE S S SW E E W NW NW N E NE S S S SW E E NW N NW S S SW E E E W W NW NW W W W W NW NE S SW E E E E E E NE S S SW E E E W W NW NW W W W W SW SE N NW E E E E E E NE S S SW E E E W W NW NW W W W NW N N NE NE W SW NW NE S S S S S SW E E E E E E NE S S SW E E E W W NW NW W W W SW SE N NW E E E E E NE S S SW E E E W W NW NW W W SW SE N NW E E E E NE S S SW E E E W W NW NW W NW N W S SW E E E E E NE S S SW E E E NW NW NW NW S SE W W W NW SW E E E E E NE S S SW E E E W W W W N NE W W W NW SW E E E E NE S S SW E E E E NW NE S SW E N N NW NE S S S SW E",
+   "gif": {
+    "path": "animations/soko3-1.gif",
+    "sha256": "acdcdb1b6d889e1fe55cffa88db2d1b7ca103a13999d5b53993653ca2fb4627b",
+    "bytes": 377191,
+    "width": 720,
+    "height": 436,
+    "tile_px": 24,
+    "frames": 407,
+    "duration_seconds": 42.53,
+    "loop": "infinite",
+    "roundtrip_decoded_frames_match": true
+   },
+   "preview": "report/soko3-1_start_mid_end.png"
+  },
+  {
+   "map": "soko3-2",
+   "result": "exact minimum",
+   "proved_lower_bound": 141,
+   "witness_pushes": 141,
+   "witness_moves": 610,
+   "witness_theorem": "Owner1007.Witness32_141.solution",
+   "witness_path_definition": "path",
+   "witness_sources": [
+    {
+     "path": "research/owner1007/Owner1007/Witness32_141.lean",
+     "sha256": "e217d0b5f69b616cabe44f309ae169af13dada9b97c41b28d1c1174b475b9a38"
+    },
+    {
+     "path": "research/owner1007/Owner1007/Optimal32_141.lean",
+     "sha256": "54d434a0c096aeb6f2bc47d27d9d9453f6b38aa94648b38d2320cd5d1ea3473b",
+     "role": "anchor"
+    }
+   ],
+   "map_source": {
+    "path": "dat/soko3-2.lua",
+    "sha256": "d6d810b284cb7ba41c2ce5c3d16521010c88d89bca0ac0e64365824c7e114cd7",
+    "maps_json": "lean/validation/sokoban/source/maps.json",
+    "maps_lean": "lean/NetHack/Sokoban/Maps.lean"
+   },
+   "map_width": 26,
+   "map_height": 14,
+   "boulders": 16,
+   "pits": 0,
+   "holes": 12,
+   "rolling_traps": 1,
+   "replay": {
+    "moves": 610,
+    "pushes": 141,
+    "fills": 12,
+    "rolling_pushes": 12,
+    "rolling_cells_travelled": 90,
+    "final_player": 270,
+    "final_boulders": [
+     113,
+     114,
+     106,
+     80
+    ],
+    "final_holes": [],
+    "final_state_matches_lean_source": true,
+    "final_goal_verified": true
+   },
+   "directions": "SW SW S S S E N E E W W NW N NE E E E E E E S S E NW NW W W W W W SW S S S S SE E E E S S E SE E NE NW W S W NW NW W W NW NE NE E NE SE S SE S S N N N NW NW W SW SW SW SE E E SE S SE E E W NW NW NW W W NW NE NE E NE SE S SE S SE SE E NE W N N NW N W N N NW W W W W W SW S SE E E NE SE S SE S SE E NW NW N NW NW W SW W NW N NE E E E E E SE S S SE SE S S SW E NW NW NW N NW NW W SW SW SW SE E E SE SE SE E SE N N SW W NW NW NW W W NW NE NE E NE SE S SE S SE E NW NW N NW NW W SW W NW N NE E E E E E SE S S SE SE S S SW E W NW W S SW E E SE N N SW NW NE E NW NW N NW NW W SW W NW N NE E E E E E SE S S SE SE S S SW E W NW W SW NW N E W W W W NW NE NE E NE SE S SE S S S SW E E SE N N SW NW NE E NW NW N NW NW W SW W NW N NE E E E E E SE S S SE SE S S SW E NW NW NW NW S SE S SW NW N E NE S S S SW E E SE N N SW NW NE E NW NW N NW NW W SW W NW N NE E E E E E SE S S SE SE S S SW E N N N NW NW W S SW SW W W W NW NE NE E NE E S S S SE S SW NW N E NE S S S SW E E SE N N SW NW NE E NW NW N NE SE SE S S SW E NW NW NW N NW NW SW E NE S S S SE S SW NW N E NE S S S SW E E SE N N SW NW NE E NW NW N NE SE SE S S SW E NW NW NW NW NW SW E NE S S SE S SW NW N E NE S S S SW E E SE N N SW NW NE E NW NW N NE SE SE S S SW E W NW NW NW NW W NW SW E E E NE S S SE S SW NW N E NE S S S SW E E SE N N SW NW NE E NW NW N NE SE SE S S SW E W NW SW SW SW N NE NE NW W W W W SW S SE E E E E E E SE N N SW NW NE E NW NW N NE SE SE S S SW E W NW W NW SW S N NW W W SW SE E SE E E E E SE N N SW NW NE E NW NW N NE SE SE S S SW E",
+   "gif": {
+    "path": "animations/soko3-2.gif",
+    "sha256": "d61cb8833b47664b3e45856e621a064554affaa2fa5f0f9df843720b64f20632",
+    "bytes": 645770,
+    "width": 648,
+    "height": 484,
+    "tile_px": 24,
+    "frames": 702,
+    "duration_seconds": 70.85,
+    "loop": "infinite",
+    "roundtrip_decoded_frames_match": true
+   },
+   "preview": "report/soko3-2_start_mid_end.png"
+  },
+  {
+   "map": "soko4-1",
+   "result": "exact minimum",
+   "proved_lower_bound": 80,
+   "witness_pushes": 80,
+   "witness_moves": 299,
+   "witness_theorem": "NetHack.Sokoban.Generated.soko4_1_candidate_trace",
+   "witness_path_definition": "soko4_1CandidatePath",
+   "witness_sources": [
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko41Solution.lean",
+     "sha256": "da4ac554eeea01f65c9d32d5a348de1d05919503a8b3a634a75b0db08c5bfae1"
+    },
+    {
+     "path": "lean/Audit/Soko41.lean",
+     "sha256": "bf9f634b779a76d51af47a0a8cd34f9c90bb156ad0ef7954d97d3c00a80d8be7",
+     "role": "anchor"
+    }
+   ],
+   "map_source": {
+    "path": "dat/soko4-1.lua",
+    "sha256": "d7047eb1a4c7d06e4f38d976105a9c026e334206ce3b9d5fedf9fcc75e1bb1df",
+    "maps_json": "lean/validation/sokoban/source/maps.json",
+    "maps_lean": "lean/NetHack/Sokoban/Maps.lean"
+   },
+   "map_width": 14,
+   "map_height": 13,
+   "boulders": 10,
+   "pits": 9,
+   "holes": 0,
+   "rolling_traps": 2,
+   "replay": {
+    "moves": 299,
+    "pushes": 80,
+    "fills": 9,
+    "rolling_pushes": 13,
+    "rolling_cells_travelled": 57,
+    "final_player": 87,
+    "final_boulders": [
+     53
+    ],
+    "final_holes": [],
+    "final_state_matches_lean_source": true,
+    "final_goal_verified": true
+   },
+   "directions": "NE E E W W W W W NW NW SW E E SE E E E E E E S S S S N N N N NW NE S S S S S SE S SW W S W E NE NE N NW SW S N NE SE W S N N N N NW W W W W W NW NE S SW E W NW SW E NE SE E E E E E NE S S S S SE S S S W W W E E NE NW W W S NE E NE NW W W S NE S NE SE W N N N NW W W W W W NW SW E E E E E E E NE S S S S W SW S N NE E SE S S SW W W E E NE N N NW W SW S S N N NE E SE SW W E NE NW W S NE SE W NW SW S N NE SE S SE SW W W E E NE N NW NW SW S S N N NE SE W NW S S NE SE SE SW W W E E NE NW NW SW S N NE SE W NW S E E SE SW W W W W W W W SW N E E E E E E E E NE NW W W S NE E S W S W W W W W W SW N E E E E E E NE NW S SE W W W W W W SW N E E E E E E E NE SE W W W W W W W W SW N N N N NW E E",
+   "gif": {
+    "path": "animations/soko4-1.gif",
+    "sha256": "0f208791355913f8ec509c07b5c445a4ae0da8a2eb30413d7bd30aaf83de2497",
+    "bytes": 313081,
+    "width": 600,
+    "height": 460,
+    "tile_px": 24,
+    "frames": 354,
+    "duration_seconds": 38.98,
+    "loop": "infinite",
+    "roundtrip_decoded_frames_match": true
+   },
+   "preview": "report/soko4-1_start_mid_end.png"
+  },
+  {
+   "map": "soko4-2",
+   "result": "exact minimum",
+   "proved_lower_bound": 85,
+   "witness_pushes": 85,
+   "witness_moves": 332,
+   "witness_theorem": "NetHack.Sokoban.Generated.soko4_2_candidate_trace",
+   "witness_path_definition": "soko4_2CandidatePath",
+   "witness_sources": [
+    {
+     "path": "lean/NetHack/Sokoban/Generated/Soko42Solution.lean",
+     "sha256": "c18989059066cc5997fde5067f5e96daa1530a9db5f37ab5a22f3fb4c8ac04d6"
+    },
+    {
+     "path": "lean/Audit/Soko42.lean",
+     "sha256": "514d0bf7675b12b965e4131644a6f35b596a0ed4287f720a97a1d6c022b931d0",
+     "role": "anchor"
+    }
+   ],
+   "map_source": {
+    "path": "dat/soko4-2.lua",
+    "sha256": "70b0f36c98e8150a1e7c4771db6ab84357251a2a88b3e18c8c75ebd2e17f1e17",
+    "maps_json": "lean/validation/sokoban/source/maps.json",
+    "maps_lean": "lean/NetHack/Sokoban/Maps.lean"
+   },
+   "map_width": 15,
+   "map_height": 11,
+   "boulders": 12,
+   "pits": 10,
+   "holes": 0,
+   "rolling_traps": 2,
+   "replay": {
+    "moves": 332,
+    "pushes": 85,
+    "fills": 10,
+    "rolling_pushes": 15,
+    "rolling_cells_travelled": 70,
+    "final_player": 121,
+    "final_boulders": [
+     50,
+     51
+    ],
+    "final_holes": [],
+    "final_state_matches_lean_source": true,
+    "final_goal_verified": true
+   },
+   "directions": "E E S E E E E S S S NE NE W E SE NE NW NW W S NE SE SE W SW W SW S SE SE SW W W N W E SE E NE NW NW W S NE SE W E SE SW W N W W E E SE NE NW NW W S NE SE SE SW NW W N NE SE W N N NE E NE N NW W SW S NE S N NE SE W NW S SW S S S SE SE SW W NW W E E SE NE NW NW W S NE SE W N N N N NE E SE SW W E NE NW W W W W W W SW SE E E N SW W NW NE E E E E S S E E NE NW S W SW S S SE SE SW NW W E SE NE W SW NW W E SE NE W W W E E NE NW W S NE SE W N N N NE NE NW S W S S N NE SE W SW S S SE SW W E NE NW S N N N NE NW S S E NE SE W NW SW S S SE S SW NW W W W W W W SW N E E E E E E E SE NE W W E NE NW S N N N NE SE W NW S S S SE S SW NW W W W W W W SW N E E E E E E E SE NE W W E NE NW S SE SW NW W W W W W W SW N E E E E E E E SE NE W W W W W W W W SW N E E E E E E E NE NW S SE W W W W W W W SW N",
+   "gif": {
+    "path": "animations/soko4-2.gif",
+    "sha256": "d797ead28afc91604bbd3924c51bbcd8dbe19e8c06531ef5430933b1b992d332",
+    "bytes": 342010,
+    "width": 600,
+    "height": 412,
+    "tile_px": 24,
+    "frames": 399,
+    "duration_seconds": 42.78,
+    "loop": "infinite",
+    "roundtrip_decoded_frames_match": true
+   },
+   "preview": "report/soko4-2_start_mid_end.png"
+  }
+ ]
+}
