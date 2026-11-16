@@ -1,7 +1,7 @@
 # NetHack Sokoban proofs
 
 Lean 4 proofs of push-count bounds for all eight original NetHack Sokoban
-maps, with exact minima for five maps, complete winning paths for every map,
+maps, with exact minima for six maps, complete winning paths for every map,
 and additional results about movement costs and reflections.
 
 The project formalizes a restricted, deterministic puzzle profile of NetHack
@@ -13,23 +13,26 @@ and records of a completed verification build.
 ## Results
 
 Let `P` be the minimum number of initiated boulder pushes needed to fill all
-original pits and holes. The packaged results are:
+original pits and holes. The current proved results are:
 
 | Map | Proven lower bound | Winning-path pushes | Moves in that path | Result for `P` |
 | --- | ---: | ---: | ---: | --- |
-| [soko1-1](lean/Audit/Soko11.lean) | 321 | 375 | 778 | `321 <= P <= 375` |
-| [soko1-2](lean/Audit/Soko12.lean) | 220 | 235 | 578 | `220 <= P <= 235` |
+| [soko1-1](research/owner1007/Owner1007/Interval11_328.lean) | 328 | 342 | 714 | `328 <= P <= 342` |
+| [soko1-2](research/owner1007/Owner1007/Interval12_231.lean) | 231 | 235 | 578 | `231 <= P <= 235` |
 | [soko2-1](lean/Audit/Soko21.lean) | 109 | 109 | 475 | **`P = 109`** |
 | [soko2-2](lean/Audit/Soko22.lean) | 87 | 87 | 238 | **`P = 87`** |
 | [soko3-1](lean/Audit/Soko31.lean) | 136 | 136 | 270 | **`P = 136`** |
-| [soko3-2](lean/Audit/Soko32.lean) | 140 | 147 | 764 | `140 <= P <= 147` |
+| [soko3-2](research/owner1007/Owner1007/Optimal32_141.lean) | 141 | 141 | 610 | **`P = 141`** |
 | [soko4-1](lean/Audit/Soko41.lean) | 80 | 80 | 299 | **`P = 80`** |
 | [soko4-2](lean/Audit/Soko42.lean) | 85 | 85 | 332 | **`P = 85`** |
 
 The lower bound applies to **every completing legal trace** in the model. The
 upper bound comes from an explicit winning trace. Equality proves the exact
-push minimum; the other three intervals remain open. The machine-readable
-index, including theorem names and source hashes, is [roots.json](roots.json).
+push minimum; only the intervals for `soko1-1` and `soko1-2` remain open.
+[Research results](research/owner1007/RESULTS.json) index the new theorems.
+[roots.json](roots.json) and the original `lean/Audit/` roots retain the
+historical baseline bounds: 321–375, 220–235, and 140–147 for the three
+updated maps. Their statements and certificates have not been replaced.
 
 A **push** is the action that starts a boulder moving. A rolling-boulder trap
 can carry it across several cells for that single push. A **move** is one
@@ -94,22 +97,52 @@ residual tables, disjoint credits, decision DAGs, and compact encodings.
 Soundness lemmas connect these certificates back to the original `Trace`
 semantics. Generated finite checks are discharged inside Lean.
 
-The final lower-bound entry points include:
+The current lower-bound entry points include:
 
 | Map | Main lower-bound implementation |
 | --- | --- |
-| 1-1 | [Pair/phase certificate yielding 321](lean/NetHack/Soko11PairCandidate321/Verified.lean) |
-| 1-2 | [Unified phase checks yielding 220](lean/NetHack/Soko12Forward220/Unified/Verified220.lean) |
+| 1-1 | [Structural separator and event-order proof yielding 328](research/owner1007/Owner1007/Lower328.lean) |
+| 1-2 | [Disjoint owned costs and first-event proof yielding 231](research/owner1007/Owner1007/Lower231.lean) |
 | 2-1 | [Pattern certificate yielding 109](lean/NetHack/Sokoban21/Soko21Optimal.lean) |
 | 2-2 | [Hazard/player correction yielding 87](lean/NetHack/Soko22Hazard87/LowerBound.lean) |
 | 3-1 | [Guarded residual correction yielding 136](lean/NetHack/Soko31Optimal136/Verified.lean) |
-| 3-2 | [Disjoint-credit combination yielding 140](lean/NetHack/Soko32Disjoint/Verified140.lean) |
+| 3-2 | [Persistent token costs, parity and capacity yielding 141](research/owner1007/Owner1007/Lower141.lean) |
 | 4-1 | [Pattern certificate yielding 80](lean/NetHack/Sokoban41/Soko41Optimal.lean) |
 | 4-2 | [Pattern certificate yielding 85](lean/NetHack/Sokoban/Soko42Optimal.lean) |
 
 [Reduction.lean](lean/NetHack/Sokoban/Reduction.lean) also proves exact trace
 splitting and composition, transfer of lower bounds after a checked prefix,
 and optimality of suffixes of an attained push-optimal solution.
+
+### Structural improvements from the original canonical starts
+
+The new proofs track original boulder identities, disjoint costs, player
+components, irreversible hole filling, and the order of necessary exits.
+Small corral lemmas describe fixed occupancy patterns and the walking
+components they confine. They connect to arbitrary completing traces through
+first-event arguments; they do not enumerate the full original state space.
+
+For `soko3-2`, a four-phase access argument, parity, and the required number
+of surviving stones strengthen the universal lower bound to 141. A manually
+scheduled, explicitly checked 141-push trace attains it.
+
+For `soko1-1`, any putative solution with at most 327 pushes forces a specific
+190→189 push and one of four six-boulder frames. Each frame's first selected
+push is impossible or strictly decreases a rank. This finite event-order
+obstruction proves the universal lower bound 328. A separate 342-push trace
+provides the upper bound.
+
+For `soko1-2`, both possible original first-push branches require at least
+231 pushes. The North branch uses actual boulder ownership and quiet-prefix
+transport: two necessary J events exceed the available budget, while the
+remaining critical 264→290 event has a disjoint cost of at least 232. The
+235-push witness remains the upper bound. Stronger conditional branch bounds
+are recorded separately; they do not establish a global bound above 231.
+
+See the [English status](research/owner1007/STATUS.md),
+[invariant notebook](research/owner1007/INVARIANTS.md), and
+[recorded validation](research/owner1007/VALIDATION.json). Research is paused
+at the owner's request. Two optimality intervals remain unresolved.
 
 ### Movement costs and distinct optimization objectives
 
@@ -222,12 +255,13 @@ The original evidence is preserved under
 - [Statement and axiom audit outputs](receipts/baseline-d93ec123/axioms).
 
 The records were cross-checked against the baseline tree when preparing this
-README. The Lean proof sources and Lua inputs remain byte-identical to that
-baseline. Removing the historical Russian-language reports and updating the
+README. The existing `lean/` proof sources and Lua inputs remain byte-identical to
+that baseline; the new proofs are added under `research/owner1007/`. Removing the historical Russian-language reports and updating the
 packaging script changed the current manifest, so the archived receipt stays
-attached to its original commit and manifest. It is not a fresh build of the
-documentation update. The commands below reproduce verification of the current
-tree and create a new receipt.
+attached to its original commit and manifest. It is not a verification of
+the new research roots. Those roots have separate recorded kernel compilations
+and `leanchecker` replays. This results-publication update reuses that existing
+evidence and does not rerun Lean or claim a new full-tree PASS receipt.
 
 ## Reproduce verification
 
@@ -294,15 +328,43 @@ python3 validation/sokoban/source/generate_lean.py --check
 | Other `lean/NetHack/Soko*/` directories | Map-specific lower-bound certificates and witness proofs |
 | `lean/Audit/` | Readable statements, source pins, witness checks, and axiom audits for all eight maps |
 | `lean/validation/sokoban/source/` | Literal extraction, generated map data, and Lean map generation |
-| `roots.json` | Bounds, theorem names, source pins, build order, and allowed axioms |
+| `roots.json` | Historical baseline bounds, theorem names, source pins, build order, and allowed axioms |
 | `MANIFEST.sha256` | Integrity manifest for the current packaged inputs and tools |
 | `scripts/verify.py` | Source checks, isolated sequential build, audits, and receipt generation |
 | `scripts/package_from_source.py` | Packaging recipe for the development source tree; unnecessary for verification |
 | `receipts/baseline-d93ec123/` | Immutable records of the completed baseline verification |
+| `research/owner1007/Owner1007/` | Previously compiled structural proofs and improved winning traces |
+| `research/owner1007/RESULTS.json` | Current research bounds and theorem entry points |
+| `research/owner1007/VALIDATION.json` and `BUILD_RECORDS.json` | Existing selective compilation and replay evidence, reused without rerunning Lean |
+
+### Selective research builds
+
+The commands above operate on the original baseline roots in `roots.json`.
+To compile the current research entry points separately, use:
+
+```sh
+python3 research/owner1007/selective_check.py \
+  Owner1007.Interval11_328 Owner1007.Interval12_231 \
+  Owner1007.Optimal32_141 --cache /tmp/nethack-research-lean4331 \
+  --memory-mb 8192
+```
+
+The helper resolves imports from the unchanged `lean/` tree and the added
+research sources, checks cache identities against the source and toolchain,
+compiles missing dependencies sequentially, and runs `leanchecker` on the
+requested roots. The published [build records](research/owner1007/BUILD_RECORDS.json)
+and [validation summary](research/owner1007/VALIDATION.json) describe the
+checks already completed before publication. No check was rerun to prepare
+this commit.
 
 ## Remaining work
 
-- Close the intervals for `soko1-1`, `soko1-2`, and `soko3-2`.
+The open push-count intervals are **`328 <= P <= 342`** for `soko1-1` and
+**`231 <= P <= 235`** for `soko1-2`. `soko3-2` is closed at **141 pushes**.
+The other five exact minima are unchanged. The research is paused; the
+three-map objective is not marked complete.
+
+- Close the intervals for `soko1-1` and `soko1-2`.
 - Determine original-start movement minima and, where relevant, lexicographic
   optima and Pareto frontiers.
 - Extend concrete reflection coverage beyond `soko4-2`.

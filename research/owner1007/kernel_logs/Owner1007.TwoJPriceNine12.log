@@ -1,0 +1,2 @@
+'Owner1007.TwoJPriceNine12.g_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.TwoJPriceNine12.consumed_ten' depends on axioms: [propext, Classical.choice, Quot.sound]

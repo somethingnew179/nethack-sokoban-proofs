@@ -1,0 +1,2 @@
+Owner1007/UpperSixExit11.lean:24:69: warning: `Int.ofNat_nonneg` has been deprecated: Use `Int.natCast_nonneg` instead
+'Owner1007.UpperSixExit11.survivor_six_absurd' depends on axioms: [propext, Classical.choice, Quot.sound]

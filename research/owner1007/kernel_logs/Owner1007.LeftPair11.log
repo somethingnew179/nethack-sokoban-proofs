@@ -1,0 +1,2 @@
+'Owner1007.LeftPair11.first_closed' depends on axioms: [propext, Quot.sound]
+'Owner1007.LeftPair11.closed' depends on axioms: [propext, Quot.sound]

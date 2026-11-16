@@ -1,0 +1,20 @@
+Owner1007/North265LowerTen12.lean:30:2: warning: Variable name `logged` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _logged
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Owner1007.North265LowerTen12.first265_lower_ten' depends on axioms: [propext, Classical.choice, Quot.sound]
+Owner1007/North265LowerTen12.lean:85:2: warning: Variable name `logged` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _logged
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Owner1007/North265LowerTen12.lean:86:2: warning: Variable name `completed` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _completed
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Owner1007.North265LowerTen12.first265_lower_survives' depends on axioms: [propext, Classical.choice, Quot.sound]

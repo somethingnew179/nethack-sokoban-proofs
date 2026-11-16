@@ -1,0 +1,188 @@
+{
+  "scope": "CUSTOM singleton289, hero288; original board/18 original holes; no OriginalReached; no original Goal",
+  "original_witness": false,
+  "refutes": "Uncoupled singleton289 owned-energy>=2; does not refute any proved canonical bound",
+  "configuration_search": false,
+  "walking_bfs_only": true,
+  "script_sha256": "56b16d25e96265b4e649ecca7a4fd74878f85e782907386dfd44cc8509fd9b30",
+  "simulator_sha256": "d88f82911572008ab40e5069f24977a9af166f9bb2c3045f8590b79274f98b68",
+  "potential_sha256": "81c956fda964e179fa02eeb053efcabcdc1906c484073394c13e7b356156fed3",
+  "initial": {
+    "hero": 288,
+    "boulders": [
+      289
+    ],
+    "holes": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  "pushes": 14,
+  "moves": 49,
+  "commands": [
+    [
+      289,
+      "east"
+    ],
+    [
+      290,
+      "east"
+    ],
+    [
+      291,
+      "north"
+    ],
+    [
+      265,
+      "north"
+    ],
+    [
+      239,
+      "north"
+    ],
+    [
+      213,
+      "west"
+    ],
+    [
+      212,
+      "north"
+    ],
+    [
+      186,
+      "north"
+    ],
+    [
+      160,
+      "north"
+    ],
+    [
+      134,
+      "north"
+    ],
+    [
+      108,
+      "north"
+    ],
+    [
+      82,
+      "north"
+    ],
+    [
+      56,
+      "north"
+    ],
+    [
+      30,
+      "east"
+    ]
+  ],
+  "path": [
+    "east",
+    "east",
+    "north",
+    "northEast",
+    "northEast",
+    "east",
+    "east",
+    "northEast",
+    "southEast",
+    "south",
+    "south",
+    "south",
+    "south",
+    "south",
+    "southWest",
+    "west",
+    "northWest",
+    "northWest",
+    "west",
+    "north",
+    "north",
+    "north",
+    "south",
+    "south",
+    "southEast",
+    "southEast",
+    "southEast",
+    "east",
+    "northEast",
+    "north",
+    "north",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "west",
+    "west",
+    "southWest",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "north",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east"
+  ],
+  "raw_step_slacks": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "owned_energy": 0,
+  "final": {
+    "hero": 30,
+    "boulders": [],
+    "holes": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  "original_goal": false
+}

@@ -1,0 +1,2 @@
+'Owner1007.AboveOtherZero11.find' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.AboveOtherZero11.impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

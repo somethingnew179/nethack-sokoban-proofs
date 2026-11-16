@@ -1,0 +1,65 @@
+{
+  "scope": "CUSTOM4-token local counterexample, not an original reached state, not Goal or a winning witness",
+  "method": "One prescribed two-step walk/push; no configuration search",
+  "initial": {
+    "player": 189,
+    "boulders": [
+      186,
+      188,
+      213,
+      216
+    ],
+    "holes": [
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  "directions": [
+    "south",
+    "east"
+  ],
+  "pushes": 1,
+  "final": {
+    "player": 216,
+    "boulders": [
+      186,
+      188,
+      213,
+      217
+    ],
+    "holes": [
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  "refutes": "Proposed pure follow-on closure at[186188213216] after189West188:216East217 is a real unaccounted exit",
+  "repair": "Keep only the checked10primary phases and use prefixUpper6 plus the189West price2 contradiction; no pure13phase claim"
+}

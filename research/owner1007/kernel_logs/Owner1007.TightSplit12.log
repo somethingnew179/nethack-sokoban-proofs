@@ -1,0 +1,2 @@
+'Owner1007.TightSplit12.pushes_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.TightSplit12.tight_budget' depends on axioms: [propext, Classical.choice, Quot.sound]

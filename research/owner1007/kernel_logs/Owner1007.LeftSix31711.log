@@ -1,0 +1,15 @@
+Owner1007/LeftSix31711.lean:9:41: warning: Try `simp at right` instead of `simpa using right`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/LeftSix31711.lean:9:41: warning: Try `simp at right` instead of `simpa using right`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/LeftSix31711.lean:9:41: warning: Try `simp at right` instead of `simpa using right`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/LeftSix31711.lean:9:41: warning: Try `simp at right` instead of `simpa using right`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/LeftSix31711.lean:79:70: warning: `Int.ofNat_nonneg` has been deprecated: Use `Int.natCast_nonneg` instead
+Owner1007/LeftSix31711.lean:86:72: warning: `Int.ofNat_nonneg` has been deprecated: Use `Int.natCast_nonneg` instead
+'Owner1007.LeftSix31711.pair_six' depends on axioms: [propext, Classical.choice, Quot.sound]

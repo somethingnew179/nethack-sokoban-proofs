@@ -1,0 +1,3131 @@
+{
+  "pushes": 342,
+  "moves": 714,
+  "final_player": 33,
+  "final_boulders": [
+    322,
+    315
+  ],
+  "final_holes": [],
+  "proof_source": "research/owner1007/Owner1007/Witness11_342.lean",
+  "kernel_checked": true,
+  "path": [
+    "east",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "southEast",
+    "south",
+    "southEast",
+    "south",
+    "southWest",
+    "southWest",
+    "southWest",
+    "south",
+    "west",
+    "east",
+    "southEast",
+    "east",
+    "southEast",
+    "east",
+    "west",
+    "southWest",
+    "southWest",
+    "west",
+    "west",
+    "southWest",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "northEast",
+    "north",
+    "northWest",
+    "northWest",
+    "southWest",
+    "east",
+    "east",
+    "northEast",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "west",
+    "west",
+    "west",
+    "west",
+    "northWest",
+    "southWest",
+    "southEast",
+    "north",
+    "northWest",
+    "east",
+    "southEast",
+    "east",
+    "east",
+    "northEast",
+    "north",
+    "north",
+    "northWest",
+    "northWest",
+    "north",
+    "north",
+    "north",
+    "west",
+    "west",
+    "east",
+    "southEast",
+    "south",
+    "south",
+    "southEast",
+    "northEast",
+    "east",
+    "east",
+    "west",
+    "west",
+    "southWest",
+    "northWest",
+    "east",
+    "northWest",
+    "north",
+    "northWest",
+    "southWest",
+    "east",
+    "northEast",
+    "south",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "east",
+    "north",
+    "northWest",
+    "northEast",
+    "northEast",
+    "west",
+    "west",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "northEast",
+    "west",
+    "west",
+    "north",
+    "north",
+    "northEast",
+    "southEast",
+    "west",
+    "northWest",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "west",
+    "west",
+    "west",
+    "northWest",
+    "south",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "north",
+    "north",
+    "northEast",
+    "east",
+    "northEast",
+    "north",
+    "north",
+    "northWest",
+    "southWest",
+    "east",
+    "northEast",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "west",
+    "west",
+    "west",
+    "northWest",
+    "south",
+    "south",
+    "south",
+    "north",
+    "north",
+    "northEast",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southWest",
+    "west",
+    "west",
+    "southWest",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "south",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southWest",
+    "west",
+    "west",
+    "west",
+    "west",
+    "southWest",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "south",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southEast",
+    "east",
+    "southEast",
+    "northEast",
+    "west",
+    "west",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "south",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southWest",
+    "southWest",
+    "southWest",
+    "south",
+    "southWest",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "south",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southWest",
+    "southWest",
+    "southWest",
+    "south",
+    "south",
+    "southEast",
+    "east",
+    "east",
+    "northEast",
+    "northWest",
+    "west",
+    "west",
+    "east",
+    "east",
+    "southEast",
+    "southWest",
+    "west",
+    "west",
+    "northWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "south",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southWest",
+    "southWest",
+    "southWest",
+    "south",
+    "south",
+    "southEast",
+    "east",
+    "north",
+    "southEast",
+    "northEast",
+    "northWest",
+    "west",
+    "west",
+    "southEast",
+    "southWest",
+    "northWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "south",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southWest",
+    "southWest",
+    "southWest",
+    "southEast",
+    "southEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "south",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southWest",
+    "southWest",
+    "southWest",
+    "southWest",
+    "southWest",
+    "northWest",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "south",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southWest",
+    "southWest",
+    "southWest",
+    "southEast",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "northEast",
+    "west",
+    "west",
+    "west",
+    "west",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "south",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southWest",
+    "southWest",
+    "southWest",
+    "southEast",
+    "east",
+    "east",
+    "southEast",
+    "west",
+    "west",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "south",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southWest",
+    "southWest",
+    "southWest",
+    "south",
+    "south",
+    "southEast",
+    "southEast",
+    "south",
+    "southWest",
+    "northWest",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "south",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southWest",
+    "southWest",
+    "southWest",
+    "south",
+    "south",
+    "southEast",
+    "southEast",
+    "southWest",
+    "west",
+    "southWest",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "south",
+    "south",
+    "southWest",
+    "west",
+    "southWest",
+    "east",
+    "east",
+    "east",
+    "northEast",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "west",
+    "west",
+    "west",
+    "northWest",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "south",
+    "south",
+    "southWest",
+    "west",
+    "west",
+    "west",
+    "southWest",
+    "east",
+    "east",
+    "east",
+    "east",
+    "east",
+    "northEast",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "west",
+    "west",
+    "west",
+    "northWest",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "south",
+    "south",
+    "southEast",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "west",
+    "west",
+    "west",
+    "northWest",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "west",
+    "west",
+    "west",
+    "northWest",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "northEast",
+    "west",
+    "southWest",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "east"
+  ],
+  "events": [
+    {
+      "identity": 264,
+      "source": 264,
+      "direction": "west",
+      "landing": 263,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 293,
+      "direction": "east",
+      "landing": 294,
+      "consumed": false
+    },
+    {
+      "identity": 321,
+      "source": 321,
+      "direction": "east",
+      "landing": 322,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 367,
+      "direction": "east",
+      "landing": 368,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 368,
+      "direction": "east",
+      "landing": 369,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 369,
+      "direction": "east",
+      "landing": 370,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 317,
+      "direction": "east",
+      "landing": 318,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 318,
+      "direction": "east",
+      "landing": 319,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 319,
+      "direction": "south",
+      "landing": 345,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 345,
+      "direction": "south",
+      "landing": 371,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 371,
+      "direction": "south",
+      "landing": 397,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 397,
+      "direction": "west",
+      "landing": 396,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 396,
+      "direction": "west",
+      "landing": 395,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 395,
+      "direction": "west",
+      "landing": 394,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 394,
+      "direction": "west",
+      "landing": 393,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 393,
+      "direction": "north",
+      "landing": 367,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 367,
+      "direction": "east",
+      "landing": 368,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 186,
+      "direction": "west",
+      "landing": 185,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 185,
+      "direction": "west",
+      "landing": 184,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 268,
+      "direction": "east",
+      "landing": 269,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 269,
+      "direction": "east",
+      "landing": 270,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 266,
+      "direction": "east",
+      "landing": 267,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 212,
+      "direction": "east",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 213,
+      "direction": "south",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 239,
+      "direction": "south",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 265,
+      "direction": "south",
+      "landing": 291,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 291,
+      "direction": "east",
+      "landing": 292,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 292,
+      "direction": "east",
+      "landing": 293,
+      "consumed": false
+    },
+    {
+      "identity": 188,
+      "source": 188,
+      "direction": "west",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 188,
+      "source": 187,
+      "direction": "west",
+      "landing": 186,
+      "consumed": false
+    },
+    {
+      "identity": 191,
+      "source": 191,
+      "direction": "west",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 191,
+      "source": 190,
+      "direction": "west",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 139,
+      "direction": "west",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 138,
+      "direction": "south",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 164,
+      "direction": "south",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 190,
+      "direction": "south",
+      "landing": 216,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 216,
+      "direction": "west",
+      "landing": 215,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 215,
+      "direction": "west",
+      "landing": 214,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 214,
+      "direction": "west",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 213,
+      "direction": "south",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 239,
+      "direction": "south",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 265,
+      "direction": "south",
+      "landing": 291,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 291,
+      "direction": "east",
+      "landing": 292,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 137,
+      "direction": "east",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 138,
+      "direction": "south",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 164,
+      "direction": "south",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 190,
+      "direction": "south",
+      "landing": 216,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 216,
+      "direction": "west",
+      "landing": 215,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 215,
+      "direction": "west",
+      "landing": 214,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 214,
+      "direction": "west",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 213,
+      "direction": "south",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 239,
+      "direction": "south",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 265,
+      "direction": "south",
+      "landing": 291,
+      "consumed": false
+    },
+    {
+      "identity": 191,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 191,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 191,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 191,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 191,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 191,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 191,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 191,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": true
+    },
+    {
+      "identity": 188,
+      "source": 186,
+      "direction": "east",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 188,
+      "source": 187,
+      "direction": "east",
+      "landing": 188,
+      "consumed": false
+    },
+    {
+      "identity": 188,
+      "source": 188,
+      "direction": "east",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 188,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 188,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 188,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 188,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 188,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 188,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 188,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 188,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 188,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    },
+    {
+      "identity": 186,
+      "source": 184,
+      "direction": "east",
+      "landing": 185,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 185,
+      "direction": "east",
+      "landing": 186,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 186,
+      "direction": "east",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 187,
+      "direction": "east",
+      "landing": 188,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 188,
+      "direction": "east",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 186,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    },
+    {
+      "identity": 193,
+      "source": 193,
+      "direction": "west",
+      "landing": 192,
+      "consumed": false
+    },
+    {
+      "identity": 193,
+      "source": 192,
+      "direction": "west",
+      "landing": 191,
+      "consumed": false
+    },
+    {
+      "identity": 193,
+      "source": 191,
+      "direction": "west",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 193,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 193,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 193,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 193,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 193,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 193,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 193,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 193,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    },
+    {
+      "identity": 137,
+      "source": 291,
+      "direction": "north",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 265,
+      "direction": "north",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 239,
+      "direction": "north",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 213,
+      "direction": "north",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 187,
+      "direction": "east",
+      "landing": 188,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 188,
+      "direction": "east",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 137,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    },
+    {
+      "identity": 266,
+      "source": 267,
+      "direction": "west",
+      "landing": 266,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 266,
+      "direction": "west",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 265,
+      "direction": "north",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 239,
+      "direction": "north",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 213,
+      "direction": "north",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 187,
+      "direction": "east",
+      "landing": 188,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 188,
+      "direction": "east",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 266,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    },
+    {
+      "identity": 212,
+      "source": 293,
+      "direction": "north",
+      "landing": 267,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 267,
+      "direction": "west",
+      "landing": 266,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 266,
+      "direction": "west",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 265,
+      "direction": "north",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 239,
+      "direction": "north",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 213,
+      "direction": "north",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 187,
+      "direction": "east",
+      "landing": 188,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 188,
+      "direction": "east",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 212,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    },
+    {
+      "identity": 139,
+      "source": 292,
+      "direction": "west",
+      "landing": 291,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 291,
+      "direction": "north",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 265,
+      "direction": "north",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 239,
+      "direction": "north",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 213,
+      "direction": "north",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 187,
+      "direction": "east",
+      "landing": 188,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 188,
+      "direction": "east",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 139,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    },
+    {
+      "identity": 264,
+      "source": 263,
+      "direction": "east",
+      "landing": 264,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 264,
+      "direction": "east",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 265,
+      "direction": "north",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 239,
+      "direction": "north",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 213,
+      "direction": "north",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 187,
+      "direction": "east",
+      "landing": 188,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 188,
+      "direction": "east",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 264,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    },
+    {
+      "identity": 268,
+      "source": 270,
+      "direction": "west",
+      "landing": 269,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 269,
+      "direction": "west",
+      "landing": 268,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 268,
+      "direction": "west",
+      "landing": 267,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 267,
+      "direction": "west",
+      "landing": 266,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 266,
+      "direction": "west",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 265,
+      "direction": "north",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 239,
+      "direction": "north",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 213,
+      "direction": "north",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 187,
+      "direction": "east",
+      "landing": 188,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 188,
+      "direction": "east",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 268,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    },
+    {
+      "identity": 293,
+      "source": 294,
+      "direction": "west",
+      "landing": 293,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 293,
+      "direction": "west",
+      "landing": 292,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 292,
+      "direction": "west",
+      "landing": 291,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 291,
+      "direction": "north",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 265,
+      "direction": "north",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 239,
+      "direction": "north",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 213,
+      "direction": "north",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 187,
+      "direction": "east",
+      "landing": 188,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 188,
+      "direction": "east",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 293,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    },
+    {
+      "identity": 367,
+      "source": 370,
+      "direction": "east",
+      "landing": 371,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 371,
+      "direction": "north",
+      "landing": 345,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 345,
+      "direction": "north",
+      "landing": 319,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 319,
+      "direction": "north",
+      "landing": 293,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 293,
+      "direction": "north",
+      "landing": 267,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 267,
+      "direction": "west",
+      "landing": 266,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 266,
+      "direction": "west",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 265,
+      "direction": "north",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 239,
+      "direction": "north",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 213,
+      "direction": "north",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 187,
+      "direction": "east",
+      "landing": 188,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 188,
+      "direction": "east",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 367,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    },
+    {
+      "identity": 317,
+      "source": 368,
+      "direction": "east",
+      "landing": 369,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 369,
+      "direction": "east",
+      "landing": 370,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 370,
+      "direction": "east",
+      "landing": 371,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 371,
+      "direction": "north",
+      "landing": 345,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 345,
+      "direction": "north",
+      "landing": 319,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 319,
+      "direction": "north",
+      "landing": 293,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 293,
+      "direction": "north",
+      "landing": 267,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 267,
+      "direction": "west",
+      "landing": 266,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 266,
+      "direction": "west",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 265,
+      "direction": "north",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 239,
+      "direction": "north",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 213,
+      "direction": "north",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 187,
+      "direction": "east",
+      "landing": 188,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 188,
+      "direction": "east",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 317,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    },
+    {
+      "identity": 135,
+      "source": 135,
+      "direction": "east",
+      "landing": 136,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 136,
+      "direction": "east",
+      "landing": 137,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 137,
+      "direction": "east",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 138,
+      "direction": "south",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 164,
+      "direction": "south",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 190,
+      "direction": "south",
+      "landing": 216,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 216,
+      "direction": "west",
+      "landing": 215,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 215,
+      "direction": "west",
+      "landing": 214,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 214,
+      "direction": "west",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 213,
+      "direction": "south",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 239,
+      "direction": "south",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 265,
+      "direction": "south",
+      "landing": 291,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 291,
+      "direction": "north",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 265,
+      "direction": "north",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 239,
+      "direction": "north",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 213,
+      "direction": "north",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 187,
+      "direction": "east",
+      "landing": 188,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 188,
+      "direction": "east",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 135,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    },
+    {
+      "identity": 133,
+      "source": 133,
+      "direction": "east",
+      "landing": 134,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 134,
+      "direction": "east",
+      "landing": 135,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 135,
+      "direction": "east",
+      "landing": 136,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 136,
+      "direction": "east",
+      "landing": 137,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 137,
+      "direction": "east",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 138,
+      "direction": "south",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 164,
+      "direction": "south",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 190,
+      "direction": "south",
+      "landing": 216,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 216,
+      "direction": "west",
+      "landing": 215,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 215,
+      "direction": "west",
+      "landing": 214,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 214,
+      "direction": "west",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 213,
+      "direction": "south",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 239,
+      "direction": "south",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 265,
+      "direction": "south",
+      "landing": 291,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 291,
+      "direction": "north",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 265,
+      "direction": "north",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 239,
+      "direction": "north",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 213,
+      "direction": "north",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 187,
+      "direction": "east",
+      "landing": 188,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 188,
+      "direction": "east",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 133,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    },
+    {
+      "identity": 141,
+      "source": 141,
+      "direction": "west",
+      "landing": 140,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 140,
+      "direction": "west",
+      "landing": 139,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 139,
+      "direction": "west",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 138,
+      "direction": "south",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 164,
+      "direction": "south",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 190,
+      "direction": "south",
+      "landing": 216,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 216,
+      "direction": "west",
+      "landing": 215,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 215,
+      "direction": "west",
+      "landing": 214,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 214,
+      "direction": "west",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 213,
+      "direction": "south",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 239,
+      "direction": "south",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 265,
+      "direction": "south",
+      "landing": 291,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 291,
+      "direction": "north",
+      "landing": 265,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 265,
+      "direction": "north",
+      "landing": 239,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 239,
+      "direction": "north",
+      "landing": 213,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 213,
+      "direction": "north",
+      "landing": 187,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 187,
+      "direction": "east",
+      "landing": 188,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 188,
+      "direction": "east",
+      "landing": 189,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 189,
+      "direction": "east",
+      "landing": 190,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 190,
+      "direction": "north",
+      "landing": 164,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 164,
+      "direction": "north",
+      "landing": 138,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 138,
+      "direction": "north",
+      "landing": 112,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 112,
+      "direction": "west",
+      "landing": 111,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 111,
+      "direction": "north",
+      "landing": 85,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 85,
+      "direction": "north",
+      "landing": 59,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 59,
+      "direction": "north",
+      "landing": 33,
+      "consumed": false
+    },
+    {
+      "identity": 141,
+      "source": 33,
+      "direction": "east",
+      "landing": 34,
+      "consumed": true
+    }
+  ],
+  "final_identities": {
+    "321": 322,
+    "315": 315
+  },
+  "method": "One manual macro schedule; fixed-boulder walking BFS only",
+  "proof_sha256": "e50bc5b592048f9e057c4754fac4cbf54fea23d5861d4bd951172ea6329bd287",
+  "leanchecker_exit": 0
+}

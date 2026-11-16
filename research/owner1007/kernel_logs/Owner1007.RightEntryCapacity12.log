@@ -1,0 +1,6 @@
+Owner1007/RightEntryCapacity12.lean:43:3: warning: Try `simp at found` instead of `simpa using found`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'Owner1007.RightEntryCapacity12.upper_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.RightEntryCapacity12.five_of_both' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.RightEntryCapacity12.five_of_dead271' depends on axioms: [propext, Classical.choice, Quot.sound]

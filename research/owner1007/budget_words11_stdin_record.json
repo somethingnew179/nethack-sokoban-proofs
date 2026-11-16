@@ -1,0 +1,14 @@
+{
+  "source": "research/owner1007/Owner1007/BudgetWords11.lean",
+  "source_sha256": "39f4550ed31170c28b53573f908664a2e14168bb9098f6aa77d15c1e4edabc12",
+  "command": [
+    "/Users/ilyakondakov/.elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+    "--stdin",
+    "-j1",
+    "-M2048"
+  ],
+  "cwd": "/Users/ilyakondakov/PycharmProjects/myagent/local/bot-artifacts/nethack-invariants-owner1007/repo/lean",
+  "exit": 0,
+  "log": "research/owner1007/lean_budget_words11_stdin.log",
+  "scope": "fresh kernel stdin check; olean/leanchecker replay pending315 cache writer"
+}

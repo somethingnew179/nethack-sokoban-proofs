@@ -1,0 +1,2 @@
+'Owner1007.TightRowPairs32611.other_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.TightRowPairs32611.excluded' depends on axioms: [propext, Classical.choice, Quot.sound]

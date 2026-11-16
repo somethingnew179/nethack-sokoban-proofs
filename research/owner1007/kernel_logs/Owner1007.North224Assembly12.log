@@ -1,0 +1,2 @@
+'Owner1007.North224Assembly12.north_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.North224Assembly12.canonical_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+Owner1007/PriceTrap12Gate.lean:45:25: warning: This simp argument is unused:
+  hz
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [credit, ho, ↓reduceIte] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.PriceTrap12Gate.checked' depends on axioms: [propext, Quot.sound]
+'Owner1007.PriceTrap12Gate.original_conditional_231' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+Owner1007/LeftInwardPipe11Proof.lean:18:12: warning: This simp argument is unused:
+  headCheck
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [behind] at row
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.LeftInwardPipe11.head_shape' depends on axioms: [propext, Quot.sound]
+'Owner1007.LeftInwardPipe11.future_four_with' depends on axioms: [propext, Classical.choice, Quot.sound]

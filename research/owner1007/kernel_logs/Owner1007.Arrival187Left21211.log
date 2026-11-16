@@ -1,0 +1,2 @@
+'Owner1007.Arrival187Left21211.future_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Arrival187Left21211.left_two_if_rest_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

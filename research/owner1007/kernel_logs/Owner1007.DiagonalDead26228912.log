@@ -1,0 +1,4 @@
+Owner1007/DiagonalDead26228912.lean:94:69: warning: `Int.ofNat_nonneg` has been deprecated: Use `Int.natCast_nonneg` instead
+'Owner1007.DiagonalDead26228912.matrix' depends on axioms: [propext, Quot.sound]
+'Owner1007.DiagonalDead26228912.preserved_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.DiagonalDead26228912.energy_ten' depends on axioms: [propext, Classical.choice, Quot.sound]

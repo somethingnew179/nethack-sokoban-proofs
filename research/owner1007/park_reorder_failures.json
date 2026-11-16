@@ -1,0 +1,117 @@
+{
+  "task": "nethack-invariants-codex-owner1007",
+  "configuration_search": false,
+  "method": "Exactly two prescribed schedules; walking BFS only",
+  "validation_kind": "Python diagnostic assertions, not kernel witnesses or lower bounds",
+  "source_sha256": {
+    "research/owner1007/replay_park_reorder_failures.py": "d6883be0027f53860c003bba26393a67c071b622a4077e2f50099c70181af608",
+    "research/owner1007/diagnose.py": "d88f82911572008ab40e5069f24977a9af166f9bb2c3045f8590b79274f98b68",
+    "research/owner1007/witness11_342.json": "d9e0d166978c3394dadc8c39c5df018a5c71f8c0ed21921fe0995db90d59f54a",
+    "lean/NetHack/Sokoban/Model.lean": "6524d03d84503884d5f3881ddfd941de84e68e0329f107e2ff08a75e3575f962",
+    "lean/NetHack/Sokoban/Maps.lean": "f54b492e479263af39a90d435b15b361b520911179b3ef730ba491acb82025d9"
+  },
+  "cases": [
+    {
+      "map": "soko1-1",
+      "proposed_pushes": 341,
+      "original_start": true,
+      "change": "Delete only original321East from checked342 schedule",
+      "result": {
+        "successful_prefix_pushes": 112,
+        "failed_command": [
+          267,
+          "west"
+        ],
+        "player": 33,
+        "support": 268,
+        "support_reachable": false,
+        "boulders": [
+          133,
+          135,
+          141,
+          263,
+          267,
+          270,
+          292,
+          293,
+          294,
+          315,
+          321,
+          368,
+          370
+        ],
+        "holes": [
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ]
+      }
+    },
+    {
+      "map": "soko1-2",
+      "proposed_pushes": 233,
+      "original_start": true,
+      "change": "Park original192 at212 before the Upper108/186 delivery and omit the187 reset",
+      "result": {
+        "successful_prefix_pushes": 20,
+        "failed_command": [
+          189,
+          "south"
+        ],
+        "player": 132,
+        "support": 163,
+        "support_reachable": false,
+        "boulders": [
+          108,
+          141,
+          158,
+          159,
+          160,
+          167,
+          168,
+          187,
+          189,
+          194,
+          210,
+          211,
+          218,
+          237,
+          245,
+          263,
+          264,
+          265,
+          270,
+          318
+        ],
+        "holes": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+'Owner1007.ForwardSnapshots11.five_perm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.ForwardSnapshots11.gone' depends on axioms: [propext, Classical.choice, Quot.sound]

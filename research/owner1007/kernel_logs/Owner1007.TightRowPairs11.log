@@ -1,0 +1,5 @@
+Owner1007/TightRowPairs11.lean:32:3: warning: Try `simp at retained` instead of `simpa using retained`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'Owner1007.TightRowPairs11.checked' depends on axioms: [propext, Quot.sound]
+'Owner1007.TightRowPairs11.excluded' depends on axioms: [propext, Classical.choice, Quot.sound]

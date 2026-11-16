@@ -1,0 +1,2 @@
+'Owner1007.UpperLocalCuts11.first_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.UpperLocalCuts11.head_cases' depends on axioms: [propext, Quot.sound]

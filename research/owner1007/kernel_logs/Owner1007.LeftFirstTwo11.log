@@ -1,0 +1,9 @@
+Owner1007/LeftFirstTwo11.lean:33:14: warning: This simp argument is unused:
+  noMoveCheck
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [behind] at row
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.LeftFirstTwo11.other_head' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.LeftFirstTwo11.six_of_other_second' depends on axioms: [propext, Classical.choice, Quot.sound]

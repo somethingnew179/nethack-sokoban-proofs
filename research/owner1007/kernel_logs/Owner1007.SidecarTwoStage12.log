@@ -1,0 +1,15 @@
+Owner1007/SidecarTwoStage12.lean:49:33: warning: This simp argument is unused:
+  if_neg notOwn
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [projectedOutcome, slack, update, move, if_neg notOwn, Int.add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/SidecarTwoStage12.lean:70:33: warning: This simp argument is unused:
+  if_neg notOwn
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [projectedOutcome, slack, update, move, if_neg notOwn, Int.add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.SidecarTwoStage12.after_first_clearance' depends on axioms: [propext, Classical.choice, Quot.sound]

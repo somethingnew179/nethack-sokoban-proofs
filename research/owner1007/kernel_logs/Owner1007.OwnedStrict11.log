@@ -1,0 +1,1 @@
+'Owner1007.OwnedStrict11.owned_stay_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'Owner1007.LeftDebt11.after_debts' does not depend on any axioms
+'Owner1007.LeftDebt11.debts' depends on axioms: [propext, Quot.sound]

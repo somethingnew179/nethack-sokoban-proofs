@@ -1,0 +1,6 @@
+lower_bound : ∀ (directions : List Dir) (final : State) (pushes moves : Nat),
+  Trace soko3_2.board soko3_2.initial directions final pushes moves → Goal final → 141 ≤ pushes
+upper_bound : ∃ directions final moves, Trace soko3_2.board soko3_2.initial directions final 147 moves ∧ Goal final
+'Owner1007.Interval32_141.interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Interval32_141.lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Interval32_141.upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

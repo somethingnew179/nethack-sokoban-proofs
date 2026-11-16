@@ -1,0 +1,2 @@
+'Owner1007.PreRingHeads12.classification' depends on axioms: [propext, Quot.sound]
+'Owner1007.PreRingHeads12.source_cases' depends on axioms: [propext]

@@ -1,0 +1,10 @@
+'Owner1007.NoTopDown265Before18711.upper_outside_lower' depends on axioms: [propext, Quot.sound]
+'Owner1007.NoTopDown265Before18711.quiet_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.NoTopDown265Before18711.prefix_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+Owner1007/NoTopDown265Before18711.lean:121:2: warning: Variable name `logged` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _logged
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Owner1007.NoTopDown265Before18711.before_first' depends on axioms: [propext, Classical.choice, Quot.sound]

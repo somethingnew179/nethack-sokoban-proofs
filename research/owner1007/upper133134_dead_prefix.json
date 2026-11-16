@@ -1,0 +1,190 @@
+{
+  "scope": "FULL canonical original soko1_2 state; prescribed partial trace, no original Goal/winning claim",
+  "configuration_search": false,
+  "walking_bfs_only": true,
+  "script_sha256": "5b835221f8fb269be6eadbc6e94c7d3c7f71d3c38adea4aa5c6824e04b931540",
+  "simulator_sha256": "d88f82911572008ab40e5069f24977a9af166f9bb2c3045f8590b79274f98b68",
+  "commands": [
+    [
+      371,
+      "east"
+    ],
+    [
+      372,
+      "east"
+    ],
+    [
+      373,
+      "east"
+    ],
+    [
+      374,
+      "north"
+    ],
+    [
+      348,
+      "north"
+    ],
+    [
+      322,
+      "north"
+    ],
+    [
+      296,
+      "north"
+    ],
+    [
+      271,
+      "north"
+    ],
+    [
+      246,
+      "north"
+    ],
+    [
+      220,
+      "north"
+    ],
+    [
+      193,
+      "north"
+    ],
+    [
+      192,
+      "west"
+    ],
+    [
+      191,
+      "west"
+    ],
+    [
+      190,
+      "west"
+    ],
+    [
+      210,
+      "north"
+    ],
+    [
+      213,
+      "east"
+    ],
+    [
+      186,
+      "north"
+    ],
+    [
+      159,
+      "north"
+    ],
+    [
+      160,
+      "north"
+    ]
+  ],
+  "path": [
+    "north",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "north",
+    "north",
+    "east",
+    "north",
+    "east",
+    "north",
+    "north",
+    "west",
+    "north",
+    "west",
+    "west",
+    "west",
+    "east",
+    "east",
+    "southEast",
+    "southEast",
+    "south",
+    "southWest",
+    "southWest",
+    "south",
+    "southWest",
+    "west",
+    "northWest",
+    "north",
+    "northWest",
+    "west",
+    "west",
+    "west",
+    "northWest",
+    "north",
+    "north",
+    "east",
+    "east",
+    "east",
+    "west",
+    "north",
+    "west",
+    "north",
+    "southEast",
+    "north"
+  ],
+  "pushes": 19,
+  "moves": 47,
+  "final": {
+    "hero": 160,
+    "boulders": [
+      108,
+      133,
+      134,
+      141,
+      158,
+      167,
+      168,
+      184,
+      187,
+      189,
+      194,
+      214,
+      218,
+      237,
+      238,
+      245,
+      263,
+      265,
+      270,
+      318
+    ],
+    "holes": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  "locked_cells": [
+    108,
+    133,
+    134
+  ],
+  "interpretation": "Rejects this ordering of the E-first Core210North/S213East Upper plan; the three retained stones form a permanent lock",
+  "validation": "Python original-model replay only for the partial trace; separate Upper133134Dead12.lean proves that any original-reached state containing these cells cannot complete",
+  "original_goal": false,
+  "winning_witness": false
+}

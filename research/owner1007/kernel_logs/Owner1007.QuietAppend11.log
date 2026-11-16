@@ -1,0 +1,2 @@
+'Owner1007.QuietAppend11.Quiet.append' depends on axioms: [propext, Quot.sound]
+'Owner1007.QuietAppend11.FirstCut.prepend' depends on axioms: [propext, Quot.sound]

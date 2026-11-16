@@ -1,0 +1,2 @@
+'Owner1007.AfterJCashEight12.head_restrictions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.AfterJCashEight12.split' depends on axioms: [propext, Classical.choice, Quot.sound]

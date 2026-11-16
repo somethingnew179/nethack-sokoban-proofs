@@ -1,0 +1,59 @@
+import Owner1007.RingEight12
+import Owner1007.RingUpperReserveEight12
+namespace Owner1007.RingUpperTen12
+open NetHack.Sokoban NetHack.Sokoban.LowerBounds NetHack.Sokoban.HazardPattern
+open NetHack.Sokoban.GhostPartition NetHack.Sokoban.GhostProjection
+open Owner1007 Owner1007.TokenAccounting Owner1007.OwnedEvents12
+set_option maxRecDepth 1000000
+set_option maxHeartbeats 0
+abbrev p := Generated.soko1_2Potential
+def upperIndex (i : Fin 4) : Fin 3 := if PreCage12.ringTag i=265 then 0 else 1
+theorem shift_inside : ∀ i, PreCage12.ringS i=212 →
+ RingUpper12.locks (upperIndex i)⊆161::(PreCage12.ringLocks i).erase 187 := by decide +kernel
+theorem hero_inside : ∀ i, (187:Cell)∈RingUpper12.region (upperIndex i) := by decide +kernel
+theorem source_inside : ∀ i, (187:Cell)∈PreCage12.ringLocks i := by decide +kernel
+theorem head_s : ∀ i : Fin 4, ∀ hero∈PreCage12.ringRegion i,
+ advance soko1_2.board hero .north=some 187 → PreCage12.ringS i=212 := by decide +kernel
+
+theorem energy_ten
+ {state middle final : State} {t : Transition}
+ {beforeDirs afterDirs history : List Dir} {before after : List Outcome}
+ {beforePushes beforeMoves afterPushes afterMoves past pastMoves : Nat}
+ (first : Logged soko1_2.board state beforeDirs middle beforePushes beforeMoves before)
+ (checked : step soko1_2.board middle .north=some t)
+ (effect : Matches middle t (.push 187 (.stay 161)))
+ (last : Logged soko1_2.board t.state afterDirs final afterPushes afterMoves after)
+ (reached : Trace soko1_2.board soko1_2.initial history state past pastMoves)
+ (group : List Cell) (gUnique : group.Nodup) (subset : group⊆state.boulders)
+ (i : Fin 4) (inside : PreCage12.ringLocks i⊆endGroup group before)
+ (heroBefore : middle.player∈PreCage12.ringRegion i) (completed : Goal final) :
+ 10≤energy p group (before++(.push 187 (.stay 161))::after) := by
+ have stateUnique := reached.boulders_nodup (by decide +kernel)
+ have old := first.end_subset stateUnique group gUnique subset
+ have middleReached := reached.append first.trace
+ have middleUnique := middleReached.boulders_nodup (by decide +kernel)
+ have nextActual := step_boulders_nodup _ _ _ _ middleUnique checked
+ have nextUnique := GhostSubset.update_unique middle t (.push 187 (.stay 161)) effect nextActual
+   (endGroup group before) old.1 old.2
+ have nextSubset := GhostSubset.update_subset middle t (.push 187 (.stay 161)) effect
+   (endGroup group before) old.1 old.2
+ obtain ⟨_,adjacent,_⟩ := effect_push_data checked effect
+ have stage := head_s i middle.player heroBefore adjacent
+ have owner : (187:Cell)∈endGroup group before := inside (source_inside i)
+ have kept := CageFour12.shifted_inside (PreCage12.ring_unique i) inside owner (shift_inside i stage)
+ have heroNext : t.state.player∈RingUpper12.region (upperIndex i) := by
+   rw [matches_hero middle t (.push 187 (.stay 161)) effect]
+   exact hero_inside i
+ have nextReached := middleReached.append (Trace.cons checked (Trace.nil t.state))
+ have later := RingUpperReserveEight12.energy_eight last nextReached
+   (update (endGroup group before) (.push 187 (.stay 161))) nextUnique nextSubset completed heroNext kept
+ change 8≤energy p (update (endGroup group before) (.push 187 (.stay 161))) after at later
+ have one : (2:Int)≤slack p (.push 187 (.stay 161)) := by decide +kernel
+ have prefixNN := first.ownSlack_nonnegative Generated.soko1_2_potential_valid group
+ change 0≤ownSlack p group before at prefixNN
+ rw [energy_at_split]
+ simp only [projectedOutcome,if_pos owner]
+ omega
+#print axioms energy_ten
+end Owner1007.RingUpperTen12
+

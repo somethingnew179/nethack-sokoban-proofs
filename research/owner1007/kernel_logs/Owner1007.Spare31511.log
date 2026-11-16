@@ -1,0 +1,4 @@
+'Owner1007.Spare31511.prices' does not depend on any axioms
+'Owner1007.Spare31511.moved_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Spare31511.survives' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Spare31511.at_most_one' depends on axioms: [propext, Classical.choice, Quot.sound]

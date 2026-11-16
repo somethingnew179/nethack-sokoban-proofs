@@ -1,0 +1,2 @@
+'Owner1007.LeftSameActor32611.canonical_count_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.LeftSameActor32611.canonical_actor_four' depends on axioms: [propext, Classical.choice, Quot.sound]

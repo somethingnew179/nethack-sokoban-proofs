@@ -1,0 +1,2 @@
+'Owner1007.GhostH8Counterexample12.trace' depends on axioms: [propext]
+'Owner1007.GhostH8Counterexample12.energy_four' depends on axioms: [propext, Classical.choice, Quot.sound]

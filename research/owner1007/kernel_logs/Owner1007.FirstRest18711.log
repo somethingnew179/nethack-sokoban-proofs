@@ -1,0 +1,2 @@
+'Owner1007.FirstRest18711.first_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.FirstRest18711.head_shape' depends on axioms: [propext, Quot.sound]

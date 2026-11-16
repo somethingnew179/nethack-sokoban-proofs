@@ -1,0 +1,571 @@
+{
+  "scope": "CUSTOM three-token partial-hole diagnostics; not an original canonical Goal witness",
+  "method": "Two manually prescribed queues; replay plus walking BFS only, no boulder configuration search",
+  "initial": {
+    "hero": 319,
+    "boulders": [
+      292,
+      320,
+      345
+    ],
+    "holes": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  "source_sha256": {
+    "/Users/ilyakondakov/PycharmProjects/myagent/local/bot-artifacts/nethack-invariants-owner1007/repo/research/owner1007/replay_corner320_failed.py": "b053dad4c63666e96c5884f4704f08cb8074118905e3d1d2b06eb28edaa7ca1b",
+    "/Users/ilyakondakov/PycharmProjects/myagent/local/bot-artifacts/nethack-invariants-owner1007/repo/research/owner1007/diagnose.py": "d88f82911572008ab40e5069f24977a9af166f9bb2c3045f8590b79274f98b68",
+    "/Users/ilyakondakov/PycharmProjects/myagent/local/bot-artifacts/nethack-invariants-owner1007/repo/lean/NetHack/Sokoban/Maps.lean": "f54b492e479263af39a90d435b15b361b520911179b3ef730ba491acb82025d9",
+    "/Users/ilyakondakov/PycharmProjects/myagent/local/bot-artifacts/nethack-invariants-owner1007/repo/lean/NetHack/Sokoban/Generated/Soko12Potential.lean": "81c956fda964e179fa02eeb053efcabcdc1906c484073394c13e7b356156fed3"
+  },
+  "results": {
+    "leave_371_at345": {
+      "commands": [
+        [
+          292,
+          "west"
+        ],
+        [
+          291,
+          "north"
+        ],
+        [
+          265,
+          "north"
+        ],
+        [
+          239,
+          "north"
+        ],
+        [
+          213,
+          "west"
+        ],
+        [
+          212,
+          "north"
+        ],
+        [
+          186,
+          "north"
+        ],
+        [
+          160,
+          "north"
+        ],
+        [
+          134,
+          "north"
+        ],
+        [
+          108,
+          "north"
+        ],
+        [
+          82,
+          "north"
+        ],
+        [
+          56,
+          "north"
+        ],
+        [
+          30,
+          "east"
+        ]
+      ],
+      "successful_pushes": 4,
+      "moves": 6,
+      "events": [
+        {
+          "command_index": 1,
+          "source": 292,
+          "direction": "west",
+          "landing": 291,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 2,
+          "source": 291,
+          "direction": "north",
+          "landing": 265,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 3,
+          "source": 265,
+          "direction": "north",
+          "landing": 239,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 4,
+          "source": 239,
+          "direction": "north",
+          "landing": 213,
+          "filled": [],
+          "scalar_slack": 0
+        }
+      ],
+      "prefix_slack": 0,
+      "failed": {
+        "command_index": 5,
+        "command": [
+          213,
+          "west"
+        ],
+        "required_support": 214,
+        "hero": 239,
+        "boulders": [
+          213,
+          320,
+          345
+        ],
+        "holes": 18,
+        "reachable": [
+          29,
+          30,
+          31,
+          55,
+          56,
+          82,
+          105,
+          106,
+          108,
+          131,
+          132,
+          133,
+          134,
+          135,
+          157,
+          158,
+          159,
+          160,
+          161,
+          184,
+          185,
+          186,
+          187,
+          210,
+          211,
+          212,
+          236,
+          237,
+          238,
+          239,
+          262,
+          263,
+          264,
+          265,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          317,
+          318,
+          319
+        ]
+      },
+      "final_hero": 239,
+      "final_boulders": [
+        213,
+        320,
+        345
+      ],
+      "remaining_holes": 18,
+      "path": [
+        "north",
+        "west",
+        "southWest",
+        "north",
+        "north",
+        "north"
+      ]
+    },
+    "open_right_with_371_at293": {
+      "commands": [
+        [
+          292,
+          "west"
+        ],
+        [
+          291,
+          "north"
+        ],
+        [
+          345,
+          "north"
+        ],
+        [
+          319,
+          "north"
+        ],
+        [
+          265,
+          "north"
+        ],
+        [
+          239,
+          "north"
+        ],
+        [
+          213,
+          "west"
+        ],
+        [
+          212,
+          "north"
+        ],
+        [
+          186,
+          "north"
+        ],
+        [
+          160,
+          "north"
+        ],
+        [
+          134,
+          "north"
+        ],
+        [
+          108,
+          "north"
+        ],
+        [
+          82,
+          "north"
+        ],
+        [
+          56,
+          "north"
+        ],
+        [
+          30,
+          "east"
+        ],
+        [
+          293,
+          "west"
+        ]
+      ],
+      "successful_pushes": 15,
+      "moves": 52,
+      "events": [
+        {
+          "command_index": 1,
+          "source": 292,
+          "direction": "west",
+          "landing": 291,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 2,
+          "source": 291,
+          "direction": "north",
+          "landing": 265,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 3,
+          "source": 345,
+          "direction": "north",
+          "landing": 319,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 4,
+          "source": 319,
+          "direction": "north",
+          "landing": 293,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 5,
+          "source": 265,
+          "direction": "north",
+          "landing": 239,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 6,
+          "source": 239,
+          "direction": "north",
+          "landing": 213,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 7,
+          "source": 213,
+          "direction": "west",
+          "landing": 212,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 8,
+          "source": 212,
+          "direction": "north",
+          "landing": 186,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 9,
+          "source": 186,
+          "direction": "north",
+          "landing": 160,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 10,
+          "source": 160,
+          "direction": "north",
+          "landing": 134,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 11,
+          "source": 134,
+          "direction": "north",
+          "landing": 108,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 12,
+          "source": 108,
+          "direction": "north",
+          "landing": 82,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 13,
+          "source": 82,
+          "direction": "north",
+          "landing": 56,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 14,
+          "source": 56,
+          "direction": "north",
+          "landing": 30,
+          "filled": [],
+          "scalar_slack": 0
+        },
+        {
+          "command_index": 15,
+          "source": 30,
+          "direction": "east",
+          "landing": 32,
+          "filled": [
+            32
+          ],
+          "scalar_slack": 0
+        }
+      ],
+      "prefix_slack": 0,
+      "failed": {
+        "command_index": 16,
+        "command": [
+          293,
+          "west"
+        ],
+        "required_support": 294,
+        "hero": 30,
+        "boulders": [
+          293,
+          320
+        ],
+        "holes": 17,
+        "reachable": [
+          29,
+          30,
+          31,
+          32,
+          55,
+          56,
+          82,
+          105,
+          106,
+          108,
+          115,
+          116,
+          117,
+          131,
+          132,
+          133,
+          134,
+          135,
+          140,
+          141,
+          142,
+          143,
+          157,
+          158,
+          159,
+          160,
+          161,
+          163,
+          164,
+          166,
+          167,
+          168,
+          169,
+          184,
+          185,
+          186,
+          187,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          218,
+          219,
+          220,
+          236,
+          237,
+          238,
+          239,
+          241,
+          242,
+          244,
+          245,
+          246,
+          262,
+          263,
+          264,
+          265,
+          270,
+          271,
+          272,
+          288,
+          289,
+          290,
+          291,
+          292,
+          296,
+          297,
+          317,
+          318,
+          319,
+          322,
+          345,
+          348,
+          370,
+          371,
+          372,
+          373,
+          374,
+          396,
+          397,
+          399,
+          400
+        ]
+      },
+      "final_hero": 30,
+      "final_boulders": [
+        293,
+        320
+      ],
+      "remaining_holes": 17,
+      "path": [
+        "north",
+        "west",
+        "southWest",
+        "north",
+        "northWest",
+        "northEast",
+        "northEast",
+        "east",
+        "east",
+        "northEast",
+        "southEast",
+        "south",
+        "south",
+        "south",
+        "south",
+        "south",
+        "southWest",
+        "west",
+        "west",
+        "north",
+        "north",
+        "west",
+        "northWest",
+        "north",
+        "north",
+        "south",
+        "south",
+        "southEast",
+        "southEast",
+        "southEast",
+        "east",
+        "northEast",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "northWest",
+        "west",
+        "west",
+        "southWest",
+        "west",
+        "southWest",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "northWest",
+        "east"
+      ]
+    }
+  }
+}

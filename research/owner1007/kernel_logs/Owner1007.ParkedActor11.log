@@ -1,0 +1,50 @@
+Owner1007/ParkedActor11.lean:46:21: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:46:51: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:52:23: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:52:53: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:57:23: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:57:53: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:62:21: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:62:51: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:67:21: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:67:51: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:72:21: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:72:51: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:78:23: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:78:53: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:83:23: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/ParkedActor11.lean:83:53: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'Owner1007.ParkedActor11.all_prices' does not depend on any axioms
+'Owner1007.ParkedActor11.exit_price' depends on axioms: [propext, Quot.sound]

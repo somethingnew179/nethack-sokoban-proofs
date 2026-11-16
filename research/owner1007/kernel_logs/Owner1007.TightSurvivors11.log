@@ -1,0 +1,2 @@
+Owner1007/TightSurvivors11.lean:22:62: warning: `Int.ofNat_nonneg` has been deprecated: Use `Int.natCast_nonneg` instead
+'Owner1007.TightSurvivors11.stationary_zero_survivors' depends on axioms: [propext, Classical.choice, Quot.sound]

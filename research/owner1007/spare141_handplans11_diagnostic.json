@@ -1,0 +1,149 @@
+{
+  "map": "soko1-1",
+  "original_canonical_start": true,
+  "boulder_configuration_search": false,
+  "method": "Exactly four prescribed schedules based on342 witness; walking BFS only",
+  "scope": "Python diagnostics; any successful candidate still requires Lean kernel witness",
+  "cases": [
+    {
+      "insertion": 212,
+      "status": "failed_prefix",
+      "failure": {
+        "failed_identity": 321,
+        "failed_code": "W1",
+        "failed_command": [
+          321,
+          "west"
+        ],
+        "support": 322,
+        "support_reachable": false,
+        "pushes": 2,
+        "labels": {
+          "193": 193,
+          "321": 321,
+          "133": 133,
+          "293": 294,
+          "135": 135,
+          "264": 263,
+          "137": 137,
+          "266": 266,
+          "139": 139,
+          "268": 268,
+          "141": 141,
+          "367": 367,
+          "212": 212,
+          "186": 186,
+          "315": 315,
+          "188": 188,
+          "317": 317,
+          "191": 191
+        }
+      }
+    },
+    {
+      "insertion": 139,
+      "status": "failed_prefix",
+      "failure": {
+        "failed_identity": 321,
+        "failed_code": "W1",
+        "failed_command": [
+          321,
+          "west"
+        ],
+        "support": 322,
+        "support_reachable": false,
+        "pushes": 2,
+        "labels": {
+          "193": 193,
+          "321": 321,
+          "133": 133,
+          "293": 294,
+          "135": 135,
+          "264": 263,
+          "137": 137,
+          "266": 266,
+          "139": 139,
+          "268": 268,
+          "141": 141,
+          "367": 367,
+          "212": 212,
+          "186": 186,
+          "315": 315,
+          "188": 188,
+          "317": 317,
+          "191": 191
+        }
+      }
+    },
+    {
+      "insertion": 264,
+      "status": "failed_prefix",
+      "failure": {
+        "failed_identity": 321,
+        "failed_code": "W1",
+        "failed_command": [
+          321,
+          "west"
+        ],
+        "support": 322,
+        "support_reachable": false,
+        "pushes": 2,
+        "labels": {
+          "193": 193,
+          "321": 321,
+          "133": 133,
+          "293": 294,
+          "135": 135,
+          "264": 263,
+          "137": 137,
+          "266": 266,
+          "139": 139,
+          "268": 268,
+          "141": 141,
+          "367": 367,
+          "212": 212,
+          "186": 186,
+          "315": 315,
+          "188": 188,
+          "317": 317,
+          "191": 191
+        }
+      }
+    },
+    {
+      "insertion": 268,
+      "status": "failed_prefix",
+      "failure": {
+        "failed_identity": 321,
+        "failed_code": "W1",
+        "failed_command": [
+          321,
+          "west"
+        ],
+        "support": 322,
+        "support_reachable": false,
+        "pushes": 2,
+        "labels": {
+          "193": 193,
+          "321": 321,
+          "133": 133,
+          "293": 294,
+          "135": 135,
+          "264": 263,
+          "137": 137,
+          "266": 266,
+          "139": 139,
+          "268": 268,
+          "141": 141,
+          "367": 367,
+          "212": 212,
+          "186": 186,
+          "315": 315,
+          "188": 188,
+          "317": 317,
+          "191": 191
+        }
+      }
+    }
+  ]
+}

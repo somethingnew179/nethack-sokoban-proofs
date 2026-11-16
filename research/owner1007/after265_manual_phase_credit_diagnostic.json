@@ -1,0 +1,370 @@
+{
+  "scope": "Untrusted diagnostic on18 already prescribed local footprints; no global configuration search",
+  "phase_count": 18,
+  "new_boulder_configurations": 0,
+  "credit_proposal": [
+    6,
+    7,
+    8,
+    6,
+    8,
+    5,
+    5,
+    5,
+    0,
+    4,
+    5,
+    6,
+    5,
+    4,
+    2,
+    3,
+    4,
+    0
+  ],
+  "iterations": 2,
+  "local_edges": [
+    {
+      "phase": 0,
+      "source": 292,
+      "direction": "east",
+      "landing": 293,
+      "price": 2,
+      "targets": [
+        6,
+        17
+      ]
+    },
+    {
+      "phase": 0,
+      "source": 318,
+      "direction": "east",
+      "landing": 319,
+      "price": 0,
+      "targets": [
+        3,
+        17
+      ]
+    },
+    {
+      "phase": 0,
+      "source": 345,
+      "direction": "north",
+      "landing": 319,
+      "price": 0,
+      "targets": [
+        1,
+        17
+      ]
+    },
+    {
+      "phase": 1,
+      "source": 292,
+      "direction": "east",
+      "landing": 293,
+      "price": 2,
+      "targets": [
+        7,
+        17
+      ]
+    },
+    {
+      "phase": 1,
+      "source": 319,
+      "direction": "north",
+      "landing": 293,
+      "price": 0,
+      "targets": [
+        2,
+        17
+      ]
+    },
+    {
+      "phase": 2,
+      "source": 318,
+      "direction": "east",
+      "landing": 319,
+      "price": 0,
+      "targets": [
+        4,
+        17
+      ]
+    },
+    {
+      "phase": 2,
+      "source": 318,
+      "direction": "west",
+      "landing": 317,
+      "price": 3,
+      "targets": [
+        12,
+        13,
+        17
+      ]
+    },
+    {
+      "phase": 3,
+      "source": 292,
+      "direction": "east",
+      "landing": 293,
+      "price": 2,
+      "targets": [
+        5,
+        17
+      ]
+    },
+    {
+      "phase": 3,
+      "source": 319,
+      "direction": "east",
+      "landing": 320,
+      "price": 4,
+      "targets": [
+        14,
+        17
+      ]
+    },
+    {
+      "phase": 4,
+      "source": 319,
+      "direction": "east",
+      "landing": 320,
+      "price": 4,
+      "targets": [
+        16,
+        17
+      ]
+    },
+    {
+      "phase": 5,
+      "source": 293,
+      "direction": "east",
+      "landing": 294,
+      "price": 5,
+      "targets": [
+        17
+      ]
+    },
+    {
+      "phase": 5,
+      "source": 319,
+      "direction": "east",
+      "landing": 320,
+      "price": 4,
+      "targets": [
+        14,
+        16,
+        17
+      ]
+    },
+    {
+      "phase": 6,
+      "source": 293,
+      "direction": "east",
+      "landing": 294,
+      "price": 5,
+      "targets": [
+        17
+      ]
+    },
+    {
+      "phase": 6,
+      "source": 318,
+      "direction": "east",
+      "landing": 319,
+      "price": 0,
+      "targets": [
+        5,
+        17
+      ]
+    },
+    {
+      "phase": 6,
+      "source": 345,
+      "direction": "north",
+      "landing": 319,
+      "price": 0,
+      "targets": [
+        7,
+        17
+      ]
+    },
+    {
+      "phase": 7,
+      "source": 293,
+      "direction": "east",
+      "landing": 294,
+      "price": 5,
+      "targets": [
+        17
+      ]
+    },
+    {
+      "phase": 9,
+      "source": 289,
+      "direction": "east",
+      "landing": 290,
+      "price": 0,
+      "targets": [
+        10,
+        17
+      ]
+    },
+    {
+      "phase": 9,
+      "source": 289,
+      "direction": "west",
+      "landing": 288,
+      "price": 5,
+      "targets": [
+        8,
+        17
+      ]
+    },
+    {
+      "phase": 10,
+      "source": 290,
+      "direction": "east",
+      "landing": 291,
+      "price": 0,
+      "targets": [
+        11,
+        17
+      ]
+    },
+    {
+      "phase": 10,
+      "source": 290,
+      "direction": "west",
+      "landing": 289,
+      "price": 2,
+      "targets": [
+        9,
+        17
+      ]
+    },
+    {
+      "phase": 11,
+      "source": 291,
+      "direction": "east",
+      "landing": 292,
+      "price": 2,
+      "targets": [
+        12,
+        17
+      ]
+    },
+    {
+      "phase": 11,
+      "source": 291,
+      "direction": "west",
+      "landing": 290,
+      "price": 2,
+      "targets": [
+        10,
+        17
+      ]
+    },
+    {
+      "phase": 12,
+      "source": 292,
+      "direction": "east",
+      "landing": 293,
+      "price": 2,
+      "targets": [
+        13,
+        17
+      ]
+    },
+    {
+      "phase": 12,
+      "source": 292,
+      "direction": "west",
+      "landing": 291,
+      "price": 0,
+      "targets": [
+        11,
+        17
+      ]
+    },
+    {
+      "phase": 13,
+      "source": 293,
+      "direction": "east",
+      "landing": 294,
+      "price": 5,
+      "targets": [
+        17
+      ]
+    },
+    {
+      "phase": 13,
+      "source": 293,
+      "direction": "west",
+      "landing": 292,
+      "price": 0,
+      "targets": [
+        12,
+        17
+      ]
+    },
+    {
+      "phase": 14,
+      "source": 345,
+      "direction": "north",
+      "landing": 319,
+      "price": 0,
+      "targets": [
+        15,
+        17
+      ]
+    },
+    {
+      "phase": 14,
+      "source": 345,
+      "direction": "south",
+      "landing": 371,
+      "price": 2,
+      "targets": [
+        17
+      ]
+    },
+    {
+      "phase": 15,
+      "source": 319,
+      "direction": "north",
+      "landing": 293,
+      "price": 0,
+      "targets": [
+        16,
+        17
+      ]
+    },
+    {
+      "phase": 15,
+      "source": 319,
+      "direction": "south",
+      "landing": 345,
+      "price": 2,
+      "targets": [
+        14,
+        17
+      ]
+    },
+    {
+      "phase": 16,
+      "source": 293,
+      "direction": "east",
+      "landing": 294,
+      "price": 5,
+      "targets": [
+        17
+      ]
+    }
+  ],
+  "source_sha256": {
+    "research/owner1007/Owner1007/After265EastFive12.lean": "a05fecb3a350c24b19fb82c668e6377f92649d686aa4646d278b56175a02377a",
+    "lean/NetHack/Sokoban/Generated/Soko12Potential.lean": "81c956fda964e179fa02eeb053efcabcdc1906c484073394c13e7b356156fed3"
+  },
+  "independent_checked_theorem": "Owner1007.After265EastSix12.owned_credit"
+}

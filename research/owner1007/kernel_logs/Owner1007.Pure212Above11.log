@@ -1,0 +1,11 @@
+Owner1007/Pure212Above11.lean:53:12: warning: This simp argument is unused:
+  refinementCheck
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [reverse, if_pos heroInside] at row
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.Pure212Above11.quiet_frame' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Pure212Above11.quiet_no_north' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Pure212Above11.quiet_of_cheap_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Pure212Above11.no_north_of_cheap_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'Owner1007.HeroLedger.Logged.group_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.HeroLedger.Logged.energy_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.HeroLedger.survivor_energy' depends on axioms: [propext, Classical.choice, Quot.sound]

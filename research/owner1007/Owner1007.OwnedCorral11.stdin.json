@@ -1,0 +1,72 @@
+{
+  "module": "Owner1007.OwnedCorral11",
+  "source_sha256": "d2bbc7d3ec3d11d1e2e6310d5b37df752ea4294f067acb934bd79147cc737b7f",
+  "command": [
+    "/Users/ilyakondakov/.elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+    "--stdin",
+    "-j1",
+    "-M2048"
+  ],
+  "cwd": "/Users/ilyakondakov/PycharmProjects/myagent/local/bot-artifacts/nethack-invariants-owner1007/repo/lean",
+  "exit": 0,
+  "wall_s": 0.463,
+  "axioms": {
+    "Owner1007.OwnedCorral11.step_good_except": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Owner1007.OwnedCorral11.small_energy_good": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "log": "research/owner1007/Owner1007.OwnedCorral11.stdin.log",
+  "log_sha256": "a558cbe71ec9e8b28d865664bfaf3732f17c46c716c22e7c251c9cf67a7938d9",
+  "dependencies": {
+    "NetHack.Sokoban.Model": "895051e98943a8880f4c2400f1a43ff181398c13a4e9fcff4826ce43a3954bd0",
+    "NetHack.Sokoban.Maps": "a75198ecade90d656305083df062a7578d2527e930a2c67ccb1793f91b0f128d",
+    "NetHack.Sokoban.Geometry": "8ff5ff3614e0a48e23e18957cab0aad966bfb6fc558664c6d4988b6fc9179561",
+    "NetHack.Sokoban.LowerBounds": "1a8152b27007fbd8f08258618ceaf297f24fee4ddf122420f7cbd2a0b0aec86b",
+    "NetHack.Sokoban.NonlinearFacts": "cea2448f5472b6356ecdba2779493beb24d389fa99fa4057a3f8b0d9b0e56318",
+    "NetHack.Sokoban.ClosedSupport": "e59d390e2d69f29741405c100f9eea0148d66a8007fa9fb1416cb0ac587eadfa",
+    "NetHack.Sokoban.StatePermutation": "84b52f572ee3659e97b204f604c8852ca409f412ecf51d808506e773ce6281ac",
+    "NetHack.Sokoban.FiniteResidual": "8066463fb949637ffef101a1ee39d029a3270138e40a503c6ec8d49ad8ca3f0c",
+    "NetHack.Sokoban.FiniteMatrix": "8c9067ba0caa65bd22de0b67bf15c8568c4fbe9a9722856f5fa0fb6cd9a89b16",
+    "NetHack.Sokoban.FiniteTopology": "f7d12a1d2336a088b0398ba0d7d0680031bf439d14b332dc9d432e9027da6f6d",
+    "NetHack.Sokoban.PreciseRolling": "7ca00dcd8836c66a87d224eeeb11b19764489937aee27a264bbdaf15504d6d3a",
+    "NetHack.Sokoban.PatternCorrection": "e50c0a89cfd7dd0a663d82a225ac1ccfaf8202ff56b80816cf817b7b16b33b75",
+    "NetHack.Sokoban.HazardPattern": "20f74e171cc8c6110740aa125841c6425211f6e92ad8862cc837fb04f8904380",
+    "NetHack.Sokoban.HazardPhases": "c152beb49f1c99268ac2df1cba23cf0feb4eb0248f2051fcec7ff0a654a69c47",
+    "NetHack.Sokoban.GhostPartition": "26bef4c479d380a6b96473d5458f1fb63d8b2a701fa1d4f4ef08025b8de0882e",
+    "NetHack.Sokoban.GhostPartitionBound": "34148666ece320d5fb15b1bbb7d62fc24b6d7086c374d2469f258b0332d996d8",
+    "NetHack.Sokoban.DecisionDAG": "e4d491bbe7e281d20e5e684f473dd0d02c3e062471f54934597df0a5ff84fda6",
+    "NetHack.Sokoban.DecisionDAGCounted": "e69d7fb58e6aca405c15363890a2863778eeaaf7bbaeaba77715e594de19d12d",
+    "NetHack.Sokoban.PatternMass": "e96dd8ebfb12f379033909cee878b52d8613421c815bf6b5e9f82b6e659db8b2",
+    "NetHack.Sokoban.HazardPhaseCountedCorrection": "fa6365101d708aebe664d7fbd051490d7d37ac5ffcf6b73b8c7ef8b1d06c3700",
+    "NetHack.Sokoban.HeroPhasePotential.Projection": "b63453870e0cfd5d941425cb61965a72b947af76ca675c90a493a8f0d504e8ba",
+    "NetHack.Sokoban.HeroPhasePotential.Core": "fb054452c301e878ddcce45ef7905b65275333daac66347faa27a698956ea394",
+    "NetHack.Sokoban.HeroPhasePotential.SmallPattern": "7eb06b291bf859cdee9e6932f2eeb3477c5f79623f80b7f36f33f4a56bffc091",
+    "NetHack.Sokoban.GhostProjection": "537ec609afdf0a2741e31e61009c7bd0d0bc395a89be9c566decfe69388ee371",
+    "NetHack.Sokoban.GhostShadow": "f7613b714e19966c67649715d09a0ce74e0e4770174d143fdc51cf21bb032f61",
+    "NetHack.Sokoban.HeroPhasePotential.Strict": "44e0221d1cc48231cc99646b6c96ad7f0d43bdbf8328f71708f378683fcde8c9",
+    "NetHack.Sokoban.GhostPhaseCertificate": "06155a0cc512574d779116021f31378fcb5259145a730ac5cc4cfda906d17a5b",
+    "NetHack.Sokoban.OracleComplete": "49e4ac6b3ab1d6c4bae1b10e77e5a7d752cb15c4f4f97a96628a4b8e5bd7b1a7",
+    "NetHack.Sokoban.GhostScalar": "2bb0fecbf95d17835e74a30a570ab3e7aba10f3810ce7cf7d8a74c7376e03a4c",
+    "NetHack.Sokoban.GhostOracleLift": "d88f5eca795a93ad4860bc6a22821207f38f60c2429467230230e1ee1a63a346",
+    "NetHack.Sokoban.GhostOracleFacts": "872d792e9dff2c6444c6968e4cb2a01190645b924a33dc64753b1b5797aaf565",
+    "NetHack.Sokoban.GhostSubset": "6bba94230b73bcfe8719671e4c1320199d548126243e80dfedfe38e7c20e8c09",
+    "NetHack.Sokoban.Certificates": "58040e70d3677f18068432aee23c3fb45a6666346798ce2bac5fb05381f06547",
+    "NetHack.Sokoban.Generated.Soko32Potential": "55968b1e8c869e676bb49aea6d85473740dd4df6e63c86e91583fe907015d0f6",
+    "Owner1007.Locks": "daff3d81997ae6b1ba5c0a14e0b598f0e0535308c536a59ba80a2596e78c3b2a",
+    "Owner1007.FrozenDebt32": "da77857134858f80c03fa1aaf9e299404b75834924e311c500b195ec7af10fb6",
+    "Owner1007.TokenAccounting": "c0d130f1cce0beeecb900d8d7bd11e873889b97a2dca68ad7e1cf848f2310abb",
+    "Owner1007.TokenPartitions": "bf15809dacdc05baa844cdd2e8b595d7a3333cffdf8a43b91453b0f7b3e1a2fb",
+    "Owner1007.TokenPersistence": "699df6887e53005c54e911c1449b84f2e3afb022ba53fca83346feb6110b148d",
+    "Owner1007.HeroLedger": "0f7198e0b985e0fd0f227e733831ca4a6192ed070050a37633658979a96bf89c",
+    "Owner1007.Corral11": "1d51a3035d3e1081c737008da4a9754f09eddd452fd4731853f94a467b6f6bfa",
+    "Owner1007.PricedCorral11": "77d13431588106a805734da718e5975a4f9ff17368d78fff8a68e58ca36157a4"
+  },
+  "scope": "fresh kernel stdin check; olean/leanchecker replay pending sole cache writer"
+}

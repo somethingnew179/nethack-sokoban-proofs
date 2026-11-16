@@ -1,0 +1,6 @@
+'Owner1007.LeftGateReserve11.left_two_of_head' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.LeftGateReserve11.forces_front' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.LeftGateReserve11.actor_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.LeftGateReserve11.cut_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.LeftGateReserve11.future_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.LeftGateReserve11.future_four' depends on axioms: [propext, Classical.choice, Quot.sound]

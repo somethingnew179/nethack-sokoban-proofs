@@ -1,0 +1,13 @@
+Owner1007/RestAfterForward11.lean:10:2: warning: Variable name `logged` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _logged
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Owner1007/RestAfterForward11.lean:16:2: warning: Variable name `source190` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _source190
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Owner1007.RestAfterForward11.no_north_before' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'Owner1007.Triangle29111.closed' depends on axioms: [propext, Quot.sound]
+'Owner1007.Triangle29111.quiet_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,13 @@
+Owner1007/StationaryGuards11.lean:38:12: warning: This simp argument is unused:
+  guardCheck
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [behind, if_neg different, if_neg unblocked] at row
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.StationaryGuards11.guards141' depends on axioms: [propext, Quot.sound]
+'Owner1007.StationaryGuards11.guards193' depends on axioms: [propext, Quot.sound]
+'Owner1007.StationaryGuards11.guard_row' depends on axioms: [propext, Quot.sound]
+'Owner1007.StationaryGuards11.one_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.StationaryGuards11.guard141' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.StationaryGuards11.guard193' depends on axioms: [propext, Classical.choice, Quot.sound]

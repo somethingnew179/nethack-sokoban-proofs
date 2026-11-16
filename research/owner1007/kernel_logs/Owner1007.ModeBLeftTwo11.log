@@ -1,0 +1,2 @@
+'Owner1007.ModeBLeftTwo11.impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.ModeBLeftTwo11.only_four' depends on axioms: [propext, Classical.choice, Quot.sound]

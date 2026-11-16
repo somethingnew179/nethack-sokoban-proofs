@@ -1,0 +1,2 @@
+'Owner1007.CentralFirst11.geometry_checked' depends on axioms: [propext, Quot.sound]
+'Owner1007.CentralFirst11.closed' depends on axioms: [propext, Quot.sound]

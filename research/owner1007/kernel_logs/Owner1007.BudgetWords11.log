@@ -1,0 +1,19 @@
+Owner1007/BudgetWords11.lean:105:67: warning: This simp argument is unused:
+  post
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [gap0, value0, LowerBounds.weightSum, charge, update, move, GhostProjection.projectedOutcome,
+    singleSlack, effect.2, notOwner]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/BudgetWords11.lean:108:67: warning: This simp argument is unused:
+  post
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [gap0, value0, LowerBounds.weightSum, charge, update, move, GhostProjection.projectedOutcome,
+    singleSlack, effect.2.2, notOwner]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.BudgetWords11.all_checked' depends on axioms: [propext, Quot.sound]
+'Owner1007.BudgetWords11.real_cheap_from_reached' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.BudgetWords11.singleton_gap' depends on axioms: [propext, Quot.sound]

@@ -1,0 +1,2 @@
+'Owner1007.PricedCorral11.step_good_except' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.PricedCorral11.completing_contains_paid' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'Owner1007.CriticalFee12.ledger' depends on axioms: [propext, Quot.sound]
+'Owner1007.CriticalFee12.event_count' depends on axioms: [propext, Quot.sound]
+'Owner1007.CriticalFee12.event_residual_le' depends on axioms: [propext, Quot.sound]
+'Owner1007.CriticalFee12.residue_other' depends on axioms: [propext]
+'Owner1007.CriticalFee12.energy_eight' depends on axioms: [propext, Quot.sound]

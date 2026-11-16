@@ -1,0 +1,2 @@
+'Owner1007.NorthEvents12.node0' depends on axioms: [propext, Quot.sound]
+'Owner1007.NorthEvents12.guard0' depends on axioms: [propext, Quot.sound]

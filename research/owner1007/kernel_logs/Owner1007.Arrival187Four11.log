@@ -1,0 +1,15 @@
+Owner1007/Arrival187Four11.lean:18:2: warning: Variable name `last` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _last
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Owner1007/Arrival187Four11.lean:30:2: warning: Variable name `last` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _last
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Owner1007.Arrival187Four11.head_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Arrival187Four11.ticket' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Arrival187Four11.dichotomy' depends on axioms: [propext, Classical.choice, Quot.sound]

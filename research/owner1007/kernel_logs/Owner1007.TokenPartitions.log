@@ -1,0 +1,2 @@
+'Owner1007.TokenAccounting.Logged.energy_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.TokenAccounting.Logged.all_energy' depends on axioms: [propext, Quot.sound]

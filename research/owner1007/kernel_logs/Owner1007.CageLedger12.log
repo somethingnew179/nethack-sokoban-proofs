@@ -1,0 +1,6 @@
+'Owner1007.TokenAccounting.Logged.ownSlack_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.TokenAccounting.prefix_slack_le_energy' depends on axioms: [propext, Quot.sound]
+'Owner1007.TokenAccounting.Logged.energy_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.CageLedger12.upper_bonus' depends on axioms: [propext, Quot.sound]
+'Owner1007.CageLedger12.gate_owned_nineteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.CageLedger12.locked_middle_square' depends on axioms: [propext, Quot.sound]

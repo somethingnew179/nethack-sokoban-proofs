@@ -1,0 +1,6 @@
+'Owner1007.RightPocketDead11.node0' depends on axioms: [propext, Quot.sound]
+'Owner1007.RightPocketDead11.node1' depends on axioms: [propext, Quot.sound]
+'Owner1007.RightPocketDead11.node2' depends on axioms: [propext, Quot.sound]
+'Owner1007.RightPocketDead11.node3' depends on axioms: [propext, Quot.sound]
+'Owner1007.RightPocketDead11.node4' depends on axioms: [propext, Quot.sound]
+'Owner1007.RightPocketDead11.impossible_gone' depends on axioms: [propext, Classical.choice, Quot.sound]

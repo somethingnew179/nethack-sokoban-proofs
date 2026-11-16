@@ -1,0 +1,2 @@
+'Owner1007.NorthWrap12.canonical_north' depends on axioms: [propext, Quot.sound]
+'Owner1007.NorthWrap12.energy_north' depends on axioms: [propext, Quot.sound]

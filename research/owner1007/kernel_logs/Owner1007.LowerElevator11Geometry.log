@@ -1,0 +1,2 @@
+'Owner1007.LowerElevator11.geometry_checked' depends on axioms: [propext, Quot.sound]
+'Owner1007.LowerElevator11.closed' depends on axioms: [propext, Quot.sound]

@@ -1,0 +1,1112 @@
+{
+  "map": "soko1-1",
+  "method": "Exactly four prescribed canonical prefixes; walking BFS only",
+  "boulder_configuration_search": false,
+  "validation_scope": "Python diagnostic assertions; no universal bound or winning witness",
+  "cases": [
+    {
+      "name": "budget327_right_park",
+      "original_start": true,
+      "result": "expected_prescribed_prefix_failure",
+      "successful_pushes": 10,
+      "successful_moves": 36,
+      "prescribed_macros": [
+        [
+          212,
+          "W2"
+        ],
+        [
+          186,
+          "W1"
+        ],
+        [
+          188,
+          "W1"
+        ],
+        [
+          191,
+          "W2"
+        ],
+        [
+          137,
+          "E1S3E1"
+        ]
+      ],
+      "failed": {
+        "identity": 137,
+        "source": 216,
+        "direction": "east",
+        "support": 215,
+        "support_reachable": false
+      },
+      "state": {
+        "player": 190,
+        "boulders": [
+          133,
+          135,
+          139,
+          141,
+          185,
+          187,
+          189,
+          193,
+          210,
+          216,
+          264,
+          266,
+          268,
+          293,
+          315,
+          317,
+          321,
+          367
+        ],
+        "holes": [
+          33,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ]
+      },
+      "identities": {
+        "193": 193,
+        "321": 321,
+        "133": 133,
+        "293": 293,
+        "135": 135,
+        "264": 264,
+        "137": 216,
+        "266": 266,
+        "139": 139,
+        "268": 268,
+        "141": 141,
+        "367": 367,
+        "212": 210,
+        "186": 185,
+        "315": 315,
+        "188": 187,
+        "317": 317,
+        "191": 189
+      },
+      "events": [
+        {
+          "identity": 212,
+          "source": 212,
+          "direction": "west",
+          "landing": 211,
+          "filled": null
+        },
+        {
+          "identity": 212,
+          "source": 211,
+          "direction": "west",
+          "landing": 210,
+          "filled": null
+        },
+        {
+          "identity": 186,
+          "source": 186,
+          "direction": "west",
+          "landing": 185,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 188,
+          "direction": "west",
+          "landing": 187,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 191,
+          "direction": "west",
+          "landing": 190,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 190,
+          "direction": "west",
+          "landing": 189,
+          "filled": null
+        },
+        {
+          "identity": 137,
+          "source": 137,
+          "direction": "east",
+          "landing": 138,
+          "filled": null
+        },
+        {
+          "identity": 137,
+          "source": 138,
+          "direction": "south",
+          "landing": 164,
+          "filled": null
+        },
+        {
+          "identity": 137,
+          "source": 164,
+          "direction": "south",
+          "landing": 190,
+          "filled": null
+        },
+        {
+          "identity": 137,
+          "source": 190,
+          "direction": "south",
+          "landing": 216,
+          "filled": null
+        }
+      ]
+    },
+    {
+      "name": "budget329_one_gate",
+      "original_start": true,
+      "result": "expected_prescribed_prefix_failure",
+      "successful_pushes": 23,
+      "successful_moves": 58,
+      "prescribed_macros": [
+        [
+          186,
+          "W2"
+        ],
+        [
+          212,
+          "W2"
+        ],
+        [
+          188,
+          "W2"
+        ],
+        [
+          191,
+          "W2"
+        ],
+        [
+          139,
+          "W1S3W3S3"
+        ],
+        [
+          191,
+          "E1N3W1N3"
+        ]
+      ],
+      "failed": {
+        "identity": 191,
+        "source": 111,
+        "direction": "north",
+        "support": 137,
+        "support_reachable": false
+      },
+      "state": {
+        "player": 112,
+        "boulders": [
+          111,
+          133,
+          135,
+          137,
+          141,
+          184,
+          186,
+          193,
+          210,
+          264,
+          266,
+          268,
+          291,
+          293,
+          315,
+          317,
+          321,
+          367
+        ],
+        "holes": [
+          33,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ]
+      },
+      "identities": {
+        "193": 193,
+        "321": 321,
+        "133": 133,
+        "293": 293,
+        "135": 135,
+        "264": 264,
+        "137": 137,
+        "266": 266,
+        "139": 291,
+        "268": 268,
+        "141": 141,
+        "367": 367,
+        "212": 210,
+        "186": 184,
+        "315": 315,
+        "188": 186,
+        "317": 317,
+        "191": 111
+      },
+      "events": [
+        {
+          "identity": 186,
+          "source": 186,
+          "direction": "west",
+          "landing": 185,
+          "filled": null
+        },
+        {
+          "identity": 186,
+          "source": 185,
+          "direction": "west",
+          "landing": 184,
+          "filled": null
+        },
+        {
+          "identity": 212,
+          "source": 212,
+          "direction": "west",
+          "landing": 211,
+          "filled": null
+        },
+        {
+          "identity": 212,
+          "source": 211,
+          "direction": "west",
+          "landing": 210,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 188,
+          "direction": "west",
+          "landing": 187,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 187,
+          "direction": "west",
+          "landing": 186,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 191,
+          "direction": "west",
+          "landing": 190,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 190,
+          "direction": "west",
+          "landing": 189,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 139,
+          "direction": "west",
+          "landing": 138,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 138,
+          "direction": "south",
+          "landing": 164,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 164,
+          "direction": "south",
+          "landing": 190,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 190,
+          "direction": "south",
+          "landing": 216,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 216,
+          "direction": "west",
+          "landing": 215,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 215,
+          "direction": "west",
+          "landing": 214,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 214,
+          "direction": "west",
+          "landing": 213,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 213,
+          "direction": "south",
+          "landing": 239,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 239,
+          "direction": "south",
+          "landing": 265,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 265,
+          "direction": "south",
+          "landing": 291,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 189,
+          "direction": "east",
+          "landing": 190,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 190,
+          "direction": "north",
+          "landing": 164,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 164,
+          "direction": "north",
+          "landing": 138,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 138,
+          "direction": "north",
+          "landing": 112,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 112,
+          "direction": "west",
+          "landing": 111,
+          "filled": null
+        }
+      ]
+    },
+    {
+      "name": "budget333_left_pair",
+      "original_start": true,
+      "result": "expected_prescribed_prefix_failure",
+      "successful_pushes": 50,
+      "successful_moves": 116,
+      "prescribed_macros": [
+        [
+          264,
+          "W1"
+        ],
+        [
+          186,
+          "W2"
+        ],
+        [
+          212,
+          "W2"
+        ],
+        [
+          188,
+          "W2"
+        ],
+        [
+          191,
+          "W2"
+        ],
+        [
+          139,
+          "W1S3W3S3E1"
+        ],
+        [
+          137,
+          "E1S3W3S3"
+        ],
+        [
+          191,
+          "E1N3W1N3"
+        ],
+        [
+          188,
+          "E4N3W1N3E1"
+        ],
+        [
+          186,
+          "E6"
+        ]
+      ],
+      "failed": {
+        "identity": 186,
+        "source": 184,
+        "direction": "east",
+        "support": 183,
+        "support_reachable": false
+      },
+      "state": {
+        "player": 33,
+        "boulders": [
+          133,
+          135,
+          141,
+          184,
+          193,
+          210,
+          263,
+          266,
+          268,
+          291,
+          292,
+          293,
+          315,
+          317,
+          321,
+          367
+        ],
+        "holes": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ]
+      },
+      "identities": {
+        "193": 193,
+        "321": 321,
+        "133": 133,
+        "293": 293,
+        "135": 135,
+        "264": 263,
+        "137": 291,
+        "266": 266,
+        "139": 292,
+        "268": 268,
+        "141": 141,
+        "367": 367,
+        "212": 210,
+        "186": 184,
+        "315": 315,
+        "317": 317
+      },
+      "events": [
+        {
+          "identity": 264,
+          "source": 264,
+          "direction": "west",
+          "landing": 263,
+          "filled": null
+        },
+        {
+          "identity": 186,
+          "source": 186,
+          "direction": "west",
+          "landing": 185,
+          "filled": null
+        },
+        {
+          "identity": 186,
+          "source": 185,
+          "direction": "west",
+          "landing": 184,
+          "filled": null
+        },
+        {
+          "identity": 212,
+          "source": 212,
+          "direction": "west",
+          "landing": 211,
+          "filled": null
+        },
+        {
+          "identity": 212,
+          "source": 211,
+          "direction": "west",
+          "landing": 210,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 188,
+          "direction": "west",
+          "landing": 187,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 187,
+          "direction": "west",
+          "landing": 186,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 191,
+          "direction": "west",
+          "landing": 190,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 190,
+          "direction": "west",
+          "landing": 189,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 139,
+          "direction": "west",
+          "landing": 138,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 138,
+          "direction": "south",
+          "landing": 164,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 164,
+          "direction": "south",
+          "landing": 190,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 190,
+          "direction": "south",
+          "landing": 216,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 216,
+          "direction": "west",
+          "landing": 215,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 215,
+          "direction": "west",
+          "landing": 214,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 214,
+          "direction": "west",
+          "landing": 213,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 213,
+          "direction": "south",
+          "landing": 239,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 239,
+          "direction": "south",
+          "landing": 265,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 265,
+          "direction": "south",
+          "landing": 291,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 291,
+          "direction": "east",
+          "landing": 292,
+          "filled": null
+        },
+        {
+          "identity": 137,
+          "source": 137,
+          "direction": "east",
+          "landing": 138,
+          "filled": null
+        },
+        {
+          "identity": 137,
+          "source": 138,
+          "direction": "south",
+          "landing": 164,
+          "filled": null
+        },
+        {
+          "identity": 137,
+          "source": 164,
+          "direction": "south",
+          "landing": 190,
+          "filled": null
+        },
+        {
+          "identity": 137,
+          "source": 190,
+          "direction": "south",
+          "landing": 216,
+          "filled": null
+        },
+        {
+          "identity": 137,
+          "source": 216,
+          "direction": "west",
+          "landing": 215,
+          "filled": null
+        },
+        {
+          "identity": 137,
+          "source": 215,
+          "direction": "west",
+          "landing": 214,
+          "filled": null
+        },
+        {
+          "identity": 137,
+          "source": 214,
+          "direction": "west",
+          "landing": 213,
+          "filled": null
+        },
+        {
+          "identity": 137,
+          "source": 213,
+          "direction": "south",
+          "landing": 239,
+          "filled": null
+        },
+        {
+          "identity": 137,
+          "source": 239,
+          "direction": "south",
+          "landing": 265,
+          "filled": null
+        },
+        {
+          "identity": 137,
+          "source": 265,
+          "direction": "south",
+          "landing": 291,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 189,
+          "direction": "east",
+          "landing": 190,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 190,
+          "direction": "north",
+          "landing": 164,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 164,
+          "direction": "north",
+          "landing": 138,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 138,
+          "direction": "north",
+          "landing": 112,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 112,
+          "direction": "west",
+          "landing": 111,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 111,
+          "direction": "north",
+          "landing": 85,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 85,
+          "direction": "north",
+          "landing": 59,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 59,
+          "direction": "north",
+          "landing": 33,
+          "filled": 33
+        },
+        {
+          "identity": 188,
+          "source": 186,
+          "direction": "east",
+          "landing": 187,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 187,
+          "direction": "east",
+          "landing": 188,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 188,
+          "direction": "east",
+          "landing": 189,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 189,
+          "direction": "east",
+          "landing": 190,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 190,
+          "direction": "north",
+          "landing": 164,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 164,
+          "direction": "north",
+          "landing": 138,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 138,
+          "direction": "north",
+          "landing": 112,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 112,
+          "direction": "west",
+          "landing": 111,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 111,
+          "direction": "north",
+          "landing": 85,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 85,
+          "direction": "north",
+          "landing": 59,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 59,
+          "direction": "north",
+          "landing": 33,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 33,
+          "direction": "east",
+          "landing": 35,
+          "filled": 35
+        }
+      ]
+    },
+    {
+      "name": "budget331_shallow188",
+      "original_start": true,
+      "result": "expected_prescribed_prefix_failure",
+      "successful_pushes": 15,
+      "successful_moves": 47,
+      "prescribed_macros": [
+        [
+          264,
+          "W1"
+        ],
+        [
+          186,
+          "W1"
+        ],
+        [
+          212,
+          "W3"
+        ],
+        [
+          188,
+          "W1"
+        ],
+        [
+          191,
+          "W2"
+        ],
+        [
+          139,
+          "W1S3W3S3E1"
+        ]
+      ],
+      "failed": {
+        "identity": 139,
+        "source": 213,
+        "direction": "south",
+        "support": 187,
+        "support_reachable": false
+      },
+      "state": {
+        "player": 214,
+        "boulders": [
+          133,
+          135,
+          137,
+          141,
+          185,
+          187,
+          189,
+          193,
+          209,
+          213,
+          263,
+          266,
+          268,
+          293,
+          315,
+          317,
+          321,
+          367
+        ],
+        "holes": [
+          33,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ]
+      },
+      "identities": {
+        "193": 193,
+        "321": 321,
+        "133": 133,
+        "293": 293,
+        "135": 135,
+        "264": 263,
+        "137": 137,
+        "266": 266,
+        "139": 213,
+        "268": 268,
+        "141": 141,
+        "367": 367,
+        "212": 209,
+        "186": 185,
+        "315": 315,
+        "188": 187,
+        "317": 317,
+        "191": 189
+      },
+      "events": [
+        {
+          "identity": 264,
+          "source": 264,
+          "direction": "west",
+          "landing": 263,
+          "filled": null
+        },
+        {
+          "identity": 186,
+          "source": 186,
+          "direction": "west",
+          "landing": 185,
+          "filled": null
+        },
+        {
+          "identity": 212,
+          "source": 212,
+          "direction": "west",
+          "landing": 211,
+          "filled": null
+        },
+        {
+          "identity": 212,
+          "source": 211,
+          "direction": "west",
+          "landing": 210,
+          "filled": null
+        },
+        {
+          "identity": 212,
+          "source": 210,
+          "direction": "west",
+          "landing": 209,
+          "filled": null
+        },
+        {
+          "identity": 188,
+          "source": 188,
+          "direction": "west",
+          "landing": 187,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 191,
+          "direction": "west",
+          "landing": 190,
+          "filled": null
+        },
+        {
+          "identity": 191,
+          "source": 190,
+          "direction": "west",
+          "landing": 189,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 139,
+          "direction": "west",
+          "landing": 138,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 138,
+          "direction": "south",
+          "landing": 164,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 164,
+          "direction": "south",
+          "landing": 190,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 190,
+          "direction": "south",
+          "landing": 216,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 216,
+          "direction": "west",
+          "landing": 215,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 215,
+          "direction": "west",
+          "landing": 214,
+          "filled": null
+        },
+        {
+          "identity": 139,
+          "source": 214,
+          "direction": "west",
+          "landing": 213,
+          "filled": null
+        }
+      ]
+    }
+  ]
+}

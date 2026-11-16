@@ -1,0 +1,2 @@
+'Owner1007.North211Tight22912.canonical_ledgers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.North211Tight22912.g_le_eight' depends on axioms: [propext, Classical.choice, Quot.sound]

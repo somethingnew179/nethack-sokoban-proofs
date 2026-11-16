@@ -1,0 +1,3 @@
+'Owner1007.Left211Pocket11.closed' depends on axioms: [propext, Quot.sound]
+'Owner1007.Left211Pocket11.forces_west' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Left211Pocket11.energy_two' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,42 @@
+[
+  {
+    "source": "/private/tmp/nethack-owner1007-transfer32/Spare315Rest11.lean",
+    "target": "research/owner1007/Owner1007/Spare315Rest11.lean",
+    "sha256": "b8dde12be59a91dd86fe4c5ff47998a001308c45569118f462f33243d6e08c92"
+  },
+  {
+    "source": "/private/tmp/nethack-owner1007-transfer32/Row190191Rest11.lean",
+    "target": "research/owner1007/Owner1007/Row190191Rest11.lean",
+    "sha256": "7d2e6b2e6d9e683fc9aafaddda5d3816ff791acce4bc7225d512510fffb16ce5"
+  },
+  {
+    "source": "/private/tmp/nethack-owner1007-transfer32/BlockRest186Rest11.lean",
+    "target": "research/owner1007/Owner1007/BlockRest186Rest11.lean",
+    "sha256": "0a30fa00e85a3d0e527110dd6e5e6f234ffdaa904af83501d02e8cc5c019d586"
+  },
+  {
+    "source": "/private/tmp/nethack-owner1007-transfer32/RightParkedRestReady11.lean",
+    "target": "research/owner1007/Owner1007/RightParkedRestReady11.lean",
+    "sha256": "9ac7aa46333e3914436c0c45903504b1b806ae7ce244204414c82c4ee5a8b964"
+  },
+  {
+    "source": "/private/tmp/nethack-owner1007-transfer32/RightParkedRestNext11.lean",
+    "target": "research/owner1007/Owner1007/RightParkedRestNext11.lean",
+    "sha256": "8052bbab001d91cb93757e6b9a947452df22d3e0598ea592f1afd0c3742a911b"
+  },
+  {
+    "source": "/private/tmp/nethack-owner1007-transfer32/RightParkedRestLeaves11.lean",
+    "target": "research/owner1007/Owner1007/RightParkedRestLeaves11.lean",
+    "sha256": "139293c2617fc3bb71629a794a7ff61de9023df6bf200b41bbc45a650c58fed2"
+  },
+  {
+    "source": "/private/tmp/nethack-owner1007-transfer32/RightParkedRestFront11.lean",
+    "target": "research/owner1007/Owner1007/RightParkedRestFront11.lean",
+    "sha256": "82734951167405a26a04756efd0b017603f7453df8fb8b21e9e05fbe40faf7db"
+  },
+  {
+    "source": "/private/tmp/nethack-owner1007-transfer32/RightParkedRestInduction11.lean",
+    "target": "research/owner1007/Owner1007/RightParkedRestInduction11.lean",
+    "sha256": "23df02661bb264cdda0b6650d2efdd51555350f8d4b64033527bf52f792144c9"
+  }
+]

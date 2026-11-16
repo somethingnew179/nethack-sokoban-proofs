@@ -1,0 +1,2 @@
+Owner1007/Upper187StartForcedSouth12.lean:33:12: warning: `Int.ofNat_nonneg` has been deprecated: Use `Int.natCast_nonneg` instead
+'Owner1007.Upper187StartForcedSouth12.forced_south' depends on axioms: [propext, Classical.choice, Quot.sound]

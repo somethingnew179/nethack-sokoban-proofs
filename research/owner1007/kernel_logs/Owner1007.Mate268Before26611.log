@@ -1,0 +1,9 @@
+'Owner1007.Mate268Before26611.guards' depends on axioms: [propext, Quot.sound]
+'Owner1007.Mate268Before26611.no_first_east' depends on axioms: [propext, Classical.choice, Quot.sound]
+Owner1007/Mate268Before26611.lean:59:2: warning: Variable name `logged` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _logged
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Owner1007.Mate268Before26611.stationary_before_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]

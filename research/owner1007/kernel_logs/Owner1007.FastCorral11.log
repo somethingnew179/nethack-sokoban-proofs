@@ -1,0 +1,2 @@
+'Owner1007.FastCorral11.closed_of_checks' depends on axioms: [propext, Quot.sound]
+'Owner1007.FastCorral11.node_of_parts' depends on axioms: [propext, Quot.sound]

@@ -1,0 +1,2331 @@
+{
+  "pushes": 141,
+  "moves": 610,
+  "final_player": 270,
+  "final_boulders": [
+    113,
+    114,
+    106,
+    80
+  ],
+  "final_holes": [],
+  "proof_source": "research/owner1007/Owner1007/Witness32_141.lean",
+  "kernel_checked": true,
+  "path": [
+    "southWest",
+    "southWest",
+    "south",
+    "south",
+    "south",
+    "east",
+    "north",
+    "east",
+    "east",
+    "west",
+    "west",
+    "northWest",
+    "north",
+    "northEast",
+    "east",
+    "east",
+    "east",
+    "east",
+    "east",
+    "east",
+    "south",
+    "south",
+    "east",
+    "northWest",
+    "northWest",
+    "west",
+    "west",
+    "west",
+    "west",
+    "west",
+    "southWest",
+    "south",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "east",
+    "east",
+    "east",
+    "south",
+    "south",
+    "east",
+    "southEast",
+    "east",
+    "northEast",
+    "northWest",
+    "west",
+    "south",
+    "west",
+    "northWest",
+    "northWest",
+    "west",
+    "west",
+    "northWest",
+    "northEast",
+    "northEast",
+    "east",
+    "northEast",
+    "southEast",
+    "south",
+    "southEast",
+    "south",
+    "south",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "northWest",
+    "west",
+    "southWest",
+    "southWest",
+    "southWest",
+    "southEast",
+    "east",
+    "east",
+    "southEast",
+    "south",
+    "southEast",
+    "east",
+    "east",
+    "west",
+    "northWest",
+    "northWest",
+    "northWest",
+    "west",
+    "west",
+    "northWest",
+    "northEast",
+    "northEast",
+    "east",
+    "northEast",
+    "southEast",
+    "south",
+    "southEast",
+    "south",
+    "southEast",
+    "southEast",
+    "east",
+    "northEast",
+    "west",
+    "north",
+    "north",
+    "northWest",
+    "north",
+    "west",
+    "north",
+    "north",
+    "northWest",
+    "west",
+    "west",
+    "west",
+    "west",
+    "west",
+    "southWest",
+    "south",
+    "southEast",
+    "east",
+    "east",
+    "northEast",
+    "southEast",
+    "south",
+    "southEast",
+    "south",
+    "southEast",
+    "east",
+    "northWest",
+    "northWest",
+    "north",
+    "northWest",
+    "northWest",
+    "west",
+    "southWest",
+    "west",
+    "northWest",
+    "north",
+    "northEast",
+    "east",
+    "east",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "south",
+    "south",
+    "southEast",
+    "southEast",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "northWest",
+    "northWest",
+    "northWest",
+    "north",
+    "northWest",
+    "northWest",
+    "west",
+    "southWest",
+    "southWest",
+    "southWest",
+    "southEast",
+    "east",
+    "east",
+    "southEast",
+    "southEast",
+    "southEast",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "southWest",
+    "west",
+    "northWest",
+    "northWest",
+    "northWest",
+    "west",
+    "west",
+    "northWest",
+    "northEast",
+    "northEast",
+    "east",
+    "northEast",
+    "southEast",
+    "south",
+    "southEast",
+    "south",
+    "southEast",
+    "east",
+    "northWest",
+    "northWest",
+    "north",
+    "northWest",
+    "northWest",
+    "west",
+    "southWest",
+    "west",
+    "northWest",
+    "north",
+    "northEast",
+    "east",
+    "east",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "south",
+    "south",
+    "southEast",
+    "southEast",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "west",
+    "northWest",
+    "west",
+    "south",
+    "southWest",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "southWest",
+    "northWest",
+    "northEast",
+    "east",
+    "northWest",
+    "northWest",
+    "north",
+    "northWest",
+    "northWest",
+    "west",
+    "southWest",
+    "west",
+    "northWest",
+    "north",
+    "northEast",
+    "east",
+    "east",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "south",
+    "south",
+    "southEast",
+    "southEast",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "west",
+    "northWest",
+    "west",
+    "southWest",
+    "northWest",
+    "north",
+    "east",
+    "west",
+    "west",
+    "west",
+    "west",
+    "northWest",
+    "northEast",
+    "northEast",
+    "east",
+    "northEast",
+    "southEast",
+    "south",
+    "southEast",
+    "south",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "southWest",
+    "northWest",
+    "northEast",
+    "east",
+    "northWest",
+    "northWest",
+    "north",
+    "northWest",
+    "northWest",
+    "west",
+    "southWest",
+    "west",
+    "northWest",
+    "north",
+    "northEast",
+    "east",
+    "east",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "south",
+    "south",
+    "southEast",
+    "southEast",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "northWest",
+    "northWest",
+    "northWest",
+    "northWest",
+    "south",
+    "southEast",
+    "south",
+    "southWest",
+    "northWest",
+    "north",
+    "east",
+    "northEast",
+    "south",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "southWest",
+    "northWest",
+    "northEast",
+    "east",
+    "northWest",
+    "northWest",
+    "north",
+    "northWest",
+    "northWest",
+    "west",
+    "southWest",
+    "west",
+    "northWest",
+    "north",
+    "northEast",
+    "east",
+    "east",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "south",
+    "south",
+    "southEast",
+    "southEast",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "north",
+    "north",
+    "north",
+    "northWest",
+    "northWest",
+    "west",
+    "south",
+    "southWest",
+    "southWest",
+    "west",
+    "west",
+    "west",
+    "northWest",
+    "northEast",
+    "northEast",
+    "east",
+    "northEast",
+    "east",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "south",
+    "southWest",
+    "northWest",
+    "north",
+    "east",
+    "northEast",
+    "south",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "southWest",
+    "northWest",
+    "northEast",
+    "east",
+    "northWest",
+    "northWest",
+    "north",
+    "northEast",
+    "southEast",
+    "southEast",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "northWest",
+    "northWest",
+    "northWest",
+    "north",
+    "northWest",
+    "northWest",
+    "southWest",
+    "east",
+    "northEast",
+    "south",
+    "south",
+    "south",
+    "southEast",
+    "south",
+    "southWest",
+    "northWest",
+    "north",
+    "east",
+    "northEast",
+    "south",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "southWest",
+    "northWest",
+    "northEast",
+    "east",
+    "northWest",
+    "northWest",
+    "north",
+    "northEast",
+    "southEast",
+    "southEast",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "northWest",
+    "northWest",
+    "northWest",
+    "northWest",
+    "northWest",
+    "southWest",
+    "east",
+    "northEast",
+    "south",
+    "south",
+    "southEast",
+    "south",
+    "southWest",
+    "northWest",
+    "north",
+    "east",
+    "northEast",
+    "south",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "southWest",
+    "northWest",
+    "northEast",
+    "east",
+    "northWest",
+    "northWest",
+    "north",
+    "northEast",
+    "southEast",
+    "southEast",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "west",
+    "northWest",
+    "northWest",
+    "northWest",
+    "northWest",
+    "west",
+    "northWest",
+    "southWest",
+    "east",
+    "east",
+    "east",
+    "northEast",
+    "south",
+    "south",
+    "southEast",
+    "south",
+    "southWest",
+    "northWest",
+    "north",
+    "east",
+    "northEast",
+    "south",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "southWest",
+    "northWest",
+    "northEast",
+    "east",
+    "northWest",
+    "northWest",
+    "north",
+    "northEast",
+    "southEast",
+    "southEast",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "west",
+    "northWest",
+    "southWest",
+    "southWest",
+    "southWest",
+    "north",
+    "northEast",
+    "northEast",
+    "northWest",
+    "west",
+    "west",
+    "west",
+    "west",
+    "southWest",
+    "south",
+    "southEast",
+    "east",
+    "east",
+    "east",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "southWest",
+    "northWest",
+    "northEast",
+    "east",
+    "northWest",
+    "northWest",
+    "north",
+    "northEast",
+    "southEast",
+    "southEast",
+    "south",
+    "south",
+    "southWest",
+    "east",
+    "west",
+    "northWest",
+    "west",
+    "northWest",
+    "southWest",
+    "south",
+    "north",
+    "northWest",
+    "west",
+    "west",
+    "southWest",
+    "southEast",
+    "east",
+    "southEast",
+    "east",
+    "east",
+    "east",
+    "east",
+    "southEast",
+    "north",
+    "north",
+    "southWest",
+    "northWest",
+    "northEast",
+    "east",
+    "northWest",
+    "northWest",
+    "north",
+    "northEast",
+    "southEast",
+    "southEast",
+    "south",
+    "south",
+    "southWest",
+    "east"
+  ],
+  "commands": [
+    [
+      158,
+      "east"
+    ],
+    [
+      132,
+      "north"
+    ],
+    [
+      134,
+      "east"
+    ],
+    [
+      86,
+      "south"
+    ],
+    [
+      112,
+      "south"
+    ],
+    [
+      113,
+      "east"
+    ],
+    [
+      211,
+      "east"
+    ],
+    [
+      212,
+      "east"
+    ],
+    [
+      213,
+      "east"
+    ],
+    [
+      239,
+      "south"
+    ],
+    [
+      265,
+      "south"
+    ],
+    [
+      267,
+      "south"
+    ],
+    [
+      215,
+      "south"
+    ],
+    [
+      241,
+      "south"
+    ],
+    [
+      293,
+      "east"
+    ],
+    [
+      294,
+      "east"
+    ],
+    [
+      270,
+      "east"
+    ],
+    [
+      244,
+      "west"
+    ],
+    [
+      139,
+      "north"
+    ],
+    [
+      138,
+      "west"
+    ],
+    [
+      243,
+      "east"
+    ],
+    [
+      244,
+      "south"
+    ],
+    [
+      270,
+      "east"
+    ],
+    [
+      295,
+      "north"
+    ],
+    [
+      269,
+      "north"
+    ],
+    [
+      243,
+      "east"
+    ],
+    [
+      244,
+      "south"
+    ],
+    [
+      270,
+      "east"
+    ],
+    [
+      267,
+      "south"
+    ],
+    [
+      293,
+      "east"
+    ],
+    [
+      294,
+      "east"
+    ],
+    [
+      295,
+      "north"
+    ],
+    [
+      269,
+      "north"
+    ],
+    [
+      243,
+      "east"
+    ],
+    [
+      244,
+      "south"
+    ],
+    [
+      270,
+      "east"
+    ],
+    [
+      214,
+      "east"
+    ],
+    [
+      215,
+      "south"
+    ],
+    [
+      241,
+      "south"
+    ],
+    [
+      267,
+      "south"
+    ],
+    [
+      293,
+      "east"
+    ],
+    [
+      294,
+      "east"
+    ],
+    [
+      295,
+      "north"
+    ],
+    [
+      269,
+      "north"
+    ],
+    [
+      243,
+      "east"
+    ],
+    [
+      244,
+      "south"
+    ],
+    [
+      270,
+      "east"
+    ],
+    [
+      188,
+      "south"
+    ],
+    [
+      214,
+      "east"
+    ],
+    [
+      215,
+      "south"
+    ],
+    [
+      241,
+      "south"
+    ],
+    [
+      267,
+      "south"
+    ],
+    [
+      293,
+      "east"
+    ],
+    [
+      294,
+      "east"
+    ],
+    [
+      295,
+      "north"
+    ],
+    [
+      269,
+      "north"
+    ],
+    [
+      243,
+      "east"
+    ],
+    [
+      244,
+      "south"
+    ],
+    [
+      270,
+      "east"
+    ],
+    [
+      137,
+      "west"
+    ],
+    [
+      136,
+      "south"
+    ],
+    [
+      162,
+      "south"
+    ],
+    [
+      188,
+      "south"
+    ],
+    [
+      214,
+      "east"
+    ],
+    [
+      215,
+      "south"
+    ],
+    [
+      241,
+      "south"
+    ],
+    [
+      267,
+      "south"
+    ],
+    [
+      293,
+      "east"
+    ],
+    [
+      294,
+      "east"
+    ],
+    [
+      295,
+      "north"
+    ],
+    [
+      269,
+      "north"
+    ],
+    [
+      243,
+      "east"
+    ],
+    [
+      244,
+      "south"
+    ],
+    [
+      270,
+      "east"
+    ],
+    [
+      135,
+      "east"
+    ],
+    [
+      136,
+      "south"
+    ],
+    [
+      162,
+      "south"
+    ],
+    [
+      188,
+      "south"
+    ],
+    [
+      214,
+      "east"
+    ],
+    [
+      215,
+      "south"
+    ],
+    [
+      241,
+      "south"
+    ],
+    [
+      267,
+      "south"
+    ],
+    [
+      293,
+      "east"
+    ],
+    [
+      294,
+      "east"
+    ],
+    [
+      295,
+      "north"
+    ],
+    [
+      269,
+      "north"
+    ],
+    [
+      243,
+      "east"
+    ],
+    [
+      244,
+      "south"
+    ],
+    [
+      270,
+      "east"
+    ],
+    [
+      161,
+      "east"
+    ],
+    [
+      162,
+      "south"
+    ],
+    [
+      188,
+      "south"
+    ],
+    [
+      214,
+      "east"
+    ],
+    [
+      215,
+      "south"
+    ],
+    [
+      241,
+      "south"
+    ],
+    [
+      267,
+      "south"
+    ],
+    [
+      293,
+      "east"
+    ],
+    [
+      294,
+      "east"
+    ],
+    [
+      295,
+      "north"
+    ],
+    [
+      269,
+      "north"
+    ],
+    [
+      243,
+      "east"
+    ],
+    [
+      244,
+      "south"
+    ],
+    [
+      270,
+      "east"
+    ],
+    [
+      159,
+      "east"
+    ],
+    [
+      160,
+      "east"
+    ],
+    [
+      161,
+      "east"
+    ],
+    [
+      162,
+      "south"
+    ],
+    [
+      188,
+      "south"
+    ],
+    [
+      214,
+      "east"
+    ],
+    [
+      215,
+      "south"
+    ],
+    [
+      241,
+      "south"
+    ],
+    [
+      267,
+      "south"
+    ],
+    [
+      293,
+      "east"
+    ],
+    [
+      294,
+      "east"
+    ],
+    [
+      295,
+      "north"
+    ],
+    [
+      269,
+      "north"
+    ],
+    [
+      243,
+      "east"
+    ],
+    [
+      244,
+      "south"
+    ],
+    [
+      270,
+      "east"
+    ],
+    [
+      291,
+      "north"
+    ],
+    [
+      289,
+      "east"
+    ],
+    [
+      290,
+      "east"
+    ],
+    [
+      291,
+      "east"
+    ],
+    [
+      292,
+      "east"
+    ],
+    [
+      293,
+      "east"
+    ],
+    [
+      294,
+      "east"
+    ],
+    [
+      295,
+      "north"
+    ],
+    [
+      269,
+      "north"
+    ],
+    [
+      243,
+      "east"
+    ],
+    [
+      244,
+      "south"
+    ],
+    [
+      270,
+      "east"
+    ],
+    [
+      265,
+      "south"
+    ],
+    [
+      291,
+      "east"
+    ],
+    [
+      292,
+      "east"
+    ],
+    [
+      293,
+      "east"
+    ],
+    [
+      294,
+      "east"
+    ],
+    [
+      295,
+      "north"
+    ],
+    [
+      269,
+      "north"
+    ],
+    [
+      243,
+      "east"
+    ],
+    [
+      244,
+      "south"
+    ],
+    [
+      270,
+      "east"
+    ]
+  ],
+  "events": [
+    {
+      "move": 6,
+      "push": 1,
+      "identity": 158,
+      "source": 158,
+      "landing": 159,
+      "filled": null
+    },
+    {
+      "move": 7,
+      "push": 2,
+      "identity": 132,
+      "source": 132,
+      "landing": 106,
+      "filled": null
+    },
+    {
+      "move": 9,
+      "push": 3,
+      "identity": 134,
+      "source": 134,
+      "landing": 135,
+      "filled": null
+    },
+    {
+      "move": 21,
+      "push": 4,
+      "identity": 86,
+      "source": 86,
+      "landing": 112,
+      "filled": null
+    },
+    {
+      "move": 22,
+      "push": 5,
+      "identity": 86,
+      "source": 112,
+      "landing": 138,
+      "filled": null
+    },
+    {
+      "move": 23,
+      "push": 6,
+      "identity": 113,
+      "source": 113,
+      "landing": 114,
+      "filled": null
+    },
+    {
+      "move": 37,
+      "push": 7,
+      "identity": 211,
+      "source": 211,
+      "landing": 212,
+      "filled": null
+    },
+    {
+      "move": 38,
+      "push": 8,
+      "identity": 211,
+      "source": 212,
+      "landing": 213,
+      "filled": null
+    },
+    {
+      "move": 39,
+      "push": 9,
+      "identity": 211,
+      "source": 213,
+      "landing": 214,
+      "filled": null
+    },
+    {
+      "move": 40,
+      "push": 10,
+      "identity": 239,
+      "source": 239,
+      "landing": 265,
+      "filled": null
+    },
+    {
+      "move": 41,
+      "push": 11,
+      "identity": 239,
+      "source": 265,
+      "landing": 291,
+      "filled": null
+    },
+    {
+      "move": 48,
+      "push": 12,
+      "identity": 267,
+      "source": 267,
+      "landing": 293,
+      "filled": null
+    },
+    {
+      "move": 62,
+      "push": 13,
+      "identity": 215,
+      "source": 215,
+      "landing": 241,
+      "filled": null
+    },
+    {
+      "move": 63,
+      "push": 14,
+      "identity": 215,
+      "source": 241,
+      "landing": 267,
+      "filled": null
+    },
+    {
+      "move": 79,
+      "push": 15,
+      "identity": 267,
+      "source": 293,
+      "landing": 294,
+      "filled": null
+    },
+    {
+      "move": 80,
+      "push": 16,
+      "identity": 267,
+      "source": 294,
+      "landing": 295,
+      "filled": null
+    },
+    {
+      "move": 98,
+      "push": 17,
+      "identity": 270,
+      "source": 270,
+      "landing": 272,
+      "filled": 272
+    },
+    {
+      "move": 100,
+      "push": 18,
+      "identity": 244,
+      "source": 244,
+      "landing": 243,
+      "filled": null
+    },
+    {
+      "move": 104,
+      "push": 19,
+      "identity": 139,
+      "source": 139,
+      "landing": 113,
+      "filled": null
+    },
+    {
+      "move": 105,
+      "push": 20,
+      "identity": 86,
+      "source": 138,
+      "landing": 137,
+      "filled": null
+    },
+    {
+      "move": 125,
+      "push": 21,
+      "identity": 244,
+      "source": 243,
+      "landing": 244,
+      "filled": null
+    },
+    {
+      "move": 148,
+      "push": 22,
+      "identity": 244,
+      "source": 244,
+      "landing": 270,
+      "filled": null
+    },
+    {
+      "move": 150,
+      "push": 23,
+      "identity": 244,
+      "source": 270,
+      "landing": 273,
+      "filled": 273
+    },
+    {
+      "move": 169,
+      "push": 24,
+      "identity": 267,
+      "source": 295,
+      "landing": 269,
+      "filled": null
+    },
+    {
+      "move": 170,
+      "push": 25,
+      "identity": 267,
+      "source": 269,
+      "landing": 243,
+      "filled": null
+    },
+    {
+      "move": 188,
+      "push": 26,
+      "identity": 267,
+      "source": 243,
+      "landing": 244,
+      "filled": null
+    },
+    {
+      "move": 211,
+      "push": 27,
+      "identity": 267,
+      "source": 244,
+      "landing": 270,
+      "filled": null
+    },
+    {
+      "move": 213,
+      "push": 28,
+      "identity": 267,
+      "source": 270,
+      "landing": 274,
+      "filled": 274
+    },
+    {
+      "move": 217,
+      "push": 29,
+      "identity": 215,
+      "source": 267,
+      "landing": 293,
+      "filled": null
+    },
+    {
+      "move": 219,
+      "push": 30,
+      "identity": 215,
+      "source": 293,
+      "landing": 294,
+      "filled": null
+    },
+    {
+      "move": 220,
+      "push": 31,
+      "identity": 215,
+      "source": 294,
+      "landing": 295,
+      "filled": null
+    },
+    {
+      "move": 222,
+      "push": 32,
+      "identity": 215,
+      "source": 295,
+      "landing": 269,
+      "filled": null
+    },
+    {
+      "move": 223,
+      "push": 33,
+      "identity": 215,
+      "source": 269,
+      "landing": 243,
+      "filled": null
+    },
+    {
+      "move": 227,
+      "push": 34,
+      "identity": 215,
+      "source": 243,
+      "landing": 244,
+      "filled": null
+    },
+    {
+      "move": 250,
+      "push": 35,
+      "identity": 215,
+      "source": 244,
+      "landing": 270,
+      "filled": null
+    },
+    {
+      "move": 252,
+      "push": 36,
+      "identity": 215,
+      "source": 270,
+      "landing": 275,
+      "filled": 275
+    },
+    {
+      "move": 259,
+      "push": 37,
+      "identity": 211,
+      "source": 214,
+      "landing": 215,
+      "filled": null
+    },
+    {
+      "move": 272,
+      "push": 38,
+      "identity": 211,
+      "source": 215,
+      "landing": 241,
+      "filled": null
+    },
+    {
+      "move": 273,
+      "push": 39,
+      "identity": 211,
+      "source": 241,
+      "landing": 267,
+      "filled": null
+    },
+    {
+      "move": 274,
+      "push": 40,
+      "identity": 211,
+      "source": 267,
+      "landing": 293,
+      "filled": null
+    },
+    {
+      "move": 276,
+      "push": 41,
+      "identity": 211,
+      "source": 293,
+      "landing": 294,
+      "filled": null
+    },
+    {
+      "move": 277,
+      "push": 42,
+      "identity": 211,
+      "source": 294,
+      "landing": 295,
+      "filled": null
+    },
+    {
+      "move": 279,
+      "push": 43,
+      "identity": 211,
+      "source": 295,
+      "landing": 269,
+      "filled": null
+    },
+    {
+      "move": 280,
+      "push": 44,
+      "identity": 211,
+      "source": 269,
+      "landing": 243,
+      "filled": null
+    },
+    {
+      "move": 284,
+      "push": 45,
+      "identity": 211,
+      "source": 243,
+      "landing": 244,
+      "filled": null
+    },
+    {
+      "move": 307,
+      "push": 46,
+      "identity": 211,
+      "source": 244,
+      "landing": 270,
+      "filled": null
+    },
+    {
+      "move": 309,
+      "push": 47,
+      "identity": 211,
+      "source": 270,
+      "landing": 276,
+      "filled": 276
+    },
+    {
+      "move": 314,
+      "push": 48,
+      "identity": 188,
+      "source": 188,
+      "landing": 214,
+      "filled": null
+    },
+    {
+      "move": 320,
+      "push": 49,
+      "identity": 188,
+      "source": 214,
+      "landing": 215,
+      "filled": null
+    },
+    {
+      "move": 322,
+      "push": 50,
+      "identity": 188,
+      "source": 215,
+      "landing": 241,
+      "filled": null
+    },
+    {
+      "move": 323,
+      "push": 51,
+      "identity": 188,
+      "source": 241,
+      "landing": 267,
+      "filled": null
+    },
+    {
+      "move": 324,
+      "push": 52,
+      "identity": 188,
+      "source": 267,
+      "landing": 293,
+      "filled": null
+    },
+    {
+      "move": 326,
+      "push": 53,
+      "identity": 188,
+      "source": 293,
+      "landing": 294,
+      "filled": null
+    },
+    {
+      "move": 327,
+      "push": 54,
+      "identity": 188,
+      "source": 294,
+      "landing": 295,
+      "filled": null
+    },
+    {
+      "move": 329,
+      "push": 55,
+      "identity": 188,
+      "source": 295,
+      "landing": 269,
+      "filled": null
+    },
+    {
+      "move": 330,
+      "push": 56,
+      "identity": 188,
+      "source": 269,
+      "landing": 243,
+      "filled": null
+    },
+    {
+      "move": 334,
+      "push": 57,
+      "identity": 188,
+      "source": 243,
+      "landing": 244,
+      "filled": null
+    },
+    {
+      "move": 357,
+      "push": 58,
+      "identity": 188,
+      "source": 244,
+      "landing": 270,
+      "filled": null
+    },
+    {
+      "move": 359,
+      "push": 59,
+      "identity": 188,
+      "source": 270,
+      "landing": 277,
+      "filled": 277
+    },
+    {
+      "move": 365,
+      "push": 60,
+      "identity": 86,
+      "source": 137,
+      "landing": 136,
+      "filled": null
+    },
+    {
+      "move": 378,
+      "push": 61,
+      "identity": 86,
+      "source": 136,
+      "landing": 162,
+      "filled": null
+    },
+    {
+      "move": 379,
+      "push": 62,
+      "identity": 86,
+      "source": 162,
+      "landing": 188,
+      "filled": null
+    },
+    {
+      "move": 380,
+      "push": 63,
+      "identity": 86,
+      "source": 188,
+      "landing": 214,
+      "filled": null
+    },
+    {
+      "move": 386,
+      "push": 64,
+      "identity": 86,
+      "source": 214,
+      "landing": 215,
+      "filled": null
+    },
+    {
+      "move": 388,
+      "push": 65,
+      "identity": 86,
+      "source": 215,
+      "landing": 241,
+      "filled": null
+    },
+    {
+      "move": 389,
+      "push": 66,
+      "identity": 86,
+      "source": 241,
+      "landing": 267,
+      "filled": null
+    },
+    {
+      "move": 390,
+      "push": 67,
+      "identity": 86,
+      "source": 267,
+      "landing": 293,
+      "filled": null
+    },
+    {
+      "move": 392,
+      "push": 68,
+      "identity": 86,
+      "source": 293,
+      "landing": 294,
+      "filled": null
+    },
+    {
+      "move": 393,
+      "push": 69,
+      "identity": 86,
+      "source": 294,
+      "landing": 295,
+      "filled": null
+    },
+    {
+      "move": 395,
+      "push": 70,
+      "identity": 86,
+      "source": 295,
+      "landing": 269,
+      "filled": null
+    },
+    {
+      "move": 396,
+      "push": 71,
+      "identity": 86,
+      "source": 269,
+      "landing": 243,
+      "filled": null
+    },
+    {
+      "move": 400,
+      "push": 72,
+      "identity": 86,
+      "source": 243,
+      "landing": 244,
+      "filled": null
+    },
+    {
+      "move": 408,
+      "push": 73,
+      "identity": 86,
+      "source": 244,
+      "landing": 270,
+      "filled": null
+    },
+    {
+      "move": 410,
+      "push": 74,
+      "identity": 86,
+      "source": 270,
+      "landing": 278,
+      "filled": 278
+    },
+    {
+      "move": 418,
+      "push": 75,
+      "identity": 134,
+      "source": 135,
+      "landing": 136,
+      "filled": null
+    },
+    {
+      "move": 420,
+      "push": 76,
+      "identity": 134,
+      "source": 136,
+      "landing": 162,
+      "filled": null
+    },
+    {
+      "move": 421,
+      "push": 77,
+      "identity": 134,
+      "source": 162,
+      "landing": 188,
+      "filled": null
+    },
+    {
+      "move": 422,
+      "push": 78,
+      "identity": 134,
+      "source": 188,
+      "landing": 214,
+      "filled": null
+    },
+    {
+      "move": 428,
+      "push": 79,
+      "identity": 134,
+      "source": 214,
+      "landing": 215,
+      "filled": null
+    },
+    {
+      "move": 430,
+      "push": 80,
+      "identity": 134,
+      "source": 215,
+      "landing": 241,
+      "filled": null
+    },
+    {
+      "move": 431,
+      "push": 81,
+      "identity": 134,
+      "source": 241,
+      "landing": 267,
+      "filled": null
+    },
+    {
+      "move": 432,
+      "push": 82,
+      "identity": 134,
+      "source": 267,
+      "landing": 293,
+      "filled": null
+    },
+    {
+      "move": 434,
+      "push": 83,
+      "identity": 134,
+      "source": 293,
+      "landing": 294,
+      "filled": null
+    },
+    {
+      "move": 435,
+      "push": 84,
+      "identity": 134,
+      "source": 294,
+      "landing": 295,
+      "filled": null
+    },
+    {
+      "move": 437,
+      "push": 85,
+      "identity": 134,
+      "source": 295,
+      "landing": 269,
+      "filled": null
+    },
+    {
+      "move": 438,
+      "push": 86,
+      "identity": 134,
+      "source": 269,
+      "landing": 243,
+      "filled": null
+    },
+    {
+      "move": 442,
+      "push": 87,
+      "identity": 134,
+      "source": 243,
+      "landing": 244,
+      "filled": null
+    },
+    {
+      "move": 450,
+      "push": 88,
+      "identity": 134,
+      "source": 244,
+      "landing": 270,
+      "filled": null
+    },
+    {
+      "move": 452,
+      "push": 89,
+      "identity": 134,
+      "source": 270,
+      "landing": 279,
+      "filled": 279
+    },
+    {
+      "move": 459,
+      "push": 90,
+      "identity": 161,
+      "source": 161,
+      "landing": 162,
+      "filled": null
+    },
+    {
+      "move": 461,
+      "push": 91,
+      "identity": 161,
+      "source": 162,
+      "landing": 188,
+      "filled": null
+    },
+    {
+      "move": 462,
+      "push": 92,
+      "identity": 161,
+      "source": 188,
+      "landing": 214,
+      "filled": null
+    },
+    {
+      "move": 468,
+      "push": 93,
+      "identity": 161,
+      "source": 214,
+      "landing": 215,
+      "filled": null
+    },
+    {
+      "move": 470,
+      "push": 94,
+      "identity": 161,
+      "source": 215,
+      "landing": 241,
+      "filled": null
+    },
+    {
+      "move": 471,
+      "push": 95,
+      "identity": 161,
+      "source": 241,
+      "landing": 267,
+      "filled": null
+    },
+    {
+      "move": 472,
+      "push": 96,
+      "identity": 161,
+      "source": 267,
+      "landing": 293,
+      "filled": null
+    },
+    {
+      "move": 474,
+      "push": 97,
+      "identity": 161,
+      "source": 293,
+      "landing": 294,
+      "filled": null
+    },
+    {
+      "move": 475,
+      "push": 98,
+      "identity": 161,
+      "source": 294,
+      "landing": 295,
+      "filled": null
+    },
+    {
+      "move": 477,
+      "push": 99,
+      "identity": 161,
+      "source": 295,
+      "landing": 269,
+      "filled": null
+    },
+    {
+      "move": 478,
+      "push": 100,
+      "identity": 161,
+      "source": 269,
+      "landing": 243,
+      "filled": null
+    },
+    {
+      "move": 482,
+      "push": 101,
+      "identity": 161,
+      "source": 243,
+      "landing": 244,
+      "filled": null
+    },
+    {
+      "move": 490,
+      "push": 102,
+      "identity": 161,
+      "source": 244,
+      "landing": 270,
+      "filled": null
+    },
+    {
+      "move": 492,
+      "push": 103,
+      "identity": 161,
+      "source": 270,
+      "landing": 280,
+      "filled": 280
+    },
+    {
+      "move": 501,
+      "push": 104,
+      "identity": 158,
+      "source": 159,
+      "landing": 160,
+      "filled": null
+    },
+    {
+      "move": 502,
+      "push": 105,
+      "identity": 158,
+      "source": 160,
+      "landing": 161,
+      "filled": null
+    },
+    {
+      "move": 503,
+      "push": 106,
+      "identity": 158,
+      "source": 161,
+      "landing": 162,
+      "filled": null
+    },
+    {
+      "move": 505,
+      "push": 107,
+      "identity": 158,
+      "source": 162,
+      "landing": 188,
+      "filled": null
+    },
+    {
+      "move": 506,
+      "push": 108,
+      "identity": 158,
+      "source": 188,
+      "landing": 214,
+      "filled": null
+    },
+    {
+      "move": 512,
+      "push": 109,
+      "identity": 158,
+      "source": 214,
+      "landing": 215,
+      "filled": null
+    },
+    {
+      "move": 514,
+      "push": 110,
+      "identity": 158,
+      "source": 215,
+      "landing": 241,
+      "filled": null
+    },
+    {
+      "move": 515,
+      "push": 111,
+      "identity": 158,
+      "source": 241,
+      "landing": 267,
+      "filled": null
+    },
+    {
+      "move": 516,
+      "push": 112,
+      "identity": 158,
+      "source": 267,
+      "landing": 293,
+      "filled": null
+    },
+    {
+      "move": 518,
+      "push": 113,
+      "identity": 158,
+      "source": 293,
+      "landing": 294,
+      "filled": null
+    },
+    {
+      "move": 519,
+      "push": 114,
+      "identity": 158,
+      "source": 294,
+      "landing": 295,
+      "filled": null
+    },
+    {
+      "move": 521,
+      "push": 115,
+      "identity": 158,
+      "source": 295,
+      "landing": 269,
+      "filled": null
+    },
+    {
+      "move": 522,
+      "push": 116,
+      "identity": 158,
+      "source": 269,
+      "landing": 243,
+      "filled": null
+    },
+    {
+      "move": 526,
+      "push": 117,
+      "identity": 158,
+      "source": 243,
+      "landing": 244,
+      "filled": null
+    },
+    {
+      "move": 534,
+      "push": 118,
+      "identity": 158,
+      "source": 244,
+      "landing": 270,
+      "filled": null
+    },
+    {
+      "move": 536,
+      "push": 119,
+      "identity": 158,
+      "source": 270,
+      "landing": 281,
+      "filled": 281
+    },
+    {
+      "move": 542,
+      "push": 120,
+      "identity": 239,
+      "source": 291,
+      "landing": 265,
+      "filled": null
+    },
+    {
+      "move": 553,
+      "push": 121,
+      "identity": 289,
+      "source": 289,
+      "landing": 290,
+      "filled": null
+    },
+    {
+      "move": 554,
+      "push": 122,
+      "identity": 289,
+      "source": 290,
+      "landing": 291,
+      "filled": null
+    },
+    {
+      "move": 555,
+      "push": 123,
+      "identity": 289,
+      "source": 291,
+      "landing": 292,
+      "filled": null
+    },
+    {
+      "move": 556,
+      "push": 124,
+      "identity": 289,
+      "source": 292,
+      "landing": 293,
+      "filled": null
+    },
+    {
+      "move": 557,
+      "push": 125,
+      "identity": 289,
+      "source": 293,
+      "landing": 294,
+      "filled": null
+    },
+    {
+      "move": 558,
+      "push": 126,
+      "identity": 289,
+      "source": 294,
+      "landing": 295,
+      "filled": null
+    },
+    {
+      "move": 560,
+      "push": 127,
+      "identity": 289,
+      "source": 295,
+      "landing": 269,
+      "filled": null
+    },
+    {
+      "move": 561,
+      "push": 128,
+      "identity": 289,
+      "source": 269,
+      "landing": 243,
+      "filled": null
+    },
+    {
+      "move": 565,
+      "push": 129,
+      "identity": 289,
+      "source": 243,
+      "landing": 244,
+      "filled": null
+    },
+    {
+      "move": 573,
+      "push": 130,
+      "identity": 289,
+      "source": 244,
+      "landing": 270,
+      "filled": null
+    },
+    {
+      "move": 575,
+      "push": 131,
+      "identity": 289,
+      "source": 270,
+      "landing": 282,
+      "filled": 282
+    },
+    {
+      "move": 581,
+      "push": 132,
+      "identity": 239,
+      "source": 265,
+      "landing": 291,
+      "filled": null
+    },
+    {
+      "move": 590,
+      "push": 133,
+      "identity": 239,
+      "source": 291,
+      "landing": 292,
+      "filled": null
+    },
+    {
+      "move": 591,
+      "push": 134,
+      "identity": 239,
+      "source": 292,
+      "landing": 293,
+      "filled": null
+    },
+    {
+      "move": 592,
+      "push": 135,
+      "identity": 239,
+      "source": 293,
+      "landing": 294,
+      "filled": null
+    },
+    {
+      "move": 593,
+      "push": 136,
+      "identity": 239,
+      "source": 294,
+      "landing": 295,
+      "filled": null
+    },
+    {
+      "move": 595,
+      "push": 137,
+      "identity": 239,
+      "source": 295,
+      "landing": 269,
+      "filled": null
+    },
+    {
+      "move": 596,
+      "push": 138,
+      "identity": 239,
+      "source": 269,
+      "landing": 243,
+      "filled": null
+    },
+    {
+      "move": 600,
+      "push": 139,
+      "identity": 239,
+      "source": 243,
+      "landing": 244,
+      "filled": null
+    },
+    {
+      "move": 608,
+      "push": 140,
+      "identity": 239,
+      "source": 244,
+      "landing": 270,
+      "filled": null
+    },
+    {
+      "move": 610,
+      "push": 141,
+      "identity": 239,
+      "source": 270,
+      "landing": 283,
+      "filled": 283
+    }
+  ],
+  "surviving_identities": {
+    "80": 80,
+    "106": 132,
+    "114": 113,
+    "113": 139
+  },
+  "method": "prescribed push schedule; shortest WALK routes only; no boulder-state search",
+  "proof_sha256": "e217d0b5f69b616cabe44f309ae169af13dada9b97c41b28d1c1174b475b9a38",
+  "leanchecker_exit": 0
+}

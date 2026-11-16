@@ -1,0 +1,2 @@
+'Owner1007.NorthForcedRing12.exclude_strong' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.NorthForcedRing12.forced_ring' depends on axioms: [propext, Classical.choice, Quot.sound]

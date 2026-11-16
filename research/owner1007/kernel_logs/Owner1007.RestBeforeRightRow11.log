@@ -1,0 +1,5 @@
+Owner1007/RestBeforeRightRow11.lean:100:3: warning: Try `simp at bad` instead of `simpa using bad`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'Owner1007.RestBeforeRightRow11.frozen_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.RestBeforeRightRow11.upper188_at189' depends on axioms: [propext, Classical.choice, Quot.sound]

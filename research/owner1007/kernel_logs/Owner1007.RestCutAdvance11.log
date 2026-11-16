@@ -1,0 +1,17 @@
+Owner1007/RestCutAdvance11.lean:8:0: warning: Definition `headLog` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+Owner1007/RestCutAdvance11.lean:12:0: warning: Definition `localLog` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+Owner1007/RestCutAdvance11.lean:15:0: warning: Definition `afterLog` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+Owner1007/RestCutAdvance11.lean:20:2: warning: Variable name `first` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _first
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Owner1007.RestCutAdvance11.subset_after' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.RestCutAdvance11.zero_after' depends on axioms: [propext, Classical.choice, Quot.sound]

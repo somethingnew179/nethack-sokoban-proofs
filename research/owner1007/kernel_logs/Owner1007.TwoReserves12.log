@@ -1,0 +1,2 @@
+'Owner1007.TwoReserves12.upper_ring_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.TwoReserves12.pair_ring_four' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,10 @@
+Owner1007/InwardMarkedStart11Geometry.lean:40:12: warning: This simp argument is unused:
+  headCheck
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [behind] at row
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.InwardMarkedStart11.closed' depends on axioms: [propext, Quot.sound]
+'Owner1007.InwardMarkedStart11.phase_closed' depends on axioms: [propext, Quot.sound]
+'Owner1007.InwardMarkedStart11.head_shape' depends on axioms: [propext, Quot.sound]

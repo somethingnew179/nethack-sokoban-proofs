@@ -1,0 +1,2 @@
+'Owner1007.FirstAboveMarkerPrice11.future_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.FirstAboveMarkerPrice11.above_price' depends on axioms: [propext, Classical.choice, Quot.sound]

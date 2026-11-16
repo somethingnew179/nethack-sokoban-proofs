@@ -1,0 +1,4 @@
+Owner1007/RestBeforeRightRest11.lean:87:3: warning: Try `simp at bad` instead of `simpa using bad`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'Owner1007.RestBeforeRightRest11.upper188_at189' depends on axioms: [propext, Classical.choice, Quot.sound]

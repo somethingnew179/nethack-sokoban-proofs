@@ -1,0 +1,2 @@
+'Owner1007.ZeroWord11.all_nodes' depends on axioms: [propext, Quot.sound]
+'Owner1007.ZeroWord11.real_zero_from_reached' depends on axioms: [propext, Classical.choice, Quot.sound]

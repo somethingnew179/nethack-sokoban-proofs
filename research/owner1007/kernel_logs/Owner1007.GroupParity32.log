@@ -1,0 +1,2 @@
+'Owner1007.EnergyFrame32.heavy_energy_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.EnergyFrame32.token139_moves' depends on axioms: [propext, Classical.choice, Quot.sound]

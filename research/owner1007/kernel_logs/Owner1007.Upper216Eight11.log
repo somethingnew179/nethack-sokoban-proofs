@@ -1,0 +1,19 @@
+'Owner1007.Upper216Eight11.check1' depends on axioms: [propext, Quot.sound]
+'Owner1007.Upper216Eight11.check2' depends on axioms: [propext, Quot.sound]
+'Owner1007.Upper216Eight11.prices2' does not depend on any axioms
+Owner1007/Upper216Eight11.lean:130:34: warning: Variable name `unique` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _unique
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Owner1007/Upper216Eight11.lean:130:57: warning: Variable name `inside` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inside
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Owner1007.Upper216Eight11.future_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Upper216Eight11.future_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+Owner1007/Upper216Eight11.lean:335:62: warning: `Int.ofNat_nonneg` has been deprecated: Use `Int.natCast_nonneg` instead
+'Owner1007.Upper216Eight11.reserve_eight' depends on axioms: [propext, Classical.choice, Quot.sound]

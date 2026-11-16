@@ -1,0 +1,3 @@
+'Owner1007.UpperResetGuards11.prefix_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.UpperResetGuards11.before141_reset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.UpperResetGuards11.before193_reset' depends on axioms: [propext, Classical.choice, Quot.sound]

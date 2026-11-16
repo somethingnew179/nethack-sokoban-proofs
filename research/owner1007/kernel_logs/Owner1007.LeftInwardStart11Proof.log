@@ -1,0 +1,18 @@
+Owner1007/LeftInwardStart11Proof.lean:16:12: warning: This simp argument is unused:
+  moveCheck
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [behind] at row
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/LeftInwardStart11Proof.lean:43:12: warning: This simp argument is unused:
+  headCheck
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [behind] at row
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.LeftInwardStart11.noMove' depends on axioms: [propext, Quot.sound]
+'Owner1007.LeftInwardStart11.phase_closed' depends on axioms: [propext, Quot.sound]
+'Owner1007.LeftInwardStart11.head_shape' depends on axioms: [propext, Quot.sound]
+'Owner1007.LeftInwardStart11.future_four_with' depends on axioms: [propext, Classical.choice, Quot.sound]

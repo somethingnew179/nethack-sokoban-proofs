@@ -1,0 +1,18 @@
+{
+  "sources": {
+    "research/owner1007/Owner1007/RightPrice4.lean": "20396e8cb7db9901e4cfae0fd9c911abf2d4ee93343b03edac94fc4609d7a1cb",
+    "research/owner1007/Owner1007/LowBudgetFour12.lean": "6e03b12d99c91344fe0bf81b30518413e7cce9f6e46ff93eb266264284908b91"
+  },
+  "combined_source_sha256": "6ac1941b7cde0f76af18d1d36c2a8cc4ab943866ae97e65f42ee947d20dfac8a",
+  "command": [
+    "/Users/ilyakondakov/.elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+    "--stdin",
+    "-j1",
+    "-M8192"
+  ],
+  "cwd": "/Users/ilyakondakov/PycharmProjects/myagent/local/bot-artifacts/nethack-invariants-owner1007/repo/lean",
+  "exit": 0,
+  "wall_s": 66.991,
+  "log": "research/owner1007/lean_low_budget_four12_stdin.log",
+  "scope": "fresh combined kernel stdin; only import RightPrice4 replaced by its exact source; olean/replay pending315"
+}

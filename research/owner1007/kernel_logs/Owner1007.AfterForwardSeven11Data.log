@@ -1,0 +1,9 @@
+Owner1007/AfterForwardSeven11Data.lean:60:12: warning: This simp argument is unused:
+  shapeCheck
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [reverse, if_pos heroInside] at row
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.AfterForwardSeven11.shapes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.AfterForwardSeven11.walks' depends on axioms: [propext, Quot.sound]

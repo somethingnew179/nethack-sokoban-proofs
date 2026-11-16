@@ -1,0 +1,2 @@
+'Owner1007.LowerBCut12.matrix' depends on axioms: [propext, Quot.sound]
+'Owner1007.LowerBCut12.impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

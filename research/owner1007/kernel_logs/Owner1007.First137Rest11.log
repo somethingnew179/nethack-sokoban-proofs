@@ -1,0 +1,3 @@
+'Owner1007.First137Rest11.guards135' depends on axioms: [propext, Quot.sound]
+Owner1007/First137Rest11.lean:62:70: warning: `Int.ofNat_nonneg` has been deprecated: Use `Int.natCast_nonneg` instead
+'Owner1007.First137Rest11.rest_two' depends on axioms: [propext, Classical.choice, Quot.sound]

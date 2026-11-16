@@ -1,0 +1,3 @@
+Owner1007/NorthUpperTwoConsumed12.lean:25:12: warning: `Int.ofNat_nonneg` has been deprecated: Use `Int.natCast_nonneg` instead
+'Owner1007.NorthUpperTwoConsumed12.all_consumed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.NorthUpperTwoConsumed12.end_empty' depends on axioms: [propext, Classical.choice, Quot.sound]

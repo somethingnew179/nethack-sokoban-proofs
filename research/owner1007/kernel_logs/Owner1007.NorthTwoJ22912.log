@@ -1,0 +1,2 @@
+'Owner1007.NorthTwoJ22912.after_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.NorthTwoJ22912.canonical' depends on axioms: [propext, Classical.choice, Quot.sound]

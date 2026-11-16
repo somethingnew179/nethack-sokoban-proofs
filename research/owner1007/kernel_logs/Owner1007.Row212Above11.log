@@ -1,0 +1,10 @@
+Owner1007/Row212Above11.lean:42:69: warning: This simp argument is unused:
+  at213
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [region, at239]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.Row212Above11.push_checked' depends on axioms: [propext, Quot.sound]
+'Owner1007.Row212Above11.closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Row212Above11.no_north' depends on axioms: [propext, Classical.choice, Quot.sound]

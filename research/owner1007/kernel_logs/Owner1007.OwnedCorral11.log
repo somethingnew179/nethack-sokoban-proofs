@@ -1,0 +1,2 @@
+'Owner1007.OwnedCorral11.step_good_except' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.OwnedCorral11.small_energy_good' depends on axioms: [propext, Classical.choice, Quot.sound]

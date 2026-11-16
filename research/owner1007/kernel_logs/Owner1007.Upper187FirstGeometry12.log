@@ -1,0 +1,16 @@
+Owner1007/Upper187FirstGeometry12.lean:45:39: warning: This simp argument is unused:
+  if_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ticketIndex, a, b, c, if_pos]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/Upper187FirstGeometry12.lean:48:39: warning: This simp argument is unused:
+  if_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ticketIndex, a, b, c, if_pos]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.Upper187FirstGeometry12.matrix' depends on axioms: [propext, Quot.sound]
+'Owner1007.Upper187FirstGeometry12.classification' depends on axioms: [propext, Quot.sound]

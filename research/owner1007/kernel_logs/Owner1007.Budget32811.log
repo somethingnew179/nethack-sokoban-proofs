@@ -1,0 +1,2 @@
+'Owner1007.Budget32811.left_gone_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Budget32811.modes' depends on axioms: [propext, Classical.choice, Quot.sound]

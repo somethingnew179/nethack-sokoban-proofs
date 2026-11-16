@@ -1,0 +1,3 @@
+@pushes_lower_bound : ∀ {directions : List Dir} {final : State} {pushes moves : Nat},
+  Trace soko3_2.board soko3_2.initial directions final pushes moves → Goal final → 141 ≤ pushes
+'Owner1007.Lower141.pushes_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

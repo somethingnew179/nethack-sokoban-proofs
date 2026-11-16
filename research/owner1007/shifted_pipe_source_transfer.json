@@ -1,0 +1,32 @@
+{
+  "scope": "Root-copied local Lean sources; proof only after pinned kernel check",
+  "sha256": {
+    "Forward185187Excluded11AtFirst.lean": "679749f462027beac97fd672d2229eb0dea1d0bff7df946e7775edf5b42c37cb",
+    "Budget327Forward18411.lean": "f1d2a3ad7fb88d73e828b81f4b1d8353132ed43d78a3e31495df8bf7099ff8ad",
+    "Dead21321411.lean": "931a834a2ca73ce718098aca1a5e6d124f3632947ca6514810697d22cfab1fc2",
+    "Dead21421511.lean": "5a99e48638de98df373b528ab7c86432cc5fa837af5f1f4aff58b37751cd553f",
+    "Upper189WestAt18611.lean": "20fa7932db1cd2b196d7dc5d18a58460faa3d34f650ac0e75b930b45e5c1e7ce",
+    "Inward213Pipe11Data.lean": "207ff1558e20aa3e7d77d4c2ac70c6e4fde659cc0a2956a8a511139e052c2270",
+    "Inward213Pipe11Geometry.lean": "7bd23559a56a212ab0f3f57ee7c35241616a42c5edd4692a2a5367e696122738",
+    "Inward214Pipe11Data.lean": "ba9d02605b17be47926b18c9db875ec9990751db69bba1f7591005a60c09a389",
+    "ShiftedPipe11.lean": "a47930791fb75fc5353fca19146f1567c065717375fcf3d8a7ce926fa0ea7d15",
+    "Inward213Pipe11Check00.lean": "0ba48d4bf2094ee90f075ecbfd7b0153b787a1dff027651bf03c9fa8e0a4f5c8",
+    "Inward213Pipe11Check01.lean": "0c16b1e9e0dd6338834d3ac271506178b41c31fb58ce015cfe393db57d1db86e",
+    "Inward213Pipe11Check02.lean": "774da5e80fd9e969bcd00a80e7120349f0fef57ba812afb579651d31f935b75a",
+    "Inward213Pipe11Check03.lean": "ef17284df425b00239a3276565880e9594b7ed08ef094ff9a68a2226929e2ab9",
+    "Inward213Pipe11Check04.lean": "71df1254cc6d2de934fbfdc6b893dfa88086eacac30038988163870fa507a7fd",
+    "Inward213Pipe11Check05.lean": "bf7e8f266f091f268d7ad18bd3f82fd5e9410c8386235213524892dd1a77b635",
+    "Inward213Pipe11Check06.lean": "e62eb6443e28377e765d4625e8c3d34cb8fe4806129411ace0b2de6c6e31f9d3",
+    "Inward213Pipe11Check07.lean": "b0587be9fc82e836bdf8f11e8e36114cb39bd67a17cf592b78d300b3f196ebf0",
+    "Inward213Pipe11Check08.lean": "7eb4c1b2766e7c289099f262eb7674ec74664342de75cb228635d0b1066f85ed",
+    "Inward213Pipe11Check09.lean": "78c0771e7fdab6d037d367a87f38278c94c77dd9430e7ef0123be707eea9eaa1",
+    "Inward214Pipe11Check00.lean": "a777131b17096f108c62e5c59d2172412ec5ff871168fc0a5c239adfef0bd27c",
+    "Inward214Pipe11Check01.lean": "202a4181b3caf61f9e9161be932e627a220a69e53497dca6e38e4b610ecc6bc4",
+    "Inward214Pipe11Check02.lean": "a6977800d06b6e3dbaf1772bbece46b38c7afa77d43399cd2b02f580d93886af",
+    "Inward214Pipe11Check03.lean": "83e3e0e7eefb459d99bf74f9378fb691575e6a4258758e83272fb9b19e20c759",
+    "Inward214Pipe11Check04.lean": "e79e2564182b7b4a1b979d82a4626f67fea5251463d0243620b26c486665ae2f",
+    "Inward214Pipe11Check05.lean": "525e3365d976318c3301e86eb067b11d5b68470b406d67da95d8a02901b256e4",
+    "Inward214Pipe11Check06.lean": "95429fe2a239bf4ed76ada6905ecc09392409fac314984aed2becbc64462fd9d",
+    "Inward214Pipe11Check07.lean": "531343a4300ed12552105a1d81943cc6afacdf4b0e85acb25a87d0675a4e1d1d"
+  }
+}

@@ -1,0 +1,2 @@
+'Owner1007.NorthLeftSurvival12.right_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.NorthLeftSurvival12.consumed_of_ten' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,26 @@
+Owner1007/LeftActor11.lean:45:21: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/LeftActor11.lean:45:51: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/LeftActor11.lean:50:21: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/LeftActor11.lean:50:51: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/LeftActor11.lean:55:21: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/LeftActor11.lean:55:51: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/LeftActor11.lean:60:21: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/LeftActor11.lean:60:51: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'Owner1007.LeftActor11.all_prices' does not depend on any axioms
+'Owner1007.LeftActor11.exit_price' depends on axioms: [propext, Quot.sound]

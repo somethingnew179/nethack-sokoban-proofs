@@ -1,0 +1,2 @@
+'Owner1007.QuietGroupFixed11.weaken' depends on axioms: [propext, Quot.sound]
+'Owner1007.QuietGroupFixed11.whole_fixed' depends on axioms: [propext, Quot.sound]

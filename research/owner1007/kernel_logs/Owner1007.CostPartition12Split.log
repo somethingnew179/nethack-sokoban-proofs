@@ -1,0 +1,16 @@
+Owner1007/CostPartition12Split.lean:89:22: warning: This simp argument is unused:
+  d4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [d0, d1, d2, d3, d5, d6, d7, d8, d9, d10, d11, d12, d13, h141, h168, h192, h193, h271]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/CostPartition12Split.lean:89:25: warning: This simp argument is unused:
+  d5
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [d0, d1, d2, d3, d4, d6, d7, d8, d9, d10, d11, d12, d13, h141, h168, h192, h193, h271]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NetHack.Sokoban12CostPartition.owner1007_bonus_factor' depends on axioms: [propext]
+'NetHack.Sokoban12CostPartition.owner1007_right13_formula' depends on axioms: [propext]

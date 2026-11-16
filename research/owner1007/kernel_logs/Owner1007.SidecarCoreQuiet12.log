@@ -1,0 +1,14 @@
+Owner1007/SidecarCoreQuiet12.lean:20:2: warning: Variable name `first` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _first
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Owner1007/SidecarCoreQuiet12.lean:24:14: warning: Variable name `hero` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hero
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Owner1007.SidecarCoreQuiet12.quiet_no_event' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.SidecarCoreQuiet12.quiet_prefix_good' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,12 @@
+lower_bound : ∀ (directions : List Dir) (final : State) (pushes moves : Nat),
+  Trace soko3_2.board soko3_2.initial directions final pushes moves → Goal final → 141 ≤ pushes
+winning_witness : Trace soko3_2.board soko3_2.initial Witness32_141.path Witness32_141.finalState 141 610 ∧
+  Goal Witness32_141.finalState
+minimum_push_count : (∀ (directions : List Dir) (final : State) (pushes moves : Nat),
+    Trace soko3_2.board soko3_2.initial directions final pushes moves → Goal final → 141 ≤ pushes) ∧
+  ∃ directions final moves, Trace soko3_2.board soko3_2.initial directions final 141 moves ∧ Goal final
+'Owner1007.Optimal32_141.exact_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Optimal32_141.lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Optimal32_141.winning_witness' depends on axioms: [propext]
+'Owner1007.Optimal32_141.minimum_push_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Optimal32_141.source_pin' does not depend on any axioms

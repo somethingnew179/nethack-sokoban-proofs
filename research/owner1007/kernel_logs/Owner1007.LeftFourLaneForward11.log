@@ -1,0 +1,10 @@
+Owner1007/LeftFourLaneForward11.lean:94:2: warning: Try `simp at unique` instead of `simpa using unique`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/LeftFourLaneForward11.lean:30:2: warning: Variable name `source190` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _source190
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Owner1007.LeftFourLaneForward11.at_forward' depends on axioms: [propext, Classical.choice, Quot.sound]

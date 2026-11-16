@@ -1,0 +1,776 @@
+{
+  "task": "nethack-invariants-codex-owner1007",
+  "method": "Two explicitly prescribed push lists. BFS is used only to walk to each prescribed support; there is no puzzle-state search.",
+  "validation_kind": "bounded Python diagnostic replay; kernel certificates are separate Lean files",
+  "source_sha256": {
+    "/Users/ilyakondakov/PycharmProjects/myagent/local/bot-artifacts/nethack-invariants-owner1007/repo/research/owner1007/replay_local_diagnostics12.py": "6065d339292c917131b2c282df636db0f368b698f324de616cffc4ded9240997",
+    "/Users/ilyakondakov/PycharmProjects/myagent/local/bot-artifacts/nethack-invariants-owner1007/repo/research/owner1007/diagnose.py": "d88f82911572008ab40e5069f24977a9af166f9bb2c3045f8590b79274f98b68",
+    "/Users/ilyakondakov/PycharmProjects/myagent/local/bot-artifacts/nethack-invariants-owner1007/repo/lean/NetHack/Sokoban/Model.lean": "6524d03d84503884d5f3881ddfd941de84e68e0329f107e2ff08a75e3575f962",
+    "/Users/ilyakondakov/PycharmProjects/myagent/local/bot-artifacts/nethack-invariants-owner1007/repo/lean/NetHack/Sokoban/Maps.lean": "f54b492e479263af39a90d435b15b361b520911179b3ef730ba491acb82025d9",
+    "/Users/ilyakondakov/PycharmProjects/myagent/local/bot-artifacts/nethack-invariants-owner1007/repo/lean/NetHack/Sokoban/Generated/Soko12Potential.lean": "81c956fda964e179fa02eeb053efcabcdc1906c484073394c13e7b356156fed3"
+  },
+  "cases": [
+    {
+      "id": "isolated_UP6_counterexample",
+      "canonical_initial": false,
+      "purpose": "Refutes the isolated all-consumed-UP6 future-energy-at-least-4 hypothesis; it does not refute an original-map lower bound.",
+      "initial": {
+        "player": 187,
+        "boulders": [
+          108,
+          158,
+          159,
+          161,
+          186,
+          212
+        ],
+        "holes": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ]
+      },
+      "commands": [
+        [
+          186,
+          "west"
+        ],
+        [
+          108,
+          "north"
+        ],
+        [
+          82,
+          "north"
+        ],
+        [
+          56,
+          "north"
+        ],
+        [
+          30,
+          "east"
+        ],
+        [
+          212,
+          "north"
+        ],
+        [
+          186,
+          "north"
+        ],
+        [
+          160,
+          "north"
+        ],
+        [
+          134,
+          "north"
+        ],
+        [
+          108,
+          "north"
+        ],
+        [
+          82,
+          "north"
+        ],
+        [
+          56,
+          "north"
+        ],
+        [
+          30,
+          "east"
+        ],
+        [
+          185,
+          "east"
+        ],
+        [
+          186,
+          "north"
+        ],
+        [
+          160,
+          "north"
+        ],
+        [
+          134,
+          "north"
+        ],
+        [
+          108,
+          "north"
+        ],
+        [
+          82,
+          "north"
+        ],
+        [
+          56,
+          "north"
+        ],
+        [
+          30,
+          "east"
+        ],
+        [
+          158,
+          "north"
+        ],
+        [
+          132,
+          "east"
+        ],
+        [
+          133,
+          "east"
+        ],
+        [
+          134,
+          "north"
+        ],
+        [
+          108,
+          "north"
+        ],
+        [
+          82,
+          "north"
+        ],
+        [
+          56,
+          "north"
+        ],
+        [
+          30,
+          "east"
+        ],
+        [
+          159,
+          "north"
+        ],
+        [
+          133,
+          "east"
+        ],
+        [
+          134,
+          "north"
+        ],
+        [
+          108,
+          "north"
+        ],
+        [
+          82,
+          "north"
+        ],
+        [
+          56,
+          "north"
+        ],
+        [
+          30,
+          "east"
+        ],
+        [
+          161,
+          "south"
+        ],
+        [
+          187,
+          "south"
+        ],
+        [
+          213,
+          "west"
+        ],
+        [
+          212,
+          "north"
+        ],
+        [
+          186,
+          "north"
+        ],
+        [
+          160,
+          "north"
+        ],
+        [
+          134,
+          "north"
+        ],
+        [
+          108,
+          "north"
+        ],
+        [
+          82,
+          "north"
+        ],
+        [
+          56,
+          "north"
+        ],
+        [
+          30,
+          "east"
+        ]
+      ],
+      "path": [
+        "west",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "northWest",
+        "east",
+        "south",
+        "south",
+        "south",
+        "south",
+        "south",
+        "south",
+        "southEast",
+        "southWest",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "northWest",
+        "east",
+        "south",
+        "south",
+        "south",
+        "south",
+        "south",
+        "south",
+        "southWest",
+        "northWest",
+        "east",
+        "southEast",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "northWest",
+        "east",
+        "south",
+        "south",
+        "south",
+        "south",
+        "south",
+        "southWest",
+        "west",
+        "north",
+        "northWest",
+        "east",
+        "east",
+        "southWest",
+        "southEast",
+        "northEast",
+        "north",
+        "north",
+        "north",
+        "north",
+        "northWest",
+        "east",
+        "south",
+        "south",
+        "south",
+        "south",
+        "south",
+        "southWest",
+        "north",
+        "northWest",
+        "east",
+        "southEast",
+        "north",
+        "north",
+        "north",
+        "north",
+        "northWest",
+        "east",
+        "south",
+        "south",
+        "south",
+        "southEast",
+        "south",
+        "south",
+        "southWest",
+        "south",
+        "south",
+        "southEast",
+        "southEast",
+        "southEast",
+        "southEast",
+        "east",
+        "northEast",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "northWest",
+        "west",
+        "west",
+        "southWest",
+        "west",
+        "southWest",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "northWest",
+        "east"
+      ],
+      "legal": true,
+      "pushes": 47,
+      "moves": 114,
+      "final": {
+        "player": 30,
+        "boulders": [],
+        "holes": [
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ]
+      },
+      "all_six_stones_consumed": true,
+      "original_goal": false,
+      "remaining_holes": 12,
+      "owned_energy": 2,
+      "owned_energy_identity": {
+        "initial_debt": 63,
+        "pushes": 47,
+        "consumption_credit": 108
+      },
+      "kernel_scope": "A separate Lean trace uses this same custom six-stone start and unchanged Model; it is not a canonical winning witness."
+    },
+    {
+      "id": "original_North_failed_31_push_plan",
+      "canonical_initial": true,
+      "purpose": "Refutes one specific North upper-plan continuation, not all North strategies.",
+      "initial": {
+        "player": 396,
+        "boulders": [
+          108,
+          141,
+          158,
+          159,
+          168,
+          186,
+          187,
+          192,
+          193,
+          210,
+          213,
+          218,
+          237,
+          238,
+          246,
+          263,
+          265,
+          271,
+          318,
+          371
+        ],
+        "holes": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ]
+      },
+      "commands": [
+        [
+          371,
+          "north"
+        ],
+        [
+          345,
+          "north"
+        ],
+        [
+          319,
+          "north"
+        ],
+        [
+          293,
+          "west"
+        ],
+        [
+          292,
+          "west"
+        ],
+        [
+          291,
+          "west"
+        ],
+        [
+          193,
+          "north"
+        ],
+        [
+          192,
+          "west"
+        ],
+        [
+          191,
+          "west"
+        ],
+        [
+          190,
+          "west"
+        ],
+        [
+          265,
+          "north"
+        ],
+        [
+          263,
+          "west"
+        ],
+        [
+          213,
+          "west"
+        ],
+        [
+          212,
+          "west"
+        ],
+        [
+          187,
+          "north"
+        ],
+        [
+          186,
+          "north"
+        ],
+        [
+          238,
+          "south"
+        ],
+        [
+          158,
+          "north"
+        ],
+        [
+          132,
+          "south"
+        ],
+        [
+          108,
+          "north"
+        ],
+        [
+          82,
+          "north"
+        ],
+        [
+          56,
+          "north"
+        ],
+        [
+          30,
+          "east"
+        ],
+        [
+          161,
+          "south"
+        ],
+        [
+          187,
+          "south"
+        ],
+        [
+          160,
+          "north"
+        ],
+        [
+          134,
+          "north"
+        ],
+        [
+          108,
+          "north"
+        ],
+        [
+          82,
+          "north"
+        ],
+        [
+          56,
+          "north"
+        ],
+        [
+          30,
+          "east"
+        ]
+      ],
+      "path": [
+        "east",
+        "north",
+        "north",
+        "north",
+        "northEast",
+        "west",
+        "west",
+        "west",
+        "east",
+        "southEast",
+        "south",
+        "southEast",
+        "east",
+        "northEast",
+        "north",
+        "north",
+        "north",
+        "north",
+        "northEast",
+        "north",
+        "west",
+        "west",
+        "west",
+        "east",
+        "east",
+        "southEast",
+        "south",
+        "southWest",
+        "south",
+        "south",
+        "south",
+        "southWest",
+        "west",
+        "northWest",
+        "north",
+        "northWest",
+        "west",
+        "north",
+        "west",
+        "west",
+        "east",
+        "east",
+        "southEast",
+        "southEast",
+        "south",
+        "southEast",
+        "east",
+        "northEast",
+        "north",
+        "north",
+        "north",
+        "north",
+        "northEast",
+        "northWest",
+        "west",
+        "west",
+        "southWest",
+        "west",
+        "west",
+        "west",
+        "east",
+        "north",
+        "southWest",
+        "north",
+        "south",
+        "south",
+        "north",
+        "northWest",
+        "west",
+        "north",
+        "northWest",
+        "northEast",
+        "south",
+        "east",
+        "east",
+        "north",
+        "north",
+        "north",
+        "northWest",
+        "east",
+        "south",
+        "south",
+        "south",
+        "southEast",
+        "south",
+        "south",
+        "west",
+        "north",
+        "north",
+        "north",
+        "north",
+        "north",
+        "northWest",
+        "east"
+      ],
+      "legal_prefix": true,
+      "pushes": 31,
+      "moves": 94,
+      "final": {
+        "player": 30,
+        "boulders": [
+          141,
+          158,
+          159,
+          167,
+          168,
+          189,
+          210,
+          211,
+          213,
+          218,
+          237,
+          239,
+          246,
+          262,
+          264,
+          271,
+          290,
+          318
+        ],
+        "holes": [
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ]
+      },
+      "original_goal": false,
+      "remaining_holes": 16,
+      "reachable_component": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        55,
+        56,
+        82,
+        105,
+        106,
+        108,
+        131,
+        132,
+        133,
+        134,
+        135,
+        157,
+        160,
+        161,
+        184,
+        185,
+        186,
+        187,
+        212,
+        238
+      ],
+      "probes": [
+        {
+          "source": 213,
+          "direction": "north",
+          "support": 239,
+          "support_reachable": false,
+          "prescribed_push_enabled": false
+        },
+        {
+          "source": 213,
+          "direction": "west",
+          "support": 214,
+          "support_reachable": false,
+          "prescribed_push_enabled": false
+        },
+        {
+          "source": 213,
+          "direction": "east",
+          "support": 212,
+          "support_reachable": true,
+          "prescribed_push_enabled": true
+        },
+        {
+          "source": 239,
+          "direction": "north",
+          "support": 265,
+          "support_reachable": false,
+          "prescribed_push_enabled": false
+        },
+        {
+          "source": 239,
+          "direction": "south",
+          "support": 213,
+          "support_reachable": false,
+          "prescribed_push_enabled": false
+        },
+        {
+          "source": 264,
+          "direction": "north",
+          "support": 290,
+          "support_reachable": false,
+          "prescribed_push_enabled": false
+        }
+      ]
+    }
+  ]
+}

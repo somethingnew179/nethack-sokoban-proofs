@@ -1,0 +1,18 @@
+Owner1007/LeftQuietIdentity11.lean:89:12: warning: This simp argument is unused:
+  firstNoMove
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [behind] at row
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/LeftQuietIdentity11.lean:106:12: warning: This simp argument is unused:
+  LeftFirstTwo11.noMoveCheck
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [behind] at row
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.LeftQuietIdentity11.firstNoMove_checked' depends on axioms: [propext, Quot.sound]
+'Owner1007.LeftQuietIdentity11.first_quiet_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.LeftQuietIdentity11.phase_quiet_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.LeftQuietIdentity11.subset_zero' depends on axioms: [propext, Quot.sound]

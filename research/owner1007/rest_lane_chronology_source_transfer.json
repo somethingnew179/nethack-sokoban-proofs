@@ -1,0 +1,32 @@
+[
+  {
+    "source": "/private/tmp/nethack-owner1007-transfer11/LeftTwoLaneRest11.lean",
+    "target": "research/owner1007/Owner1007/LeftTwoLaneRest11.lean",
+    "sha256": "6e5990a06f85cb9b3240880e3b65f2c64bc4209aeb223d47163147d5b9ce9e65"
+  },
+  {
+    "source": "/private/tmp/nethack-owner1007-transfer11/LeftFourLaneRest11.lean",
+    "target": "research/owner1007/Owner1007/LeftFourLaneRest11.lean",
+    "sha256": "2bafee2dc38df32d36ff0282190bfeeeff8ecc7db6efc7f146d3540cd49c5369"
+  },
+  {
+    "source": "/private/tmp/nethack-owner1007-transfer32/RestBeforeRightRest11.lean",
+    "target": "research/owner1007/Owner1007/RestBeforeRightRest11.lean",
+    "sha256": "d7a068eedc8d0644975a3ab9db1370bfd28d5724222ccb38b2dfb0d40a4ff6c9"
+  },
+  {
+    "source": "/private/tmp/nethack-owner1007-transfer32/RestPairBeforeRightRest11.lean",
+    "target": "research/owner1007/Owner1007/RestPairBeforeRightRest11.lean",
+    "sha256": "a347c93b002a2f12f4dc272251b7fb43b530c8980fdcba45b6a06491be9205e2"
+  },
+  {
+    "source": "/private/tmp/nethack-owner1007-transfer32/RestAfterForwardRest11.lean",
+    "target": "research/owner1007/Owner1007/RestAfterForwardRest11.lean",
+    "sha256": "352b099317ad1c0edb005d6c47e835cae02b2446beacbc3491b948145d189b0b"
+  },
+  {
+    "source": "/private/tmp/nethack-owner1007-transfer32/Forward185187Rest11.lean",
+    "target": "research/owner1007/Owner1007/Forward185187Rest11.lean",
+    "sha256": "0bef42dc723770a32cf93c71bcb2aec354d094eda0bf9d89484570abef57cca0"
+  }
+]

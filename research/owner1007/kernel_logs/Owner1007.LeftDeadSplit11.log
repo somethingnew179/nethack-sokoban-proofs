@@ -1,0 +1,2 @@
+'Owner1007.LeftDeadSplit11.closed' depends on axioms: [propext, Quot.sound]
+'Owner1007.LeftDeadSplit11.impossible_gone' depends on axioms: [propext, Classical.choice, Quot.sound]

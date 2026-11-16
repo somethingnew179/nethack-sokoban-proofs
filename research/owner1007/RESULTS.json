@@ -1,0 +1,73 @@
+{
+  "schema": "nethack-owner1007-results-v1",
+  "status": "Research paused; two optimality intervals remain unresolved.",
+  "objective_complete": false,
+  "cost": "Initiated pushes from the canonical state of the full original map in the unchanged Model.Trace semantics.",
+  "maps": {
+    "1-1": {
+      "lower": 328,
+      "upper": 342,
+      "kind": "interval",
+      "lower_theorem": "Owner1007.Lower328.pushes_lower_bound",
+      "interval_theorem": "Owner1007.Interval11_328.interval",
+      "lower_evidence": "fresh universal original-canonical full-map lower328 compiled and leanchecker replayed",
+      "upper_theorem": "Owner1007.Witness11_342.solution",
+      "upper_status": "freshly compiled and leanchecker replayed",
+      "moves": 714
+    },
+    "1-2": {
+      "lower": 231,
+      "upper": 235,
+      "kind": "interval",
+      "lower_theorem": "Owner1007.Lower231.pushes_lower_bound",
+      "interval_theorem": "Owner1007.Interval12_231.interval",
+      "lower_status": "fresh universal original-canonical full-map lower231 compiled and leanchecker replayed",
+      "upper_status": "fresh original235-push/578-move witness compile/replay",
+      "witness_moves": 578
+    },
+    "3-2": {
+      "lower": 141,
+      "upper": 141,
+      "kind": "exact",
+      "witness_moves": 610,
+      "lower_theorem": "Owner1007.Lower141.pushes_lower_bound",
+      "upper_theorem": "Owner1007.Witness32_141.solution",
+      "minimum_theorem": "Owner1007.Optimal32_141.minimum_push_count",
+      "interval_theorem": "Owner1007.Optimal32_141.exact_interval",
+      "status": "fresh universal lower141 AND attained141/610 original trace compiled/replayed; EXACTminimum141"
+    }
+  },
+  "unchanged_exact_minima": {
+    "soko2-1": 109,
+    "soko2-2": 87,
+    "soko3-1": 136,
+    "soko4-1": 80,
+    "soko4-2": 85
+  },
+  "verification": "All three updated result roots have existing successful Lean4.33.1 compilation and independent leanchecker replay records; no proof checks rerun for publication.",
+  "baseline_index": "roots.json",
+  "baseline_index_scope": "Historical baseline only; original map, semantics, proof and manifest files unchanged.",
+  "conditional_bounds": [
+    {
+      "map": "soko1-2",
+      "bound": 232,
+      "theorem": "Owner1007.NorthFirstJPrice23212.first_j_lower232",
+      "condition": "Actual canonical North FirstJ packet and original S whole energy at least2; arbitrary Upper history",
+      "status": "fresh normal kernel and leanchecker; all actual SecondJ/critical/park cash alternatives handled; no original FirstJ coverage claim"
+    },
+    {
+      "map": "soko1-2",
+      "bound": 232,
+      "theorem": "Owner1007.North265Price23212.first265_lower_232",
+      "condition": "Actual canonical North first265South event with original fixedJ/currentBottom packet",
+      "status": "fresh normal kernel and leanchecker; Lower11 or Lower10 plus two selected survivors; global bound remains231"
+    },
+    {
+      "map": "soko1-2",
+      "bound": 233,
+      "theorem": "Owner1007.NorthFirstJPark23312.first_j_then_park233",
+      "condition": "Actual FirstJ then318West park packet and original S whole energy at least2",
+      "status": "fresh normal kernel and leanchecker; conditional event bound; no arbitrary FirstJ coverage claim"
+    }
+  ]
+}

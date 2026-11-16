@@ -1,0 +1,2 @@
+'Owner1007.RingPrepared12.frame_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.RingPrepared12.ring_energy_six' depends on axioms: [propext, Classical.choice, Quot.sound]

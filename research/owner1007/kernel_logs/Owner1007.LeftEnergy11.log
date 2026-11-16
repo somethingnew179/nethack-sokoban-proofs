@@ -1,0 +1,2 @@
+Owner1007/LeftEnergy11.lean:214:79: warning: `Int.ofNat_nonneg` has been deprecated: Use `Int.natCast_nonneg` instead
+'Owner1007.LeftEnergy11.pair_energy_universal' depends on axioms: [propext, Classical.choice, Quot.sound]

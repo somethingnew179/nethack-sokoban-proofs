@@ -1,0 +1,25 @@
+Owner1007/Guard188Actor11.lean:48:21: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/Guard188Actor11.lean:48:51: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/Guard188Actor11.lean:53:21: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/Guard188Actor11.lean:53:51: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/Guard188Actor11.lean:59:23: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/Guard188Actor11.lean:59:53: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/Guard188Actor11.lean:64:23: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Owner1007/Guard188Actor11.lean:64:53: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'Owner1007.Guard188Actor11.exit_price' depends on axioms: [propext, Quot.sound]

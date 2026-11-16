@@ -1,0 +1,15 @@
+{
+  "source": "research/owner1007/Owner1007/RightPrice4.lean",
+  "source_sha256": "20396e8cb7db9901e4cfae0fd9c911abf2d4ee93343b03edac94fc4609d7a1cb",
+  "command": [
+    "/Users/ilyakondakov/.elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+    "--stdin",
+    "-j1",
+    "-M8192"
+  ],
+  "cwd": "/Users/ilyakondakov/PycharmProjects/myagent/local/bot-artifacts/nethack-invariants-owner1007/repo/lean",
+  "exit": 0,
+  "wall_s": 63.662,
+  "log": "research/owner1007/lean_right_price4_stdin.log",
+  "scope": "fresh kernel stdin check; .olean/leanchecker replay pending315 cache writer"
+}

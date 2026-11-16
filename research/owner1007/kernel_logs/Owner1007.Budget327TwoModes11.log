@@ -1,0 +1,4 @@
+'Owner1007.Budget327TwoModes11.left_four_rest_zero_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Owner1007.Budget327TwoModes11.modes' depends on axioms: [propext, Classical.choice, Quot.sound]

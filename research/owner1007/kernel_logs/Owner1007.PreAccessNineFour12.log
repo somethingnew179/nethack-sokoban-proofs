@@ -1,0 +1,3 @@
+'Owner1007.PreAccessNineFour12.matrix' depends on axioms: [propext, Quot.sound]
+'Owner1007.PreAccessNineFour12.upper_bonus' depends on axioms: [propext, Quot.sound]
+'Owner1007.PreAccessNineFour12.energy_four' depends on axioms: [propext, Classical.choice, Quot.sound]

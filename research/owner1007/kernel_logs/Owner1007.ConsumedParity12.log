@@ -1,0 +1,18 @@
+Owner1007/ConsumedParity12.lean:16:94: warning: This simp argument is unused:
+  pure
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, standing, Bool.not_true, Bool.not_false, Bool.false_eq_true, ↓reduceIte, bind,
+    Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/ConsumedParity12.lean:16:99: warning: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, standing, Bool.not_true, Bool.not_false, Bool.false_eq_true, ↓reduceIte, bind, pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.ConsumedParity12.aux_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.ConsumedParity12.consumed_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.ConsumedParity12.left_compatible' depends on axioms: [propext, Quot.sound]

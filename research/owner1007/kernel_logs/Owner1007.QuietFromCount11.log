@@ -1,0 +1,2 @@
+'Owner1007.QuietFromCount11.from_count' depends on axioms: [propext, Quot.sound]
+'Owner1007.QuietFromCount11.from_two_counts' depends on axioms: [propext, Quot.sound]

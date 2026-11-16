@@ -1,0 +1,4 @@
+'Owner1007.Fixed317Shaft11.checked' depends on axioms: [propext, Quot.sound]
+'Owner1007.Fixed317Shaft11.closed' depends on axioms: [propext, Quot.sound]
+'Owner1007.Fixed317Shaft11.unique' depends on axioms: [propext]
+'Owner1007.Fixed317Shaft11.size' depends on axioms: [propext]

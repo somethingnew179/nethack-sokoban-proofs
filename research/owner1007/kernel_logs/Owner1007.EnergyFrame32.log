@@ -1,0 +1,2 @@
+'Owner1007.EnergyFrame32.energy_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.EnergyFrame32.group_energy_five' depends on axioms: [propext, Classical.choice, Quot.sound]

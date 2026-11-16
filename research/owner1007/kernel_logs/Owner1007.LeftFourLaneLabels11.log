@@ -1,0 +1,8 @@
+Owner1007/LeftFourLaneLabels11.lean:69:12: warning: This simp argument is unused:
+  refinementCheck
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [reverse, if_pos heroInside] at row
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.LeftFourLane11.refined' depends on axioms: [propext, Quot.sound]

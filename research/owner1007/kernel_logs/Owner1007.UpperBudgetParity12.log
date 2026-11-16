@@ -1,0 +1,2 @@
+'Owner1007.UpperBudgetParity12.all_consumed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.UpperBudgetParity12.two_of_lt_four' depends on axioms: [propext, Classical.choice, Quot.sound]

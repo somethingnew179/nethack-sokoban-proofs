@@ -1,0 +1,3 @@
+'Owner1007.LeftTwoLaneBad11.no_west185' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.LeftTwoLaneBad11.no_north190' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.LeftTwoLaneBad11.no_east190' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+Owner1007/After265LowerSurvivor12.lean:48:4: warning: Try `simp at impossible` instead of `simpa using impossible`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'Owner1007.After265LowerSurvivor12.survives' depends on axioms: [propext, Classical.choice, Quot.sound]

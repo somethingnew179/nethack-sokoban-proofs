@@ -1,0 +1,3 @@
+'Owner1007.NorthPriceBalance12.total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.NorthPriceBalance12.survivor_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.NorthPriceBalance12.upper_four_g_cases' depends on axioms: [propext, Classical.choice, Quot.sound]

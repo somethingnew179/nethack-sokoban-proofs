@@ -1,0 +1,2 @@
+'Owner1007.Left186Excluded32611.not_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Left186Excluded32611.only_second_actor' depends on axioms: [propext, Classical.choice, Quot.sound]

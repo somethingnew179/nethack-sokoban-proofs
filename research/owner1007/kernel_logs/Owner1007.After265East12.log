@@ -1,0 +1,2 @@
+'Owner1007.After265East12.matrix' depends on axioms: [propext, Quot.sound]
+'Owner1007.After265East12.energy_three' depends on axioms: [propext, Classical.choice, Quot.sound]

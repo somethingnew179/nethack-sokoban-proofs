@@ -1,0 +1,2 @@
+'Owner1007.Upper133134Dead12.locked' depends on axioms: [propext, Quot.sound]
+'Owner1007.Upper133134Dead12.no_completion' depends on axioms: [propext, Classical.choice, Quot.sound]

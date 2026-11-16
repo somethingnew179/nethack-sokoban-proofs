@@ -1,0 +1,737 @@
+{
+  "scope": "group7 relaxation ONLY; not an original completing legal trace",
+  "total_slack": 5,
+  "abstract_pushes": 48,
+  "walking_moves": 146,
+  "final_hero": 270,
+  "events": [
+    {
+      "action": 105,
+      "walk": [
+        "south",
+        "southWest",
+        "south",
+        "southEast",
+        "east",
+        "southEast",
+        "southEast",
+        "southWest"
+      ],
+      "slack": 0,
+      "hero": 239,
+      "boxes": [
+        139,
+        215,
+        244,
+        265,
+        267,
+        270,
+        289
+      ]
+    },
+    {
+      "action": 119,
+      "walk": [],
+      "slack": 0,
+      "hero": 265,
+      "boxes": [
+        139,
+        215,
+        244,
+        267,
+        270,
+        289,
+        291
+      ]
+    },
+    {
+      "action": 123,
+      "walk": [
+        "east",
+        "southEast",
+        "east",
+        "northEast",
+        "northWest",
+        "west"
+      ],
+      "slack": 0,
+      "hero": 267,
+      "boxes": [
+        139,
+        215,
+        244,
+        270,
+        289,
+        291,
+        293
+      ]
+    },
+    {
+      "action": 97,
+      "walk": [
+        "west",
+        "northWest",
+        "northEast",
+        "northEast"
+      ],
+      "slack": 0,
+      "hero": 215,
+      "boxes": [
+        139,
+        241,
+        244,
+        270,
+        289,
+        291,
+        293
+      ]
+    },
+    {
+      "action": 107,
+      "walk": [],
+      "slack": 0,
+      "hero": 241,
+      "boxes": [
+        139,
+        244,
+        267,
+        270,
+        289,
+        291,
+        293
+      ]
+    },
+    {
+      "action": 141,
+      "walk": [
+        "northWest",
+        "southWest",
+        "south",
+        "southEast"
+      ],
+      "slack": 0,
+      "hero": 293,
+      "boxes": [
+        139,
+        244,
+        267,
+        270,
+        289,
+        291,
+        294
+      ]
+    },
+    {
+      "action": 143,
+      "walk": [],
+      "slack": 0,
+      "hero": 294,
+      "boxes": [
+        139,
+        244,
+        267,
+        270,
+        289,
+        291,
+        295
+      ]
+    },
+    {
+      "action": 147,
+      "walk": [
+        "west",
+        "northWest",
+        "northWest",
+        "northEast",
+        "east",
+        "southEast",
+        "southEast"
+      ],
+      "slack": 0,
+      "hero": 270,
+      "boxes": [
+        139,
+        244,
+        267,
+        289,
+        291,
+        295
+      ]
+    },
+    {
+      "action": 115,
+      "walk": [
+        "northEast"
+      ],
+      "slack": 2,
+      "hero": 244,
+      "boxes": [
+        139,
+        243,
+        267,
+        289,
+        291,
+        295
+      ]
+    },
+    {
+      "action": 58,
+      "walk": [
+        "north",
+        "north",
+        "northWest"
+      ],
+      "slack": 1,
+      "hero": 139,
+      "boxes": [
+        243,
+        267,
+        289,
+        291,
+        295
+      ]
+    },
+    {
+      "action": 110,
+      "walk": [
+        "west",
+        "southWest",
+        "south",
+        "south",
+        "southEast"
+      ],
+      "slack": 0,
+      "hero": 243,
+      "boxes": [
+        244,
+        267,
+        289,
+        291,
+        295
+      ]
+    },
+    {
+      "action": 113,
+      "walk": [
+        "northWest",
+        "northWest",
+        "north",
+        "northEast",
+        "southEast",
+        "southEast",
+        "south"
+      ],
+      "slack": 0,
+      "hero": 244,
+      "boxes": [
+        267,
+        270,
+        289,
+        291,
+        295
+      ]
+    },
+    {
+      "action": 145,
+      "walk": [
+        "west",
+        "west",
+        "west",
+        "northWest",
+        "southWest",
+        "southEast",
+        "southEast",
+        "east",
+        "southEast"
+      ],
+      "slack": 0,
+      "hero": 295,
+      "boxes": [
+        267,
+        269,
+        270,
+        289,
+        291
+      ]
+    },
+    {
+      "action": 124,
+      "walk": [],
+      "slack": 0,
+      "hero": 269,
+      "boxes": [
+        243,
+        267,
+        270,
+        289,
+        291
+      ]
+    },
+    {
+      "action": 110,
+      "walk": [
+        "southWest",
+        "west",
+        "northWest",
+        "northWest",
+        "northEast",
+        "east",
+        "southEast"
+      ],
+      "slack": 0,
+      "hero": 243,
+      "boxes": [
+        244,
+        267,
+        270,
+        289,
+        291
+      ]
+    },
+    {
+      "action": 123,
+      "walk": [
+        "west",
+        "west"
+      ],
+      "slack": 0,
+      "hero": 267,
+      "boxes": [
+        244,
+        270,
+        289,
+        291,
+        293
+      ]
+    },
+    {
+      "action": 141,
+      "walk": [
+        "southWest"
+      ],
+      "slack": 0,
+      "hero": 293,
+      "boxes": [
+        244,
+        270,
+        289,
+        291,
+        294
+      ]
+    },
+    {
+      "action": 143,
+      "walk": [],
+      "slack": 0,
+      "hero": 294,
+      "boxes": [
+        244,
+        270,
+        289,
+        291,
+        295
+      ]
+    },
+    {
+      "action": 145,
+      "walk": [
+        "southEast"
+      ],
+      "slack": 0,
+      "hero": 295,
+      "boxes": [
+        244,
+        269,
+        270,
+        289,
+        291
+      ]
+    },
+    {
+      "action": 124,
+      "walk": [],
+      "slack": 0,
+      "hero": 269,
+      "boxes": [
+        243,
+        244,
+        270,
+        289,
+        291
+      ]
+    },
+    {
+      "action": 147,
+      "walk": [],
+      "slack": 0,
+      "hero": 270,
+      "boxes": [
+        243,
+        244,
+        289,
+        291
+      ]
+    },
+    {
+      "action": 113,
+      "walk": [
+        "west",
+        "southWest",
+        "northWest",
+        "north",
+        "north",
+        "north",
+        "north",
+        "northEast",
+        "southEast",
+        "southEast",
+        "south"
+      ],
+      "slack": 0,
+      "hero": 244,
+      "boxes": [
+        243,
+        270,
+        289,
+        291
+      ]
+    },
+    {
+      "action": 110,
+      "walk": [
+        "north",
+        "north",
+        "northWest",
+        "northWest",
+        "southWest",
+        "south",
+        "south",
+        "southEast"
+      ],
+      "slack": 0,
+      "hero": 243,
+      "boxes": [
+        244,
+        270,
+        289,
+        291
+      ]
+    },
+    {
+      "action": 147,
+      "walk": [
+        "south"
+      ],
+      "slack": 0,
+      "hero": 270,
+      "boxes": [
+        244,
+        289,
+        291
+      ]
+    },
+    {
+      "action": 113,
+      "walk": [
+        "northWest",
+        "northWest",
+        "northWest",
+        "north",
+        "northEast",
+        "southEast",
+        "southEast",
+        "south"
+      ],
+      "slack": 0,
+      "hero": 244,
+      "boxes": [
+        270,
+        289,
+        291
+      ]
+    },
+    {
+      "action": 147,
+      "walk": [
+        "southWest"
+      ],
+      "slack": 0,
+      "hero": 270,
+      "boxes": [
+        289,
+        291
+      ]
+    },
+    {
+      "action": 133,
+      "walk": [
+        "west",
+        "northWest",
+        "southWest",
+        "southWest",
+        "southWest"
+      ],
+      "slack": 2,
+      "hero": 291,
+      "boxes": [
+        265,
+        289
+      ]
+    },
+    {
+      "action": 129,
+      "walk": [
+        "northEast",
+        "northEast",
+        "northWest",
+        "west",
+        "west",
+        "west",
+        "west",
+        "southWest",
+        "south",
+        "southEast"
+      ],
+      "slack": 0,
+      "hero": 289,
+      "boxes": [
+        265,
+        290
+      ]
+    },
+    {
+      "action": 131,
+      "walk": [],
+      "slack": 0,
+      "hero": 290,
+      "boxes": [
+        265,
+        291
+      ]
+    },
+    {
+      "action": 135,
+      "walk": [],
+      "slack": 0,
+      "hero": 291,
+      "boxes": [
+        265,
+        292
+      ]
+    },
+    {
+      "action": 139,
+      "walk": [],
+      "slack": 0,
+      "hero": 292,
+      "boxes": [
+        265,
+        293
+      ]
+    },
+    {
+      "action": 141,
+      "walk": [],
+      "slack": 0,
+      "hero": 293,
+      "boxes": [
+        265,
+        294
+      ]
+    },
+    {
+      "action": 143,
+      "walk": [],
+      "slack": 0,
+      "hero": 294,
+      "boxes": [
+        265,
+        295
+      ]
+    },
+    {
+      "action": 145,
+      "walk": [
+        "southEast"
+      ],
+      "slack": 0,
+      "hero": 295,
+      "boxes": [
+        265,
+        269
+      ]
+    },
+    {
+      "action": 124,
+      "walk": [],
+      "slack": 0,
+      "hero": 269,
+      "boxes": [
+        243,
+        265
+      ]
+    },
+    {
+      "action": 110,
+      "walk": [
+        "southWest",
+        "northWest",
+        "northEast"
+      ],
+      "slack": 0,
+      "hero": 243,
+      "boxes": [
+        244,
+        265
+      ]
+    },
+    {
+      "action": 113,
+      "walk": [
+        "northWest",
+        "northWest",
+        "north",
+        "northEast",
+        "southEast",
+        "southEast",
+        "south"
+      ],
+      "slack": 0,
+      "hero": 244,
+      "boxes": [
+        265,
+        270
+      ]
+    },
+    {
+      "action": 147,
+      "walk": [
+        "southWest"
+      ],
+      "slack": 0,
+      "hero": 270,
+      "boxes": [
+        265
+      ]
+    },
+    {
+      "action": 119,
+      "walk": [
+        "west",
+        "northWest",
+        "west",
+        "northWest",
+        "southWest"
+      ],
+      "slack": 0,
+      "hero": 265,
+      "boxes": [
+        291
+      ]
+    },
+    {
+      "action": 135,
+      "walk": [
+        "north",
+        "northWest",
+        "west",
+        "west",
+        "southWest",
+        "southEast",
+        "east",
+        "southEast"
+      ],
+      "slack": 0,
+      "hero": 291,
+      "boxes": [
+        292
+      ]
+    },
+    {
+      "action": 139,
+      "walk": [],
+      "slack": 0,
+      "hero": 292,
+      "boxes": [
+        293
+      ]
+    },
+    {
+      "action": 141,
+      "walk": [],
+      "slack": 0,
+      "hero": 293,
+      "boxes": [
+        294
+      ]
+    },
+    {
+      "action": 143,
+      "walk": [],
+      "slack": 0,
+      "hero": 294,
+      "boxes": [
+        295
+      ]
+    },
+    {
+      "action": 145,
+      "walk": [
+        "southEast"
+      ],
+      "slack": 0,
+      "hero": 295,
+      "boxes": [
+        269
+      ]
+    },
+    {
+      "action": 124,
+      "walk": [],
+      "slack": 0,
+      "hero": 269,
+      "boxes": [
+        243
+      ]
+    },
+    {
+      "action": 110,
+      "walk": [
+        "southWest",
+        "northWest",
+        "northEast"
+      ],
+      "slack": 0,
+      "hero": 243,
+      "boxes": [
+        244
+      ]
+    },
+    {
+      "action": 113,
+      "walk": [
+        "northWest",
+        "northWest",
+        "north",
+        "northEast",
+        "southEast",
+        "southEast",
+        "south"
+      ],
+      "slack": 0,
+      "hero": 244,
+      "boxes": [
+        270
+      ]
+    },
+    {
+      "action": 147,
+      "walk": [
+        "southWest"
+      ],
+      "slack": 0,
+      "hero": 270,
+      "boxes": []
+    }
+  ]
+}

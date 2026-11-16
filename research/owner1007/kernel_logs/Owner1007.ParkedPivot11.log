@@ -1,0 +1,3 @@
+'Owner1007.ParkedPivot11.head_shape' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.ParkedPivot11.enter_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.ParkedPivot11.first_cut' depends on axioms: [propext, Classical.choice, Quot.sound]

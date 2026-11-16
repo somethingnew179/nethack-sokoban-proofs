@@ -1,0 +1,9 @@
+Owner1007/RightCapacity12.lean:63:34: warning: This simp argument is unused:
+  shape
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.length_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.RightCapacity12.q_energy_three_of_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.RightCapacity12.right_energy_five_of318survives' depends on axioms: [propext, Classical.choice, Quot.sound]

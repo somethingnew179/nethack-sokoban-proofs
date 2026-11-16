@@ -1,0 +1,8 @@
+Owner1007/Inward214Pipe11Spec.lean:37:13: warning: This simp argument is unused:
+  headCheck
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [behind] at row
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.Inward214Pipe11.spec' depends on axioms: [propext, Quot.sound]

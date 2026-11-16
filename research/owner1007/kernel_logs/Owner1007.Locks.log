@@ -1,0 +1,61 @@
+Owner1007/Locks.lean:52:58: warning: This simp argument is unused:
+  floor
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pushBoulder, diagonal, support, door, adjacent] at checked
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/Locks.lean:52:65: warning: This simp argument is unused:
+  door
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pushBoulder, diagonal, support, floor, adjacent] at checked
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/Locks.lean:56:54: warning: This simp argument is unused:
+  floor
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pushBoulder, diagonal, support, door, adjacent, targetFloor, targetDoor] at checked
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/Locks.lean:56:61: warning: This simp argument is unused:
+  door
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pushBoulder, diagonal, support, floor, adjacent, targetFloor, targetDoor] at checked
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/Locks.lean:58:56: warning: This simp argument is unused:
+  floor
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pushBoulder, diagonal, support, door, adjacent, targetFloor, targetDoor, collision] at checked
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/Locks.lean:58:63: warning: This simp argument is unused:
+  door
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pushBoulder, diagonal, support, floor, adjacent, targetFloor, targetDoor, collision] at checked
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/Locks.lean:60:52: warning: This simp argument is unused:
+  floor
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pushBoulder, diagonal, support, door, adjacent, targetFloor] at checked
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/Locks.lean:60:59: warning: This simp argument is unused:
+  door
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pushBoulder, diagonal, support, floor, adjacent, targetFloor] at checked
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.square12_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.dead317_persists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.dead12_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.pair11_left_locked' depends on axioms: [propext, Quot.sound]
+'Owner1007.pair11_right_locked' depends on axioms: [propext, Quot.sound]

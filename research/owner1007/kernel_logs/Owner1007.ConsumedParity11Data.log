@@ -1,0 +1,19 @@
+'Owner1007.ConsumedParity11.rows_checked' depends on axioms: [propext, Quot.sound]
+'Owner1007.ConsumedParity11.crates_subset' depends on axioms: [propext, Quot.sound]
+Owner1007/ConsumedParity11Data.lean:62:93: warning: This simp argument is unused:
+  pure
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, standing, Bool.not_true, Bool.not_false, Bool.false_eq_true, ↓reduceIte, bind,
+    Option.bind_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/ConsumedParity11Data.lean:62:98: warning: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, standing, Bool.not_true, Bool.not_false, Bool.false_eq_true, ↓reduceIte, bind, pure]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.ConsumedParity11.boxes_noholes' depends on axioms: [propext, Quot.sound]
+'Owner1007.ConsumedParity11.stay_distinct' depends on axioms: [propext, Quot.sound]

@@ -1,0 +1,2 @@
+'Owner1007.SidecarCriticalFixed12.quiet_of_zero_slack' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.SidecarCriticalFixedEight12.impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

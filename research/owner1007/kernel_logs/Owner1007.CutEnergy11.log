@@ -1,0 +1,3 @@
+'Owner1007.CutEnergy11.future_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.CutEnergy11.upper_paid' depends on axioms: [propext]
+'Owner1007.CutEnergy11.west_paid' depends on axioms: [propext]

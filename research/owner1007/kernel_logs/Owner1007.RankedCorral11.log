@@ -1,0 +1,2 @@
+'Owner1007.RankedCorral11.step_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.RankedCorral11.quiet_rank' depends on axioms: [propext, Classical.choice, Quot.sound]

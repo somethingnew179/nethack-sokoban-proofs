@@ -1,0 +1,8 @@
+import Owner1007.Cage239RetainedData12
+namespace Owner1007.Cage239RetainedNine12
+set_option maxRecDepth 1000000
+set_option maxHeartbeats 0
+theorem matrix3 : matrixNode 3=true := by decide +kernel
+theorem class3 : classificationNode 3=true := by decide +kernel
+end Owner1007.Cage239RetainedNine12
+

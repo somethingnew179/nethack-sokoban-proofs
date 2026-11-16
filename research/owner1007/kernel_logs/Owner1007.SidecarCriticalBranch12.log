@@ -1,0 +1,16 @@
+Owner1007/SidecarCriticalBranch12.lean:108:33: warning: This simp argument is unused:
+  if_neg absent
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [projectedOutcome, slack, update, move, if_neg absent, Int.add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Owner1007/SidecarCriticalBranch12.lean:143:33: warning: This simp argument is unused:
+  if_neg absent
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [projectedOutcome, slack, update, move, if_neg absent, Int.add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.SidecarCriticalBranch12.stationary211' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.SidecarCriticalBranch12.tail_cases' depends on axioms: [propext, Classical.choice, Quot.sound]

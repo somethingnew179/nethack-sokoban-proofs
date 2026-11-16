@@ -1,0 +1,9 @@
+Owner1007/Post187Nine12Data.lean:36:12: warning: This simp argument is unused:
+  check
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [behind] at row
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.Post187Nine12.checked' depends on axioms: [propext, Quot.sound]
+'Owner1007.Post187Nine12.classification' depends on axioms: [propext, Quot.sound]

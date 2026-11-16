@@ -1,0 +1,4 @@
+'NetHack.Sokoban12CostPartition.owner1007_all_factor' depends on axioms: [propext]
+'NetHack.Sokoban12CostPartition.owner1007_macroA_bonus' depends on axioms: [propext, Quot.sound]
+'NetHack.Sokoban12CostPartition.owner1007_macroB_bonus' depends on axioms: [propext, Quot.sound]
+'NetHack.Sokoban12CostPartition.owner1007_macro_arithmetic' does not depend on any axioms

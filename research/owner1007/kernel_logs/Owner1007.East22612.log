@@ -1,0 +1,9 @@
+'Owner1007.East22612.stationary_step' depends on axioms: [propext, Quot.sound]
+'Owner1007.East22612.split_stationary' depends on axioms: [propext, Classical.choice, Quot.sound]
+Owner1007/East22612.lean:118:26: warning: Try `simp at member` instead of `simpa using member`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'Owner1007.East22612.own_slack_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.East22612.before_exit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.East22612.stone_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.East22612.east_branch_226' depends on axioms: [propext, Classical.choice, Quot.sound]

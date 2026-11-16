@@ -1,0 +1,2 @@
+'Owner1007.PostCuts11.right_closed' depends on axioms: [propext, Quot.sound]
+'Owner1007.PostCuts11.entry_closed' depends on axioms: [propext, Quot.sound]

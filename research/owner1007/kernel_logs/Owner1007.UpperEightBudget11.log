@@ -1,0 +1,2 @@
+'Owner1007.UpperEightBudget11.cheap_others_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.UpperEightBudget11.prefix_six' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+'Owner1007.AfterJDeepLate12.after291_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+Owner1007/AfterJDeepLate12.lean:104:85: warning: `Int.ofNat_nonneg` has been deprecated: Use `Int.natCast_nonneg` instead
+Owner1007/AfterJDeepLate12.lean:75:2: warning: Variable name `completed` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _completed
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Owner1007.AfterJDeepLate12.after318_seven' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,11 @@
+Owner1007/Post187BareNine12.lean:45:11: warning: This simp argument is unused:
+  check
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [behind] at row
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Owner1007.Post187BareNine12.checked' depends on axioms: [propext, Quot.sound]
+'Owner1007.Post187BareNine12.rows' depends on axioms: [propext, Quot.sound]
+'Owner1007.Post187BareNine12.core_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Owner1007.Post187BareNine12.energy_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
