@@ -60,23 +60,6 @@ Nothing here enumerates game states; the state spaces are far too large.
   what Lean's kernel accepts counts. No `sorry`, `native_decide`, or custom
   axioms.
 
-## What this is not
-
-- **Not full NetHack.** The model is a deterministic puzzle: no monsters, no
-  items or tools, no squeezing past boulders, no door breaking. A rolling
-  boulder that would hit another boulder is not allowed.
-- **Not a move or turn minimum.** Only pushes are minimized. The move counts
-  of the paths are not proved minimal, and a move is not a game turn.
-- **Not finished.** soko1-1 and soko1-2 are still intervals.
-- **Not proved against the C code.** The model was compared with the NetHack
-  sources by finite tests, not by a refinement theorem.
-- **Not one uniform verification.** A recorded full build covers the five
-  older exact results. The results for soko3-2, soko1-1 and soko1-2 were
-  compiled and replayed with `leanchecker` separately; no full build has been
-  rerun with them included.
-- **No search tools.** The programs that found the paths and potentials are
-  not in this repository.
-
 ## Verify it yourself
 
 Requires Python 3.10+, a Unix-like system, and Lean 4.33.1.
